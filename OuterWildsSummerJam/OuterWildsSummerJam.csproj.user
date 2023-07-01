@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\GameWyrmTeam.OuterWildsSummerJam</OutputPath>
+  </PropertyGroup>
+</Project>
