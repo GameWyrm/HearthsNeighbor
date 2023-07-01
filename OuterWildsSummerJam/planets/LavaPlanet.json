@@ -1,0 +1,56 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Lava Core",
+    "starSystem": "GameWyrm.JamSystem",
+    "Base": {
+        "surfaceSize": 200,
+        "surfaceGravity": 15,
+        "groundSize": 200,
+        "hasMapMarker": false,
+        "showMinimap": false
+    },
+    "Orbit": {
+        "staticPosition": {
+            "x": -10000,
+            "y": -15000,
+            "z": 0
+        },
+        "isStatic": true
+    },
+    "Atmosphere": {
+        "size": 250,
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "fluidType": "tractorBeam",
+            "texturePath": "assets/clouds/LavaClouds.png",
+            "hasLightning": true,
+            "innerCloudRadius": 350,
+            "outerCloudRadius": 380,
+            "tint": {
+                "r": 200,
+                "g": 100,
+                "b": 100,
+                "a": 255
+            }
+        },
+        "fogSize": 350,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 81,
+            "g": 31,
+            "b": 31,
+            "a": 255
+        }
+    },
+    "AmbientLights": [
+        {
+            "intensity": 0.5,
+            "tint": {
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "a": 255
+            }
+        }
+    ]
+}

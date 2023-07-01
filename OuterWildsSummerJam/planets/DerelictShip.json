@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Derelict Ship",
+    "starSystem": "GameWyrm.JamSystem",
+    "Base": {
+        "surfaceSize": 10,
+        "groundSize": 10,
+        "surfaceGravity": 10,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "primaryBody": "Jam Sun",
+        "semiMajorAxis": 15000,
+        "tint": {
+            "r": 0,
+            "g": 50,
+            "b": 150,
+            "a": 255
+        },
+        "trueAnomaly": 180
+    }
+}
