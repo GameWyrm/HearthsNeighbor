@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "OuterWildsSummerJam.dll",
+  "author": "GameWyrmTeam",
+  "name": "OuterWildsSummerJam",
+  "uniqueName": "GameWyrmTeam.OuterWildsSummerJam",
+  "version": "0.1.0",
+  "owmlVersion": "2.9.0",
+  "dependencies": ["xen.NewHorizons"]
+}
