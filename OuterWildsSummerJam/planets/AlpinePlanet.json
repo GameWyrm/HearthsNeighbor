@@ -9,6 +9,7 @@
         "hasMapMarker": false,
         "showMinimap": false
     },
+    "canShowOnTitle": false,
     "Orbit": {
         "staticPosition": {
             "x": 0,

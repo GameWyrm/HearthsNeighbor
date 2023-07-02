@@ -8,6 +8,7 @@
         "surfaceGravity": 15,
         "hasMapMarker": true
     },
+    "canShowOnTitle": false,
     "Orbit": {
         "primaryBody": "Jam Sun",
         "semiMajorAxis": 9000,
@@ -47,5 +48,30 @@
                 "z": 0
             }
         }
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/owsummerjam",
+                "path": "Assets/SummerJam2023/Prefabs/ElevatorExterior.prefab",
+                "position": {
+                    "x": -113.4846,
+                    "y": -115.1441,
+                    "z": -228.6112
+                },
+                "alignRadial": true
+            },
+            {
+                "assetBundle": "assets/owsummerjam",
+                "path": "Assets/SummerJam2023/Prefabs/ElevatorInterior.prefab",
+                "position": {
+                    "x": -113.4846,
+                    "y": -115.1441,
+                    "z": -228.6112
+                },
+                "alignRadial": true
+            }
+        ]
     }
+
 }

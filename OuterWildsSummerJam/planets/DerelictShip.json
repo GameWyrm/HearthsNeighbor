@@ -8,6 +8,7 @@
         "surfaceGravity": 10,
         "hasMapMarker": true
     },
+    "canShowOnTitle": false,
     "Orbit": {
         "primaryBody": "Jam Sun",
         "semiMajorAxis": 15000,
