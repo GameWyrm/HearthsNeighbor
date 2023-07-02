@@ -3,8 +3,8 @@
     "name": "Mainland",
     "starSystem": "GameWyrm.JamSystem",
     "Base": {
-        "surfaceSize": 300,
-        "groundSize": 280,
+        "surfaceSize": 325,
+        "groundSize": 0,
         "surfaceGravity": 15,
         "hasMapMarker": true
     },
@@ -20,7 +20,7 @@
         }
     },
     "Atmosphere": {
-        "size": 350,
+        "size": 380,
         "atmosphereTint": {
             "r": 224,
             "g": 188,
@@ -34,8 +34,8 @@
             "alignRadial": true,
             "isRelativeToParent": true,
             "position": {
-                "x": 10,
-                "y": 280,
+                "x": 0,
+                "y": 3000,
                 "z": 0
             }
         },
@@ -44,16 +44,38 @@
             "isRelativeToParent": true,
             "position": {
                 "x": 0,
-                "y": 280,
+                "y": 3000,
                 "z": 0
             }
         }
     },
+    "AmbientLights": [
+        {
+            "intensity": 0.7,
+            "tint": {
+                "r": 100,
+                "g": 100,
+                "b": 100,
+                "a": 255
+            }
+        }
+    ],
     "Props": {
         "details": [
             {
-                "assetBundle": "assets/owsummerjam",
-                "path": "Assets/SummerJam2023/Prefabs/ElevatorExterior.prefab",
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/SummerGameJam/Prefabs/MainPlanet.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": true
+            },
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/SummerGameJam/Prefabs/Elevator.prefab",
                 "position": {
                     "x": -113.4846,
                     "y": -115.1441,
@@ -62,8 +84,8 @@
                 "alignRadial": true
             },
             {
-                "assetBundle": "assets/owsummerjam",
-                "path": "Assets/SummerJam2023/Prefabs/ElevatorInterior.prefab",
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/SummerGameJam/Prefabs/ElevatorInterior.prefab",
                 "position": {
                     "x": -113.4846,
                     "y": -115.1441,
