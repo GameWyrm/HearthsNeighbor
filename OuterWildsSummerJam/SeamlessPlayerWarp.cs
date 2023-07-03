@@ -8,6 +8,11 @@ namespace OuterWildsSummerJam
 
         private PlayerBody player;
 
+        private void Awake()
+        {
+            OuterWildsSummerJam.RegisterWarp(transform.parent.gameObject);
+        }
+
         private void Start()
         {
             player = (PlayerBody)Locator.GetPlayerBody();
@@ -20,6 +25,15 @@ namespace OuterWildsSummerJam
         public void OnPressInteract()
         {
             TriggerWarp();
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Player") && !OuterWildsSummerJam.Main.isInElevator)
+            {
+                OuterWildsSummerJam.Main.isInElevator = true;
+                TriggerWarp();
+            }
         }
 
         public void TriggerWarp()

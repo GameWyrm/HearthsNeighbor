@@ -1,19 +1,29 @@
 ﻿using OWML.Common;
 using OWML.ModHelper;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace OuterWildsSummerJam
 {
     public class OuterWildsSummerJam : ModBehaviour
     {
+        /// <summary>
+        /// Determines whether we should print non-critical messages to the console and enables other dev features
+        /// </summary>
         public static bool debugMode = true;
+        /// <summary>
+        /// Whether the player is in an elevator
+        /// </summary>
+        public bool isInElevator;
 
         private INewHorizons nh;
+        private Dictionary<string, SeamlessPlayerWarp> warpList;
 
         public static OuterWildsSummerJam Main
         {
             get
             {
-                if (Main == null) main = FindObjectOfType<OuterWildsSummerJam>();
+                if (main == null) main = FindObjectOfType<OuterWildsSummerJam>();
                 return main;
             }
         }
@@ -24,32 +34,56 @@ namespace OuterWildsSummerJam
             // You won't be able to access OWML's mod helper in Awake.
             // So you probably don't want to do anything here.
             // Use Start() instead.
+            warpList = new Dictionary<string, SeamlessPlayerWarp>();
         }
 
         private void Start()
         {
-            // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(OuterWildsSummerJam)} is loaded!", MessageType.Success);
-
             // Get the New Horizons API and load configs
             nh = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             nh.LoadConfigs(this);
 
             // Example of accessing game code.
-            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
+            /*LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 if (loadScene != OWScene.SolarSystem) return;
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
                 if (nh.GetCurrentStarSystem() == "GameWyrm.JamSystem") InitSystem();
-            };
+            };*/
+
+            nh.GetStarSystemLoadedEvent().AddListener(InitSystem);
         }
 
         /// <summary>
         /// Initialize our custom system
         /// </summary>
-        private void InitSystem()
+        private void InitSystem(string systemName)
         {
+            isInElevator = false;
+            foreach (string warp in warpList.Keys)
+            {
+                switch (warp)
+                {
+                    case ("MainLake"):
+                        warpList[warp].linkedWarp = warpList["LakeEntrance"].gameObject;
+                        break;
+                    case ("LakeEntrance"):
+                        warpList[warp].linkedWarp = warpList["MainLake"].gameObject;
+                        break;
+                }
+            }
+        }
 
+        /// <summary>
+        /// Registers an elevator start or end point so they can be connected
+        /// </summary>
+        public static void RegisterWarp(GameObject warpObject)
+        {
+            if (warpObject.GetComponentInChildren<SeamlessPlayerWarp>() != null)
+            {
+                Main.warpList.Add(warpObject.name, warpObject.GetComponentInChildren<SeamlessPlayerWarp>());
+                LogSuccess($"Registered warp {warpObject.name}!");
+            }
         }
 
 

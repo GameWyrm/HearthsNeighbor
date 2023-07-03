@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 684699996
+CRC: 2551727313
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d761591ae6db5014f816b76fd4b32489
+    Hash: ffe993ccade43469176aefa7d9ea6351
   TypeTreeHash:
     serializedVersion: 2
     Hash: fc7aedd8c6ff45e7dacc87a81511d1ad
@@ -49,8 +49,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/SummerGameJam/Prefabs/ElevatorInterior.prefab
-- Assets/SummerGameJam/Prefabs/ElevatorLong.prefab
-- Assets/SummerGameJam/Prefabs/Elevator.prefab
-- Assets/SummerGameJam/Prefabs/MainPlanet.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorInterior.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorLong.prefab
+- Assets/_SummerGameJam/Prefabs/Elevator.prefab
+- Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 Dependencies: []

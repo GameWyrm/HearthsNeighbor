@@ -64,7 +64,7 @@
         "details": [
             {
                 "assetBundle": "assets/jamassets",
-                "path": "Assets/SummerGameJam/Prefabs/MainPlanet.prefab",
+                "path": "Assets/_SummerGameJam/Prefabs/MainPlanet.prefab",
                 "position": {
                     "x": 0,
                     "y": 0,
@@ -72,26 +72,6 @@
                 },
                 "alignRadial": false,
                 "keepLoaded": true
-            },
-            {
-                "assetBundle": "assets/jamassets",
-                "path": "Assets/SummerGameJam/Prefabs/Elevator.prefab",
-                "position": {
-                    "x": -113.4846,
-                    "y": -115.1441,
-                    "z": -228.6112
-                },
-                "alignRadial": true
-            },
-            {
-                "assetBundle": "assets/jamassets",
-                "path": "Assets/SummerGameJam/Prefabs/ElevatorInterior.prefab",
-                "position": {
-                    "x": -113.4846,
-                    "y": -115.1441,
-                    "z": -228.6112
-                },
-                "alignRadial": true
             }
         ]
     }
