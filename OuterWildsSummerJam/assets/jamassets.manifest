@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2955033040
+CRC: 2194820351
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0d2ac1dbe2a950a9fa40f00a37f4227a
+    Hash: e3d1b504e2b6c579fedc330419fda91e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ad151253debe1a65ec3b82985a601e26
+    Hash: 60cb891c2d4753fd9fdcbb040705b04f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,14 +31,22 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
 - Class: 83
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 396815108, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 931744004, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
@@ -49,6 +57,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/_SummerGameJam/Prefabs/ElevatorInterior.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorLong.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab
 - Assets/_SummerGameJam/Prefabs/Elevator.prefab
 - Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 Dependencies: []

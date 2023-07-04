@@ -59,7 +59,9 @@ namespace OuterWildsSummerJam
         /// </summary>
         private void InitSystem(string systemName)
         {
+            LogMessage("Loaded into jam system");
             isInElevator = false;
+            warpList.Clear();
             foreach (string warp in warpList.Keys)
             {
                 switch (warp)

@@ -58,24 +58,15 @@
         "details": [
             {
                 "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/Elevator.prefab",
-                "position": {
-                    "x": -140.0628,
-                    "y": 138.8909,
-                    "z": 33.04145
-                },
-                "alignRadial": true
-            },
-            {
-                "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/ElevatorInterior.prefab",
+                "path": "Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab",
                 "position": {
                     "x": -140.0628,
                     "y": 138.8909,
                     "z": 33.04145
                 },
                 "alignRadial": true,
-                "rename": "LakeEntrance"
+                "rename": "LakeEntrance",
+                "keepLoaded": true
             }
         ]
     }

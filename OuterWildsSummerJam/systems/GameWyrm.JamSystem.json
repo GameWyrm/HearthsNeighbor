@@ -1,5 +1,5 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
     "respawnHere": true,
-    "startHere": true
+    "startHere": false
 }
