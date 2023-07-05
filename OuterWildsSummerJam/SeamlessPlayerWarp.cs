@@ -13,6 +13,9 @@ namespace OuterWildsSummerJam
         private bool speedUpCrystals;
         private bool slowDownCrystals;
         private float crystalTime;
+        private Animator linkedAnim;
+        private SurveyorProbe scout;
+        private ShipHUDMarker shipMarker;
 
         private void Awake()
         {
@@ -22,6 +25,8 @@ namespace OuterWildsSummerJam
         private void Start()
         {
             player = (PlayerBody)Locator.GetPlayerBody();
+            scout = Locator.GetProbe();
+            shipMarker = FindObjectOfType<ShipHUDMarker>();
             foreach (SeamlessPlayerWarp warp in FindObjectsOfType<SeamlessPlayerWarp>())
             {
                 if (warp.gameObject != gameObject) linkedWarp = warp.gameObject;
@@ -32,26 +37,31 @@ namespace OuterWildsSummerJam
         {
             if (speedUpCrystals || slowDownCrystals)
             {
-                float targetSpeed = Mathf.Lerp(0, 10, crystalTime);
-                anim.SetFloat("CrystalSpeed", targetSpeed);
+                float targetSpeed = Mathf.Lerp(0, 10, crystalTime / 3);
                 if (speedUpCrystals )
                 {
-                    crystalTime += (Time.deltaTime / 3) * (goDown ? 1 : -1);
+                    crystalTime += Time.deltaTime;
                 }
                 else if (slowDownCrystals )
                 {
-                    crystalTime -= (Time.deltaTime / 3) * (goDown ? 1 : -1);
+                    crystalTime -= Time.deltaTime;
                 }
                 if (crystalTime >= 3)
                 {
                     crystalTime = 3;
                     speedUpCrystals = false;
+                    targetSpeed = 3;
+                    OuterWildsSummerJam.LogInfo("Disabling speedup");
                 }
                 if (crystalTime < 0)
                 {
                     crystalTime = 0;
                     slowDownCrystals = false;
+                    targetSpeed = 0;
+                    OuterWildsSummerJam.LogInfo("Disabling slowdown");
                 }
+                anim.SetFloat("CrystalSpeed", targetSpeed * (goDown ? -1 : 1));
+                linkedAnim.SetFloat("CrystalSpeed", targetSpeed * (goDown ? -1 : 1));
             }
         }
 
@@ -66,6 +76,9 @@ namespace OuterWildsSummerJam
                     OuterWildsSummerJam.LogError("No Linked Warp set or found!");
                     return;
                 }
+
+                linkedAnim = linkedWarp.GetComponent<SeamlessPlayerWarp>().anim;
+
                 StartCoroutine(TriggerWarp());
             }
         }
@@ -73,6 +86,7 @@ namespace OuterWildsSummerJam
         public IEnumerator TriggerWarp()
         {
             anim.SetTrigger("CloseDoor");
+            linkedAnim.SetTrigger("CloseDoor");
             yield return new WaitForSeconds(3);
 
             Vector3 difference = transform.InverseTransformPoint(player.GetPosition());
@@ -84,17 +98,28 @@ namespace OuterWildsSummerJam
 
             player.WarpToPositionRotation(targetPosition, targetRotation);
             player.SetVelocity(planet.GetPointVelocity(player.GetPosition()));
+
+            scout.ExternalRetrieve(true);
+            if (goDown)
+            {
+                shipMarker._isVisible = false;
+            }
+
             OuterWildsSummerJam.LogInfo("Warped the player");
 
             speedUpCrystals = true;
 
             yield return new WaitForSeconds(7);
 
+            OuterWildsSummerJam.LogInfo("Waited");
+
             slowDownCrystals = true;
 
             yield return new WaitForSeconds(5);
 
+            OuterWildsSummerJam.LogInfo("WaitedMore");
             anim.SetTrigger("OpenDoor");
+            linkedAnim.SetTrigger("OpenDoor");
         }
     }
 }

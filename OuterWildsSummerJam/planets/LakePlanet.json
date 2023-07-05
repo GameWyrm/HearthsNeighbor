@@ -64,9 +64,43 @@
                     "y": 138.8909,
                     "z": 33.04145
                 },
+                "scale": 1.5,
                 "alignRadial": true,
                 "rename": "LakeEntrance",
                 "keepLoaded": true
+            },
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab",
+                "position": {
+                    "x": -140.0628,
+                    "y": 138.8909,
+                    "z": 33.04145
+                },
+                "scale": 1.5,
+                "alignRadial": true
+            }
+        ]
+    },
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
+            }
+        ],
+        "mapRestrictionVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
             }
         ]
     }
