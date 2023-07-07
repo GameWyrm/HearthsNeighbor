@@ -42,7 +42,8 @@
             "b": 220,
             "a": 255
         },
-        "hasSnow": true
+        "hasSnow": true,
+        "hasRain": true
     },
     "AmbientLights": [
         {
