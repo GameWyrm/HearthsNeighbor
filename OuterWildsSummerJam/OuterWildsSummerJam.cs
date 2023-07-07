@@ -15,6 +15,9 @@ namespace OuterWildsSummerJam
         /// Whether the player is in an elevator
         /// </summary>
         public bool isInElevator;
+        public GameObject AlpinePlanet;
+        public GameObject LakePlanet;
+        public GameObject LavaPlanet;
 
         private INewHorizons nh;
         private Dictionary<string, SeamlessPlayerWarp> warpList;
@@ -43,14 +46,7 @@ namespace OuterWildsSummerJam
             nh = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             nh.LoadConfigs(this);
 
-            // Example of accessing game code.
-            /*LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
-            {
-                if (loadScene != OWScene.SolarSystem) return;
-                ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-                if (nh.GetCurrentStarSystem() == "GameWyrm.JamSystem") InitSystem();
-            };*/
-
+            // Runs every time our system loads
             nh.GetStarSystemLoadedEvent().AddListener(InitSystem);
         }
 
@@ -60,20 +56,41 @@ namespace OuterWildsSummerJam
         private void InitSystem(string systemName)
         {
             LogMessage("Loaded into jam system");
+
+            AlpinePlanet = GameObject.Find("AlpineCore_Body");
+            LakePlanet = GameObject.Find("LakeCore_Body");
+            LavaPlanet = GameObject.Find("LavaCore_Body");
+
             isInElevator = false;
-            warpList.Clear();
             foreach (string warp in warpList.Keys)
             {
+                LogMessage($"Determining destination for {warp}");
+                LogMessage($"Position: {warpList[warp].transform.position}, Body: {warpList[warp].GetAttachedOWRigidbody().name}");
                 switch (warp)
                 {
                     case ("MainLake"):
                         warpList[warp].linkedWarp = warpList["LakeEntrance"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LakeEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                        break;
+                    case ("MainAlpine"):
+                        warpList[warp].linkedWarp = warpList["AlpineEntrance"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to AlpineEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
                         break;
                     case ("LakeEntrance"):
                         warpList[warp].linkedWarp = warpList["MainLake"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLake! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                        break;
+                    case ("AlpineEntrance"):
+                        warpList[warp].linkedWarp = warpList["MainAlpine"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainAlpine! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
                         break;
                 }
             }
+            warpList.Clear();
+
+            AlpinePlanet.SetActive(false);
+            LakePlanet.SetActive(false);
+            LavaPlanet.SetActive(false);
         }
 
         /// <summary>
@@ -83,8 +100,9 @@ namespace OuterWildsSummerJam
         {
             if (warpObject.GetComponentInChildren<SeamlessPlayerWarp>() != null)
             {
-                Main.warpList.Add(warpObject.name, warpObject.GetComponentInChildren<SeamlessPlayerWarp>());
-                LogSuccess($"Registered warp {warpObject.name}!");
+                string warpName = warpObject.name;
+                Main.warpList.Add(warpName, warpObject.GetComponentInChildren<SeamlessPlayerWarp>());
+                LogSuccess($"Registered warp {warpName}! Warplist now contains {Main.warpList.Keys.Count} entries.");
             }
         }
 

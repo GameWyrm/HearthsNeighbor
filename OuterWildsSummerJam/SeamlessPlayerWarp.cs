@@ -6,6 +6,7 @@ namespace OuterWildsSummerJam
     public class SeamlessPlayerWarp : MonoBehaviour
     {
         public GameObject linkedWarp;
+        public GameObject myPlanet;
         public Animator anim;
         public bool goDown = false;
 
@@ -20,6 +21,7 @@ namespace OuterWildsSummerJam
         private void Awake()
         {
             OuterWildsSummerJam.RegisterWarp(transform.parent.transform.parent.gameObject);
+            myPlanet = this.GetAttachedOWRigidbody().gameObject;
         }
 
         private void Start()
@@ -27,10 +29,6 @@ namespace OuterWildsSummerJam
             player = (PlayerBody)Locator.GetPlayerBody();
             scout = Locator.GetProbe();
             shipMarker = FindObjectOfType<ShipHUDMarker>();
-            foreach (SeamlessPlayerWarp warp in FindObjectsOfType<SeamlessPlayerWarp>())
-            {
-                if (warp.gameObject != gameObject) linkedWarp = warp.gameObject;
-            }
         }
 
         private void Update()
@@ -85,6 +83,7 @@ namespace OuterWildsSummerJam
 
         public IEnumerator TriggerWarp()
         {
+            if (goDown) linkedWarp.GetComponent<SeamlessPlayerWarp>().myPlanet.SetActive(true);
             anim.SetTrigger("CloseDoor");
             linkedAnim.SetTrigger("CloseDoor");
             yield return new WaitForSeconds(3);
@@ -99,7 +98,7 @@ namespace OuterWildsSummerJam
             player.WarpToPositionRotation(targetPosition, targetRotation);
             player.SetVelocity(planet.GetPointVelocity(player.GetPosition()));
 
-            scout.ExternalRetrieve(true);
+            scout.ExternalRetrieve(false);
             if (goDown)
             {
                 shipMarker._isVisible = false;
@@ -120,6 +119,8 @@ namespace OuterWildsSummerJam
             OuterWildsSummerJam.LogInfo("WaitedMore");
             anim.SetTrigger("OpenDoor");
             linkedAnim.SetTrigger("OpenDoor");
+            yield return new WaitForSeconds(1);
+            if (!goDown) myPlanet.SetActive(false);
         }
     }
 }

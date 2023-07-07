@@ -10,7 +10,7 @@
     },
     "canShowOnTitle": false,
     "Orbit": {
-        "primaryBody": "Jam Sun",
+        "primaryBody": "Neighbor Sun",
         "semiMajorAxis": 15000,
         "tint": {
             "r": 0,

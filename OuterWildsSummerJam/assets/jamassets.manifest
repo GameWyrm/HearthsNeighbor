@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1579249741
+CRC: 1228392254
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8ee2eb201bdac8f093e98b5ca70aaa15
+    Hash: 214d1049c25ad8f291238303dea632e3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 42eba011830da697296a93cc3306453c
+    Hash: 1cfe09d4cde5306d6377f05b0564759e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,23 +42,31 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 931744004, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
 - Class: 114
-  Script: {fileID: 396815108, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+  Script: {fileID: 11500000, guid: 6cd941772c39872be9d9611da76f777c, type: 3}
 - Class: 114
-  Script: {fileID: 931744004, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+  Script: {fileID: 396815108, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/_SummerGameJam/Prefabs/ElevatorInterior.prefab
-- Assets/_SummerGameJam/Prefabs/ElevatorLong.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab
-- Assets/_SummerGameJam/Prefabs/Elevator.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorRed.prefab
 - Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
+- Assets/_SummerGameJam/Prefabs/AlpinePlanet.prefab
+- Assets/_SummerGameJam/Prefabs/ElevatorCrystalsRed.prefab
 Dependencies: []

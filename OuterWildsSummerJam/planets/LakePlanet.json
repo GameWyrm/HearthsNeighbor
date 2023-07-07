@@ -58,7 +58,7 @@
         "details": [
             {
                 "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab",
+                "path": "Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab",
                 "position": {
                     "x": -140.0628,
                     "y": 138.8909,
@@ -71,7 +71,7 @@
             },
             {
                 "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab",
+                "path": "Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab",
                 "position": {
                     "x": -140.0628,
                     "y": 138.8909,
