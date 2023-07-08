@@ -1,5 +1,6 @@
 ﻿using OWML.Common;
 using OWML.ModHelper;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -76,6 +77,10 @@ namespace OuterWildsSummerJam
                         warpList[warp].linkedWarp = warpList["AlpineEntrance"].gameObject;
                         LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to AlpineEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
                         break;
+                    case ("MainLava"):
+                        warpList[warp].linkedWarp = warpList["LavaEntrance"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LavaEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                        break;
                     case ("LakeEntrance"):
                         warpList[warp].linkedWarp = warpList["MainLake"].gameObject;
                         LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLake! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
@@ -84,13 +89,15 @@ namespace OuterWildsSummerJam
                         warpList[warp].linkedWarp = warpList["MainAlpine"].gameObject;
                         LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainAlpine! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
                         break;
+                    case ("LavaEntrance"):
+                        warpList[warp].linkedWarp = warpList["MainLava"].gameObject;
+                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLava! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                        break;
                 }
             }
             warpList.Clear();
 
-            AlpinePlanet.SetActive(false);
-            LakePlanet.SetActive(false);
-            LavaPlanet.SetActive(false);
+            StartCoroutine(EndOfFrameInit());
         }
 
         /// <summary>
@@ -150,6 +157,24 @@ namespace OuterWildsSummerJam
         public static void LogError(string infoText)
         {
             Main.ModHelper.Console.WriteLine(infoText, MessageType.Error);
+        }
+
+        private IEnumerator EndOfFrameInit()
+        {
+            yield return new WaitForEndOfFrame();
+
+            foreach (Transform obj in AlpinePlanet.transform)
+            {
+                obj.gameObject.SetActive(false);
+            }
+            foreach (Transform obj in LakePlanet.transform)
+            {
+                obj.gameObject.SetActive(false);
+            }
+            foreach (Transform obj in LavaPlanet.transform)
+            {
+                obj.gameObject.SetActive(false);
+            }
         }
     }
 }

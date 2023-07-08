@@ -5,9 +5,9 @@
     "Base": {
         "surfaceSize": 200,
         "surfaceGravity": 15,
-        "groundSize": 200,
+        "groundSize": 0,
         "hasMapMarker": false,
-        "showMinimap": false
+        "showMinimap": true
     },
     "canShowOnTitle": false,
     "Orbit": {
@@ -19,7 +19,7 @@
         "isStatic": true
     },
     "Atmosphere": {
-        "size": 250,
+        "size": 400,
         "clouds": {
             "cloudsPrefab": "giantsDeep",
             "fluidType": "tractorBeam",
@@ -41,7 +41,9 @@
             "g": 70,
             "b": 255,
             "a": 255
-        }
+        },
+        "hasRain": true,
+        "hasOxygen": true
     },
     "AmbientLights": [
         {
@@ -58,29 +60,29 @@
         "details": [
             {
                 "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab",
+                "path": "Assets/_SummerGameJam/Prefabs/LakePlanet.prefab",
                 "position": {
-                    "x": -140.0628,
-                    "y": 138.8909,
-                    "z": 33.04145
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                 },
-                "scale": 1.5,
-                "alignRadial": true,
-                "rename": "LakeEntrance",
+                "alignRadial": false,
                 "keepLoaded": true
-            },
+            }
+        ],
+        "rafts": [
             {
-                "assetBundle": "assets/jamassets",
-                "path": "Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab",
                 "position": {
-                    "x": -140.0628,
-                    "y": 138.8909,
-                    "z": 33.04145
+                    "x": -188,
+                    "y": -7,
+                    "z": 80
                 },
-                "scale": 1.5,
                 "alignRadial": true
             }
         ]
+    },
+    "Water": {
+        "size": 200
     },
     "Volumes": {
         "interferenceVolumes": [

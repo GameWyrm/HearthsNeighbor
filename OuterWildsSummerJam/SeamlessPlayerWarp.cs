@@ -83,7 +83,14 @@ namespace OuterWildsSummerJam
 
         public IEnumerator TriggerWarp()
         {
-            if (goDown) linkedWarp.GetComponent<SeamlessPlayerWarp>().myPlanet.SetActive(true);
+            if (goDown)
+            {
+                GameObject body = linkedWarp.GetComponent<SeamlessPlayerWarp>().myPlanet;
+                foreach (Transform t in body.transform)
+                {
+                    t.gameObject.SetActive(true);
+                }
+            }
             anim.SetTrigger("CloseDoor");
             linkedAnim.SetTrigger("CloseDoor");
             yield return new WaitForSeconds(3);
@@ -120,7 +127,13 @@ namespace OuterWildsSummerJam
             anim.SetTrigger("OpenDoor");
             linkedAnim.SetTrigger("OpenDoor");
             yield return new WaitForSeconds(1);
-            if (!goDown) myPlanet.SetActive(false);
+            if (!goDown)
+            {
+                foreach (Transform t in myPlanet.transform)
+                {
+                    t.gameObject.SetActive(false);
+                }
+            }
         }
     }
 }

@@ -5,7 +5,7 @@
     "Base": {
         "surfaceSize": 200,
         "surfaceGravity": 15,
-        "groundSize": 200,
+        "groundSize": 0,
         "hasMapMarker": false,
         "showMinimap": false
     },
@@ -43,6 +43,195 @@
             "a": 255
         }
     },
+    "Lava": {
+        "size": 1,
+        "curve": [
+            {
+                "time": 0,
+                "value": 242
+            },
+            {
+                "time": 0.5,
+                "value": 210
+            },
+            {
+                "time": 1,
+                "value": 242
+            },
+            {
+                "time": 1.5,
+                "value": 210
+            },
+            {
+                "time": 2,
+                "value": 242
+            },
+            {
+                "time": 2.5,
+                "value": 210
+            },
+            {
+                "time": 3,
+                "value": 242
+            },
+            {
+                "time": 3.5,
+                "value": 210
+            },
+            {
+                "time": 4,
+                "value": 242
+            },
+            {
+                "time": 4.5,
+                "value": 210
+            },
+            {
+                "time": 5,
+                "value": 242
+            },
+            {
+                "time": 5.5,
+                "value": 210
+            },
+            {
+                "time": 6,
+                "value": 242
+            },
+            {
+                "time": 6.5,
+                "value": 210
+            },
+            {
+                "time": 7,
+                "value": 242
+            },
+            {
+                "time": 7.5,
+                "value": 210
+            },
+            {
+                "time": 8,
+                "value": 242
+            },
+            {
+                "time": 8.5,
+                "value": 210
+            },
+            {
+                "time": 9,
+                "value": 242
+            },
+            {
+                "time": 9.5,
+                "value": 210
+            },
+            {
+                "time": 10,
+                "value": 242
+            },
+            {
+                "time": 10.5,
+                "value": 210
+            },
+            {
+                "time": 11,
+                "value": 242
+            },
+            {
+                "time": 11.5,
+                "value": 210
+            },
+            {
+                "time": 12,
+                "value": 242
+            },
+            {
+                "time": 12.5,
+                "value": 210
+            },
+            {
+                "time": 13,
+                "value": 242
+            },
+            {
+                "time": 13.5,
+                "value": 210
+            },
+            {
+                "time": 14,
+                "value": 242
+            },
+            {
+                "time": 14.5,
+                "value": 210
+            },
+            {
+                "time": 15,
+                "value": 242
+            },
+            {
+                "time": 15.5,
+                "value": 210
+            },
+            {
+                "time": 16,
+                "value": 242
+            },
+            {
+                "time": 16.5,
+                "value": 210
+            },
+            {
+                "time": 16,
+                "value": 242
+            },
+            {
+                "time": 16.5,
+                "value": 210
+            },
+            {
+                "time": 17,
+                "value": 242
+            },
+            {
+                "time": 17.5,
+                "value": 210
+            },
+            {
+                "time": 18,
+                "value": 242
+            },
+            {
+                "time": 18.5,
+                "value": 210
+            },
+            {
+                "time": 19,
+                "value": 242
+            },
+            {
+                "time": 19.5,
+                "value": 210
+            },
+            {
+                "time": 20,
+                "value": 242
+            },
+            {
+                "time": 20.5,
+                "value": 210
+            },
+            {
+                "time": 21,
+                "value": 242
+            },
+            {
+                "time": 21.5,
+                "value": 210
+            }
+        ]
+    },
     "AmbientLights": [
         {
             "intensity": 0.5,
@@ -53,5 +242,20 @@
                 "a": 255
             }
         }
-    ]
+    ],
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/LavaPlanet.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": true
+            }
+        ]
+    }
 }

@@ -3,7 +3,7 @@
     "name": "Alpine Core",
     "starSystem": "GameWyrm.JamSystem",
     "Base": {
-        "surfaceSize": 200,
+        "surfaceSize": 400,
         "surfaceGravity": 0,
         "groundSize": 0,
         "hasMapMarker": false,
@@ -42,8 +42,7 @@
             "b": 220,
             "a": 255
         },
-        "hasSnow": true,
-        "hasRain": true
+        "hasSnow": true
     },
     "AmbientLights": [
         {
