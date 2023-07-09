@@ -45,6 +45,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="customComponents\" />
+    <Compile Remove="customComponents\**" />
+    <EmbeddedResource Remove="customComponents\**" />
+    <None Remove="customComponents\**" />
   </ItemGroup>
 </Project>

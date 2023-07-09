@@ -16,9 +16,11 @@ namespace OuterWildsSummerJam
         /// Whether the player is in an elevator
         /// </summary>
         public bool isInElevator;
+        public GameObject MainPlanet;
         public GameObject AlpinePlanet;
         public GameObject LakePlanet;
         public GameObject LavaPlanet;
+        public GameObject DerelictShip;
 
         private INewHorizons nh;
         private Dictionary<string, SeamlessPlayerWarp> warpList;
@@ -58,9 +60,11 @@ namespace OuterWildsSummerJam
         {
             LogMessage("Loaded into jam system");
 
+            MainPlanet = GameObject.Find("LonelyHermit_Body");
             AlpinePlanet = GameObject.Find("AlpineCore_Body");
             LakePlanet = GameObject.Find("LakeCore_Body");
             LavaPlanet = GameObject.Find("LavaCore_Body");
+            DerelictShip = GameObject.Find("DerelictShip_Body");
 
             isInElevator = false;
             foreach (string warp in warpList.Keys)
