@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3164327399
+CRC: 1341792416
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ead05f180601d0dde7969f9b6af3ba00
+    Hash: 5c238e1e74f1347f277ccecd839f7e92
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d097e98c21781a053babfd7b88074c8c
+    Hash: 6653ab6adef4fdec89f2eaaf8e36fc9b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,6 +48,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
@@ -85,6 +87,8 @@ Assets:
 - Assets/_SummerGameJam/Prefabs/LakePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab
+- Assets/_SummerGameJam/Prefabs/FuelDispenser.prefab
+- Assets/_SummerGameJam/Prefabs/MuseumBox.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab
 - Assets/_SummerGameJam/Prefabs/DerelictShipExterior.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab
@@ -92,5 +96,7 @@ Assets:
 - Assets/_SummerGameJam/Prefabs/DerelictShipInterior.prefab
 - Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 - Assets/_SummerGameJam/Prefabs/AlpinePlanet.prefab
+- Assets/_SummerGameJam/Prefabs/FuelCanister.prefab
+- Assets/_SummerGameJam/Prefabs/MuseumPlate.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsRed.prefab
 Dependencies: []

@@ -84,19 +84,6 @@
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
                 "rotation": {
-                    "x": 81.81173,
-                    "y": 68.85995,
-                    "z": 295.5084
-                },
-                "position": {
-                    "x": 194.25769,
-                    "y": -27.4658089,
-                    "z": -201.306686
-                }
-            },
-            {
-                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
-                "rotation": {
                     "x": 58.2208481,
                     "y": 66.079895,
                     "z": 284.453674
