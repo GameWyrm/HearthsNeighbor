@@ -3,7 +3,7 @@
     "name": "Lonely Hermit",
     "starSystem": "GameWyrm.JamSystem",
     "Base": {
-        "surfaceSize": 325,
+        "surfaceSize": 280,
         "groundSize": 0,
         "surfaceGravity": 15,
         "hasMapMarker": true

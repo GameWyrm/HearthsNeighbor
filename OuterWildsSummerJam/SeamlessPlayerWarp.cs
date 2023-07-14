@@ -48,7 +48,7 @@ namespace OuterWildsSummerJam
                 {
                     crystalTime = 3;
                     speedUpCrystals = false;
-                    targetSpeed = 3;
+                    //targetSpeed = 3;
                     OuterWildsSummerJam.LogInfo("Disabling speedup");
                 }
                 if (crystalTime < 0)

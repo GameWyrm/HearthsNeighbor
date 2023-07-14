@@ -68,14 +68,27 @@
                 },
                 "alignRadial": false,
                 "keepLoaded": true
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "position": {
+                    "x": 98.75795,
+                    "y": -111.0339,
+                    "z": 157.0358
+                },
+                "rotation": {
+                    "x": 304.6544,
+                    "y": 70.44778,
+                    "z": 141.5719
+                }
             }
         ],
         "rafts": [
             {
                 "position": {
-                    "x": -188,
-                    "y": -7,
-                    "z": 80
+                    "x": 87.07298,
+                    "y": -18.32938,
+                    "z": 179.5837
                 },
                 "alignRadial": true
             }

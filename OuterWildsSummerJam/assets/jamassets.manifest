@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1341792416
+CRC: 758175090
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5c238e1e74f1347f277ccecd839f7e92
+    Hash: 0954decbef90227e0ed0f894d93a27ec
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6653ab6adef4fdec89f2eaaf8e36fc9b
+    Hash: e597e79a3cc5c91a21f32f0b321a1b75
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,9 +46,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 931744004, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 114
+  Script: {fileID: 2030338382, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 225533512, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3dbd5d33cd5bb1a8af7dca28fc8752b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
@@ -58,32 +66,45 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
+  Script: {fileID: 1643519021, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: -756486035, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 1122452444, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: -1777500077, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 1308705409, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
   Script: {fileID: 396815108, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4bad9f1a0f3893e249e15f6a5b0b29f3, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5418269dfd62f50b1141b92b39b0843a, type: 3}
-- Class: 114
-  Script: {fileID: 1122452444, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
-- Class: 114
-  Script: {fileID: -1777500077, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
-- Class: 114
-  Script: {fileID: 225533512, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/_SummerGameJam/Materials/Button.mat
 - Assets/_SummerGameJam/Prefabs/LavaPlanet.prefab
+- Assets/_SummerGameJam/Textures/ButtonGlow.png
+- Assets/_SummerGameJam/Materials/ButtonGlow.mat
 - Assets/_SummerGameJam/Prefabs/LakePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab
@@ -93,7 +114,9 @@ Assets:
 - Assets/_SummerGameJam/Prefabs/DerelictShipExterior.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorRed.prefab
+- Assets/_SummerGameJam/Materials/ButtonPersistentGlow.mat
 - Assets/_SummerGameJam/Prefabs/DerelictShipInterior.prefab
+- Assets/_SummerGameJam/Materials/ButtonPersistent.mat
 - Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 - Assets/_SummerGameJam/Prefabs/AlpinePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/FuelCanister.prefab

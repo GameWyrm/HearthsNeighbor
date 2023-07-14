@@ -3,7 +3,19 @@
     <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\GameWyrmTeam.OuterWildsSummerJam</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="FireShrineButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FireShrineGate.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LakePlanetLever.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PressurePlate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PressurePlateDoor.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
