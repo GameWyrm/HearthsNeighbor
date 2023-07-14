@@ -1,0 +1,18 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Escape Pod</NameField>
+
+  <DialogueNode>
+    <Name>Start</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]</Page>
+      <Page>[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]</Page>
+      <Page>[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]</Page>
+      <Page>[Congrats! You have completed the Jam version of Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]</Page>
+      <Page>[Perhaps one day, we'll actually give this mod a full overhaul, with a proper ending, but no promises.]</Page>
+      <Page>[...]</Page>
+      <Page>[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

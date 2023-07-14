@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "HearthsNeighbor.dll",
+  "author": "GameWyrm",
+  "name": "Hearth's Neighbor",
+  "uniqueName": "GameWyrm.HearthsNeighbor",
+  "version": "0.1.0",
+  "owmlVersion": "2.9.0",
+  "dependencies": ["xen.NewHorizons"]
+}
