@@ -3,6 +3,9 @@
     <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\GameWyrm.HearthsNeighbor</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="DisplayBounds.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FireShrineButton.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,6 +19,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PressurePlateDoor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShipBarrierButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShipBarrierPanel.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

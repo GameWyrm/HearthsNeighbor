@@ -49,7 +49,7 @@ namespace HearthsNeighbor
                     {
                         scoutCollided = true;
                         CheckColliders();
-                        OuterWildsSummerJam.LogInfo($"Distance: {Vector3.Distance(checkPosition, scout.transform.position)}. Check Position: {checkPosition}. Scout Position: {scout.transform.position}");
+                        HearthsNeighbor.LogInfo($"Distance: {Vector3.Distance(checkPosition, scout.transform.position)}. Check Position: {checkPosition}. Scout Position: {scout.transform.position}");
                     }
                 }
                 else if (scoutCollided)

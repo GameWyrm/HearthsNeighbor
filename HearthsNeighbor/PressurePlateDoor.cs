@@ -65,19 +65,19 @@ namespace HearthsNeighbor
         /// </summary>
         public void CheckPower()
         {
-            OuterWildsSummerJam.LogInfo("Checking power...");
+            HearthsNeighbor.LogInfo("Checking power...");
 
             foreach (PressurePlate source in powerSources)
             {
                 if (!powered.Contains(source))
                 {
                     if (RequireConstantPower) anim.SetBool("Open", false);
-                    OuterWildsSummerJam.LogInfo($"Not all buttons are on! {powered.Count}/{powerSources.Count} active.");
+                    HearthsNeighbor.LogInfo($"Not all buttons are on! {powered.Count}/{powerSources.Count} active.");
                     return;
                 }
             }
 
-            OuterWildsSummerJam.LogSuccess("All buttons are on!");
+            HearthsNeighbor.LogSuccess("All buttons are on!");
             anim.SetBool("Open", true);
         }
     }

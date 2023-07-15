@@ -27,8 +27,8 @@ namespace HearthsNeighbor
             anim.SetBool("IsOn", isOn);
             if (lakeDoor == null)
             {
-                OuterWildsSummerJam.LogMessage($"Main planet is {OuterWildsSummerJam.Main.MainPlanet.gameObject.name}");
-                lakeDoor = OuterWildsSummerJam.Main.MainPlanet.transform.Find("Sector/MainPlanet/Sectors/Lake/LakeDoor").gameObject;
+                HearthsNeighbor.LogMessage($"Main planet is {HearthsNeighbor.Main.MainPlanet.gameObject.name}");
+                lakeDoor = HearthsNeighbor.Main.MainPlanet.transform.Find("Sector/MainPlanet/Sectors/Lake/LakeDoor").gameObject;
             }
             lakeDoor.SetActive(!isOn);
         }

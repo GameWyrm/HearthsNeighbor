@@ -20,7 +20,7 @@ namespace HearthsNeighbor
 
         private void Awake()
         {
-            OuterWildsSummerJam.RegisterWarp(transform.parent.transform.parent.gameObject);
+            HearthsNeighbor.RegisterWarp(transform.parent.transform.parent.gameObject);
             myPlanet = this.GetAttachedOWRigidbody().gameObject;
         }
 
@@ -49,14 +49,14 @@ namespace HearthsNeighbor
                     crystalTime = 3;
                     speedUpCrystals = false;
                     //targetSpeed = 3;
-                    OuterWildsSummerJam.LogInfo("Disabling speedup");
+                    HearthsNeighbor.LogInfo("Disabling speedup");
                 }
                 if (crystalTime < 0)
                 {
                     crystalTime = 0;
                     slowDownCrystals = false;
                     targetSpeed = 0;
-                    OuterWildsSummerJam.LogInfo("Disabling slowdown");
+                    HearthsNeighbor.LogInfo("Disabling slowdown");
                 }
                 anim.SetFloat("CrystalSpeed", targetSpeed * (goDown ? -1 : 1));
                 linkedAnim.SetFloat("CrystalSpeed", targetSpeed * (goDown ? -1 : 1));
@@ -66,12 +66,12 @@ namespace HearthsNeighbor
         private void OnTriggerEnter(Collider other)
         {
 
-            if (other.CompareTag("Player") && !OuterWildsSummerJam.Main.isInElevator)
+            if (other.CompareTag("Player") && !HearthsNeighbor.Main.isInElevator)
             {
-                OuterWildsSummerJam.Main.isInElevator = true;
+                HearthsNeighbor.Main.isInElevator = true;
                 if (linkedWarp == null)
                 {
-                    OuterWildsSummerJam.LogError("No Linked Warp set or found!");
+                    HearthsNeighbor.LogError("No Linked Warp set or found!");
                     return;
                 }
 
@@ -111,19 +111,19 @@ namespace HearthsNeighbor
                 shipMarker._isVisible = false;
             }
 
-            OuterWildsSummerJam.LogInfo("Warped the player");
+            HearthsNeighbor.LogInfo("Warped the player");
 
             speedUpCrystals = true;
 
             yield return new WaitForSeconds(7);
 
-            OuterWildsSummerJam.LogInfo("Waited");
+            HearthsNeighbor.LogInfo("Waited");
 
             slowDownCrystals = true;
 
             yield return new WaitForSeconds(5);
 
-            OuterWildsSummerJam.LogInfo("WaitedMore");
+            HearthsNeighbor.LogInfo("WaitedMore");
             anim.SetTrigger("OpenDoor");
             linkedAnim.SetTrigger("OpenDoor");
             yield return new WaitForSeconds(1);

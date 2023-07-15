@@ -26,19 +26,19 @@ namespace HearthsNeighbor
                 switch (body)
                 {
                     case JamBody.MainPlanet:
-                        targetBody = OuterWildsSummerJam.Main.MainPlanet;
+                        targetBody = HearthsNeighbor.Main.MainPlanet;
                         break;
                     case JamBody.AlpinePlanet:
-                        targetBody = OuterWildsSummerJam.Main.AlpinePlanet;
+                        targetBody = HearthsNeighbor.Main.AlpinePlanet;
                         break;
                     case JamBody.LakePlanet:
-                        targetBody = OuterWildsSummerJam.Main.LakePlanet;
+                        targetBody = HearthsNeighbor.Main.LakePlanet;
                         break;
                     case JamBody.LavaPlanet:
-                        targetBody = OuterWildsSummerJam.Main.LavaPlanet;
+                        targetBody = HearthsNeighbor.Main.LavaPlanet;
                         break;
                     case JamBody.DerelictShip:
-                        targetBody = OuterWildsSummerJam.Main.DerelictShip;
+                        targetBody = HearthsNeighbor.Main.DerelictShip;
                         break;
                 }
                 if (targetBody != null)
@@ -46,9 +46,9 @@ namespace HearthsNeighbor
                     targetObject = targetBody.transform.Find(targetPath).gameObject;
                 }
 
-                if (targetObject == null) OuterWildsSummerJam.LogError($"Target for {gameObject.name} was not found at path {targetBody}/{targetPath}!");
+                if (targetObject == null) HearthsNeighbor.LogError($"Target for {gameObject.name} was not found at path {targetBody}/{targetPath}!");
             }
-            if (targetObject != null) OuterWildsSummerJam.LogSuccess($"Object {gameObject.name} found its target {targetObject.name}!");
+            if (targetObject != null) HearthsNeighbor.LogSuccess($"Object {gameObject.name} found its target {targetObject.name}!");
         }
 
         private void Update()

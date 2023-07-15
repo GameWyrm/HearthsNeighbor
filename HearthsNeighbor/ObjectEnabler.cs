@@ -19,7 +19,6 @@ namespace HearthsNeighbor
 
         private void Start()
         {
-            Parent = GetComponentInParent<ObjectEnabler>();
         }
 
         private void OnTriggerEnter(Collider other)
@@ -28,10 +27,12 @@ namespace HearthsNeighbor
             {
                 if (Parent != null)
                 {
+                    HearthsNeighbor.LogInfo($"{gameObject.name} is setting the active value of its parent script, {Parent.Target.gameObject.name}, to {EnableObject}.");
                     ToggleObject(Parent.Target, EnableObject);
                 }
                 else
                 {
+                    HearthsNeighbor.LogInfo($"{gameObject.name} is setting the active value of {Target.gameObject.name} to {EnableObject}.");
                     ToggleObject(Target, EnableObject);
                 }
             }
@@ -39,6 +40,7 @@ namespace HearthsNeighbor
 
         private void ToggleObject(GameObject obj, bool shouldEnable)
         {
+
             obj.SetActive(shouldEnable);
         }
     }

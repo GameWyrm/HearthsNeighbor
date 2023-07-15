@@ -6,9 +6,9 @@ namespace HearthsNeighbor
     {
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player") && OuterWildsSummerJam.Main.isInElevator)
+            if (other.CompareTag("Player") && HearthsNeighbor.Main.isInElevator)
             {
-                OuterWildsSummerJam.Main.isInElevator = false;
+                HearthsNeighbor.Main.isInElevator = false;
             }
         }
     }

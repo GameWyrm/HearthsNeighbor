@@ -44,14 +44,14 @@ namespace HearthsNeighbor
                 if (Vector3.Distance(transform.position, player.transform.position) < interactCheckDistance)
                 {
                     //GetComponent<Collider>().enabled = true;
-                    OuterWildsSummerJam.LogInfo("Interactable Enabled!");
+                    HearthsNeighbor.LogInfo("Interactable Enabled!");
                 }
             }
         }
 
         private void OnPressInteract()
         {
-            OuterWildsSummerJam.LogSuccess("You interacted with me!");
+            HearthsNeighbor.LogSuccess("You interacted with me!");
         }
 
         private void OnDrawGizmos()
