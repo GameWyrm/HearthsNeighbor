@@ -60,12 +60,12 @@
         "xmlFile": "planets/Log/LakeCore.xml",
         "mapMode": {
             "manualPosition": {
-                "x": 100,
-                "y": -150
+                "x": 300,
+                "y": 0
             },
             "manualNavigationPosition": {
-                "x": 0,
-                "y": 0
+                "x": 1,
+                "y": 1
             },
             "revealedSprite": "planets/Log/sprites/LakeCore.png",
             "outlineSprite": "planets/Log/sprites/LakeCoreOutline.png",
@@ -181,27 +181,25 @@
                 "reveals": [ "LK_SHRINE_ENTRY" ]
             },
             {
-                "radius": 1,
+                "radius": 10,
                 "position": {
                     "x": -9.5,
                     "y": 248,
                     "z": -3.7
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "player",
-                "maxDistance": 20,
                 "reveals": [ "LK_SHRINE_STATION", "LK_SHRINE_MURAL", "LK_SHRINE_POSTER", "DS_LAKE_RUMOR" ]
             },
             {
-                "radius": 20,
+                "radius": 50,
                 "position": {
                     "x": -31,
                     "y": -153,
                     "z": -148
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "player",
-                "maxDistance": 100,
                 "reveals": [ "LK_MAZE_INFO" ]
             },
             {

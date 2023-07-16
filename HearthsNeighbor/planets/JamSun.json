@@ -41,5 +41,23 @@
             }
         ],
         "starCollapseRampTexture": "assets/SunRamp.png"
+    },
+    "Spawn": {
+        "playerSpawn": {
+            "alignRadial": true,
+            "position": {
+                "x": 5805,
+                "y": 6825,
+                "z": 13164
+            }
+        },
+        "shipSpawn": {
+            "alignRadial": true,
+            "position": {
+                "x": 5805,
+                "y": 6825,
+                "z": 13164
+            }
+        }
     }
 }

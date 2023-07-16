@@ -16,21 +16,6 @@
             }
         }
     ],
-    "curiosities": [
-        {
-            "id": "HN_ESCAPE_POD",
-            "color": {
-                "r": 52,
-                "g": 117,
-                "b": 137
-            },
-            "highlightColor": {
-                "r": 96,
-                "g": 218,
-                "b": 255
-            }
-        }
-    ],
     "initialReveal": [
         "HN_MUSEUM_PLATE_INTRO"
     ]

@@ -58,12 +58,12 @@
         "xmlFile": "planets/Log/LavaCore.xml",
         "mapMode": {
             "manualPosition": {
-                "x": 500,
-                "y": -50
+                "x": 300,
+                "y": -150
             },
             "manualNavigationPosition": {
-                "x": 2,
-                "y": 1
+                "x": 1,
+                "y": 0
             },
             "revealedSprite": "planets/Log/sprites/LavaCore.png",
             "outlineSprite": "planets/Log/sprites/LavaCoreOutline.png",
@@ -194,7 +194,7 @@
                 },
                 "detectionRadius": 0,
                 "frequency": "Lava Core Signals",
-                "name": "FIRST BUTTON",
+                "name": "STRUCTURE BY CLIFF",
                 "sourceRadius": 3
             },
             {
@@ -206,7 +206,7 @@
                 },
                 "detectionRadius": 0,
                 "frequency": "Lava Core Signals",
-                "name": "SECOND BUTTON",
+                "name": "STRUCTURE WITH PILLARS",
                 "sourceRadius": 3
             },
             {
@@ -218,7 +218,7 @@
                 },
                 "detectionRadius": 0,
                 "frequency": "Lava Core Signals",
-                "name": "THIRD BUTTON",
+                "name": "OLD ABANDONED TOWN",
                 "sourceRadius": 3
             }
         ]
@@ -268,15 +268,14 @@
                 "reveals": [ "LV_BUTTONS" ]
             },
             {
-                "radius": 20,
+                "radius": 50,
                 "position": {
                     "x": -116,
                     "y": 58,
                     "z": -195
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "both",
-                "maxDistance": 100,
                 "reveals": [ "LV_FIRST_BUTTON_INFO" ]
             },
             {
@@ -291,15 +290,14 @@
                 "reveals": [ "LV_SHRINE_BUTTON_ONE" ]
             },
             {
-                "radius": 20,
+                "radius": 50,
                 "position": {
                     "x": 134,
                     "y": -160,
                     "z": -102
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "both",
-                "maxDistance": 100,
                 "reveals": [ "LV_SECOND_BUTTON_INFO" ]
             },
             {
@@ -320,9 +318,8 @@
                     "y": -85,
                     "z": 201
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "both",
-                "maxDistance": 100,
                 "reveals": [ "LV_THIRD_BUTTON_INFO" ]
             },
             {
@@ -343,9 +340,8 @@
                     "y": 0,
                     "z": 112
                 },
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "revealFor": "both",
-                "maxDistance": 100,
                 "reveals": [ "LV_SHRINE_INFO" ]
             },
             {

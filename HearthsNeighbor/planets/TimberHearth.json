@@ -3,22 +3,7 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "ShipLog": {
         "xmlFile": "planets/Log/TimberHearth.xml",
-        "spriteFolder": "planets/Log/sprites/",
-        "curiosities": [
-            {
-                "id": "HN_ESCAPE_POD",
-                "color": {
-                    "r": 52,
-                    "g": 117,
-                    "b": 137
-                },
-                "highlightColor": {
-                    "r": 96,
-                    "g": 218,
-                    "b": 255
-                }
-            }
-        ]
+        "spriteFolder": "planets/Log/sprites/"
     },
     
     "Props": {
@@ -73,6 +58,15 @@
                     "x": -48.11524,
                     "y": -0.8084373,
                     "z": 221.3395
+                },
+                "cloaked": false
+            },
+            {
+                "id": "HN_ESCAPE_POD",
+                "position": {
+                    "x": -13.99922,
+                    "y": -119.6482,
+                    "z": 28.5757
                 },
                 "cloaked": false
             }

@@ -59,11 +59,11 @@
         "xmlFile": "planets/Log/AlpineCore.xml",
         "mapMode": {
             "manualPosition": {
-                "x": 100,
+                "x": 300,
                 "y": 150
             },
             "manualNavigationPosition": {
-                "x": 0,
+                "x": 1,
                 "y": 2
             },
             "revealedSprite": "planets/Log/sprites/AlpineCore.png",
@@ -363,14 +363,13 @@
                 "reveals": [ "AC_SECRET_INFO" ]
             },
             {
-                "radius": 1,
+                "radius": 5,
                 "position": {
                     "x": 15,
                     "y": -60,
                     "z": -157
                 },
-                "revealOn": "observe",
-                "maxDistance": 50,
+                "revealOn": "enter",
                 "revealFor": "player",
                 "reveals": [ "AC_SECRET_MAP" ]
             }

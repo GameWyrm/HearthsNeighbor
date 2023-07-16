@@ -29,26 +29,6 @@
         },
         "useAtmosphereShader": true
     },
-    "Spawn": {
-        "playerSpawn": {
-            "alignRadial": true,
-            "isRelativeToParent": true,
-            "position": {
-                "x": -6,
-                "y": 300,
-                "z": 26
-            }
-        },
-        "shipSpawn": {
-            "alignRadial": true,
-            "isRelativeToParent": true,
-            "position": {
-                "x": -6,
-                "y": 300,
-                "z": 26
-            }
-        }
-    },
     "AmbientLights": [
         {
             "intensity": 0.7,
@@ -72,13 +52,14 @@
         "xmlFile": "planets/Log/LonelyHermit.xml",
         "mapMode": {
             "manualPosition": {
-                "x": 300,
+                "x": 0,
                 "y": 0
             },
             "manualNavigationPosition": {
-                "x": 1,
-                "y": 1
+                "x": 0,
+                "y": 0
             },
+            "scale": 3,
             "revealedSprite": "planets/Log/sprites/LonelyHermitIcon.png",
             "outlineSprite": "planets/Log/sprites/LonelyHermitIconOutline.png"
         },
@@ -239,7 +220,152 @@
                     "y": -15.3881426,
                     "z": -177.803543
                 }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "rotation": {
+                    "x": 58.2208481,
+                    "y": 66.079895,
+                    "z": 284.453674
+                },
+                "position": {
+                    "x": 189.1183,
+                    "y": -21.7726727,
+                    "z": -205.065811
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (49)",
+                "rotation": {
+                    "x": 60.740757,
+                    "y": 78.51031,
+                    "z": 292.892029
+                },
+                "position": {
+                    "x": 182.692322,
+                    "y": -9.30509,
+                    "z": -206.726654
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (48)",
+                "rotation": {
+                    "x": 66.18223,
+                    "y": 76.96336,
+                    "z": 288.8443
+                },
+                "position": {
+                    "x": 179.615417,
+                    "y": -1.31606007,
+                    "z": -206.930191
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (47)",
+                "rotation": {
+                    "x": 65.8918457,
+                    "y": 251.197784,
+                    "z": 103.252342
+                },
+                "position": {
+                    "x": 185.854919,
+                    "y": 7.664401,
+                    "z": -202.757553
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (46)",
+                "rotation": {
+                    "x": 36.16888,
+                    "y": 249.591858,
+                    "z": 108.950539
+                },
+                "position": {
+                    "x": 191.5792,
+                    "y": 12.5137644,
+                    "z": -200.316391
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (45)",
+                "rotation": {
+                    "x": 17.858675,
+                    "y": 242.830872,
+                    "z": 110.353119
+                },
+                "position": {
+                    "x": 198.392731,
+                    "y": 16.063652,
+                    "z": -197.365326
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (44)",
+                "rotation": {
+                    "x": 348.507172,
+                    "y": 227.0956,
+                    "z": 109.63829
+                },
+                "position": {
+                    "x": 204.719849,
+                    "y": 15.015275,
+                    "z": -192.275269
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (43)",
+                "rotation": {
+                    "x": 319.6659,
+                    "y": 212.355423,
+                    "z": 108.709984
+                },
+                "position": {
+                    "x": 209.844086,
+                    "y": 8.073556,
+                    "z": -184.741745
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (42)",
+                "rotation": {
+                    "x": 309.02063,
+                    "y": 207.825638,
+                    "z": 105.721359
+                },
+                "position": {
+                    "x": 212.80513,
+                    "y": 1.55810642,
+                    "z": -179.6341
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (41)",
+                "rotation": {
+                    "x": 283.441681,
+                    "y": 185.533752,
+                    "z": 123.1014
+                },
+                "position": {
+                    "x": 213.1808,
+                    "y": -7.21515656,
+                    "z": -177.072556
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (40)",
+                "rotation": {
+                    "x": 276.484344,
+                    "y": 105.808357,
+                    "z": 201.580627
+                },
+                "position": {
+                    "x": 211.427643,
+                    "y": -15.3881426,
+                    "z": -177.803543
+                }
             }
+
+
         ],
         "signals": [
             {
@@ -253,6 +379,53 @@
                     "z": 243.1255
                 },
                 "reveals": "LH_LAKE_SATELLITE"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "LH_NORTHERN_WASTELAND_FACT",
+                "position": {
+                    "x": -38,
+                    "y": 293,
+                    "z": 18
+                },
+                "cloaked": false
+            },
+            {
+                "id": "LH_DEAD_LAKE_FACT",
+                "position": {
+                    "x": 160,
+                    "y": -148,
+                    "z": 253
+                },
+                "cloaked": false
+            },
+            {
+                "id": "LH_EXTINCT_VOLCANO_FACT",
+                "position": {
+                    "x": -237,
+                    "y": -136,
+                    "z": -189
+                },
+                "cloaked": false
+            },
+            {
+                "id": "LH_LAKE_DOOR_FACT",
+                "position": {
+                    "x": 121,
+                    "y": -143,
+                    "z": 235
+                },
+                "cloaked": false
+            },
+            {
+                "id": "LH_POWER_PLANT_FACT",
+                "position": {
+                    "x": 210,
+                    "y": -5,
+                    "z": -204
+                },
+                "cloaked": false
             }
         ]
     },
@@ -269,7 +442,7 @@
                 "reveals": [ "LH_INFO", "LH_PLANT_RUMOR", "LH_WASTELAND_RUMOR", "LH_VOLCANO_RUMOR", "LH_LAKE_RUMOR" ]
             },
             {
-                "radius": 20,
+                "radius": 50,
                 "position": {
                     "x": 210,
                     "y": -6,
@@ -281,7 +454,7 @@
             {
                 "radius": 20,
                 "position": {
-                    "x": 60,
+                    "x": -60,
                     "y": 305,
                     "z": 38
                 },
@@ -309,25 +482,24 @@
                 "reveals": [ "LH_LAKE_ELEVATOR" ]
             },
             {
-                "radius": 20,
+                "radius": 50,
                 "position": {
                     "x": 56,
                     "y": 37,
                     "z": 272
                 },
-                "revealOn": "observe",
-                "maxDistance": 200,
+                "revealOn": "enter",
                 "reveals": [ "LH_LAKE_HANGAR" ]
             },
             {
-                "radius": 5,
+                "radius": 30,
                 "position": {
                     "x": 123,
                     "y": -144,
                     "z": -239
                 },
                 "maxDistance": 100,
-                "revealOn": "observe",
+                "revealOn": "enter",
                 "reveals": [ "LH_LAKE_DOOR" ]
             },
             {

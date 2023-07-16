@@ -1,23 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
-    "respawnHere": false,
+    "respawnHere": true,
     "startHere": false,
     "factRequiredForWarp": "HN_MUSEUM_PLATE_DETAILS",
-    "curiosities": [
-        {
-            "id": "DERELICT_SHIP_ROOT",
-            "color": {
-                "r": 52,
-                "g": 117,
-                "b": 137
-            },
-            "highlightColor": {
-                "r": 96,
-                "g": 218,
-                "b": 255
-            }
-        }
-    ],
     "entryPositions": [
         {
             "id": "LONELY_HERMIT_ROOT",
@@ -29,119 +14,119 @@
         {
             "id": "LH_NORTHERN_WASTELAND_FACT",
             "position": {
-                "x": 1000,
-                "y": 1000
+                "x": 500,
+                "y": 500
             }
         },
         {
             "id": "LH_DEAD_LAKE_FACT",
             "position": {
-                "x": 1000,
+                "x": 500,
                 "y": 0
             }
         },
         {
             "id": "LH_LAKE_DOOR_FACT",
             "position": {
-                "x": 1100,
-                "y": -200
+                "x": 550,
+                "y": -100
             }
         },
         {
             "id": "LH_EXTINCT_VOLCANO_FACT",
             "position": {
-                "x": 1000,
-                "y": -1000
+                "x": 500,
+                "y": -500
             }
         },
         {
             "id": "LH_POWER_PLANT_FACT",
             "position": {
-                "x": -200,
-                "y": -600
+                "x": -100,
+                "y": -300
             }
         },
         {
             "id": "AC_ROOT",
             "position": {
-                "x": 1700,
-                "y": 1000
+                "x": 850,
+                "y": 500
             }
         },
         {
             "id": "AC_CODE_FACT",
             "position": {
-                "x": 1800,
-                "y": 800
+                "x": 900,
+                "y": 400
             }
         },
         {
             "id": "AC_SECRET",
             "position": {
-                "x": 1500,
-                "y": 1400
+                "x": 750,
+                "y": 700
             }
         },
         {
             "id": "LAKE_CORE_ROOT",
             "position": {
-                "x": 1700,
+                "x": 850,
                 "y": 0
             }
         },
         {
             "id": "LK_MAZE_FACT",
             "position": {
-                "x": 1500,
-                "y": -200
+                "x": 800,
+                "y": -100
             }
         },
         {
             "id": "LK_SHRINE_FACT",
             "position": {
-                "x": 1900,
-                "y": -200
+                "x": 900,
+                "y": -100
             }
         },
         {
             "id": "LAVA_CORE_ROOT",
             "position": {
-                "x": 1700,
-                "y": -1000
+                "x": 850,
+                "y": -500
             }
         },
         {
             "id": "LV_FIRST_BUTTON_FACT",
             "position": {
-                "x": 1400,
-                "y": -1200
+                "x": 760,
+                "y": -600
             }
         },
         {
             "id": "LV_SECOND_BUTTON_FACT",
             "position": {
-                "x": 1700,
-                "y": -1200
+                "x": 830,
+                "y": -600
             }
         },
         {
             "id": "LV_THIRD_BUTTON_FACT",
             "position": {
-                "x": 2000,
-                "y": -1200
+                "x": 900,
+                "y": -600
             }
         },
         {
             "id": "LV_SHRINE_FACT",
             "position": {
-                "x": 1700,
-                "y": -1600
+                "x": 900,
+                "y": -800
             }
         },
         {
             "id": "DERELICT_SHIP_ROOT",
             "position": {
-                "x": 2500,
+                "x": 1200,
                 "y": 0
             }
         }
