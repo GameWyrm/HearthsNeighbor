@@ -7,10 +7,10 @@ To start the mod, find the new exhibit in the museum.
 Made for the 2023 Outer Wilds Summer Jam
 
 Credits:
-FunkyShoeMan: Some models, including a dock model that was made before the jam
-Lumine0409: Ship Log Map Mode icons and main logo
-EndgameZero: Music
-GameWyrm: Literally everything else
+* FunkyShoeMan: Some models, including a dock model that was made before the jam
+* Lumine0409: Ship Log Map Mode icons and main logo
+* EndgameZero: Music
+* GameWyrm: Literally everything else
 
 A few sounds were taken from FreeSound.
 
