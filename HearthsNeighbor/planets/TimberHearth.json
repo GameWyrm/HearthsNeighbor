@@ -3,8 +3,22 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "ShipLog": {
         "xmlFile": "planets/Log/TimberHearth.xml",
-        "spriteFolder": "planets/Log/sprites/"
-
+        "spriteFolder": "planets/Log/sprites/",
+        "curiosities": [
+            {
+                "id": "HN_ESCAPE_POD",
+                "color": {
+                    "r": 52,
+                    "g": 117,
+                    "b": 137
+                },
+                "highlightColor": {
+                    "r": 96,
+                    "g": 218,
+                    "b": 255
+                }
+            }
+        ]
     },
     
     "Props": {
@@ -36,11 +50,25 @@
                     "y": 78.08591,
                     "z": 90.50789
                 }
+            },
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/HNEscapePod.prefab",
+                "position": {
+                    "x": -13.99922,
+                    "y": -119.6482,
+                    "z": 28.5757
+                },
+                "rotation": {
+                    "x": 359.2362,
+                    "y": 184.1807,
+                    "z": 187.7387
+                }
             }
         ],
         "entryLocation": [
             {
-                "id": "MUSEUM_PLATE",
+                "id": "HN_MUSEUM_PLATE",
                 "position": {
                     "x": -48.11524,
                     "y": -0.8084373,
@@ -58,6 +86,28 @@
                 },
                 "radius": 0.5,
                 "xmlFile": "dialogue/MuseumPlaque.xml"
+            },
+            {
+                "position": {
+                    "x": -13.99922,
+                    "y": -119.6482,
+                    "z": 28.5757
+                },
+                "radius": 4,
+                "xmlFile": "dialogue/EscapePod.xml"
+            }
+        ],
+        "signals": [
+            {
+                "audio": "assets/signalAudio/Beeps 1.wav",
+                "detectionRadius": 0,
+                "frequency": "GALACTIC COMMUNICATION",
+                "name": "SOLE SURVIVOR",
+                "position": {
+                    "x": -13.99922,
+                    "y": -119.6482,
+                    "z": 28.5757
+                }
             }
         ]
     }

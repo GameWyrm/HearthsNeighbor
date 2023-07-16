@@ -58,50 +58,54 @@ namespace HearthsNeighbor
         /// </summary>
         private void InitSystem(string systemName)
         {
-            LogMessage("Loaded into jam system");
-
-            MainPlanet = GameObject.Find("LonelyHermit_Body");
-            AlpinePlanet = GameObject.Find("AlpineCore_Body");
-            LakePlanet = GameObject.Find("LakeCore_Body");
-            LavaPlanet = GameObject.Find("LavaCore_Body");
-            DerelictShip = GameObject.Find("DerelictShip_Body");
-
-            isInElevator = false;
-            foreach (string warp in warpList.Keys)
+            if (systemName == "GameWyrm.HearthsNeighbor")
             {
-                LogMessage($"Determining destination for {warp}");
-                LogMessage($"Position: {warpList[warp].transform.position}, Body: {warpList[warp].GetAttachedOWRigidbody().name}");
-                switch (warp)
-                {
-                    case ("MainLake"):
-                        warpList[warp].linkedWarp = warpList["LakeEntrance"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LakeEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                    case ("MainAlpine"):
-                        warpList[warp].linkedWarp = warpList["AlpineEntrance"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to AlpineEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                    case ("MainLava"):
-                        warpList[warp].linkedWarp = warpList["LavaEntrance"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LavaEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                    case ("LakeEntrance"):
-                        warpList[warp].linkedWarp = warpList["MainLake"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLake! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                    case ("AlpineEntrance"):
-                        warpList[warp].linkedWarp = warpList["MainAlpine"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainAlpine! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                    case ("LavaEntrance"):
-                        warpList[warp].linkedWarp = warpList["MainLava"].gameObject;
-                        LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLava! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
-                        break;
-                }
-            }
-            warpList.Clear();
 
-            StartCoroutine(EndOfFrameInit());
+                LogMessage("Loaded into jam system");
+
+                MainPlanet = GameObject.Find("LonelyHermit_Body");
+                AlpinePlanet = GameObject.Find("AlpineCore_Body");
+                LakePlanet = GameObject.Find("LakeCore_Body");
+                LavaPlanet = GameObject.Find("LavaCore_Body");
+                DerelictShip = GameObject.Find("DerelictShip_Body");
+
+                isInElevator = false;
+                foreach (string warp in warpList.Keys)
+                {
+                    LogMessage($"Determining destination for {warp}");
+                    LogMessage($"Position: {warpList[warp].transform.position}, Body: {warpList[warp].GetAttachedOWRigidbody().name}");
+                    switch (warp)
+                    {
+                        case ("MainLake"):
+                            warpList[warp].linkedWarp = warpList["LakeEntrance"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LakeEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                        case ("MainAlpine"):
+                            warpList[warp].linkedWarp = warpList["AlpineEntrance"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to AlpineEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                        case ("MainLava"):
+                            warpList[warp].linkedWarp = warpList["LavaEntrance"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to LavaEntrance! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                        case ("LakeEntrance"):
+                            warpList[warp].linkedWarp = warpList["MainLake"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLake! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                        case ("AlpineEntrance"):
+                            warpList[warp].linkedWarp = warpList["MainAlpine"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainAlpine! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                        case ("LavaEntrance"):
+                            warpList[warp].linkedWarp = warpList["MainLava"].gameObject;
+                            LogSuccess($"Assigned {warp}({warpList[warp].transform.parent.parent.name}) to MainLava! ({warpList[warp].linkedWarp.transform.parent.parent.name})");
+                            break;
+                    }
+                }
+                warpList.Clear();
+
+                StartCoroutine(EndOfFrameInit());
+            }
         }
 
         /// <summary>

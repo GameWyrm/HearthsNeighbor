@@ -14,5 +14,10 @@
       <Page>[...]</Page>
       <Page>[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>HN_POD_RESOLUTION</FactID>
+      <FactID>HN_POD_THANKS</FactID>
+      <FactID>HN_MUSEUM_PLATE_RESOLUTION</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

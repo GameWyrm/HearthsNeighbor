@@ -1,0 +1,16 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>EndgameZero</NameField>
+
+  <DialogueNode>
+    <Name>Start</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hi! I'm EndgameZero, the composer for Hearth's Neighbor.</Page>
+      <Page>I had a lot of fun making the music for this mod, and I hope you enjoyed it.</Page>
+      <Page>I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).</Page>
+      <Page>As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

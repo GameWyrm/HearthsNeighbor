@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Neighbor Sun",
-    "starSystem": "GameWyrm.JamSystem",
+    "starSystem": "GameWyrm.HearthsNeighbor",
     "Base": {
         "centerOfSolarSystem": true,
         "gravityFallOff": "inverseSquared",

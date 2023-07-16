@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Alpine Core",
-    "starSystem": "GameWyrm.JamSystem",
+    "starSystem": "GameWyrm.HearthsNeighbor",
     "Base": {
         "surfaceSize": 400,
         "surfaceGravity": 0,
@@ -55,6 +55,23 @@
             }
         }
     ],
+    "ShipLog": {
+        "xmlFile": "planets/Log/AlpineCore.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 100,
+                "y": 150
+            },
+            "manualNavigationPosition": {
+                "x": 0,
+                "y": 2
+            },
+            "revealedSprite": "planets/Log/sprites/AlpineCore.png",
+            "outlineSprite": "planets/Log/sprites/AlpineCoreOutline.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
+    },
     "Props": {
         "details": [
             {
@@ -276,6 +293,86 @@
                     "z": 0
                 },
                 "radius": 400
+            }
+        ],
+        "revealVolumes": [
+            {
+                "radius": 400,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LH_ELEVATOR", "AC_DESCRIPTION" ]
+            },
+            {
+                "radius": 30,
+                "position": {
+                    "x": 134,
+                    "y": 51,
+                    "z": 180
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "AC_RED_HOUSE" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 134,
+                    "y": 51,
+                    "z": 180
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "AC_RED_HOUSE" ]
+            },
+            {
+                "radius": 5,
+                "position": {
+                    "x": 134,
+                    "y": 51,
+                    "z": 180
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "AC_RED_MURAL" ]
+            },
+            {
+                "radius": 2,
+                "position": {
+                    "x": 127,
+                    "y": 52,
+                    "z": 186
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "AC_CODE", "DS_ALPINE_RUMOR" ]
+            },
+            {
+                "radius": 30,
+                "position": {
+                    "x": 6,
+                    "y": -62,
+                    "z": -155
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "AC_SECRET_INFO" ]
+            },
+            {
+                "radius": 1,
+                "position": {
+                    "x": 15,
+                    "y": -60,
+                    "z": -157
+                },
+                "revealOn": "observe",
+                "maxDistance": 50,
+                "revealFor": "player",
+                "reveals": [ "AC_SECRET_MAP" ]
             }
         ]
     }

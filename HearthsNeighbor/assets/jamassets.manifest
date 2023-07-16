@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2186253416
+CRC: 3278668590
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 284ef833c0baada880afe932bf1876c3
+    Hash: 0c3da54e926895e7e984fd50327071c0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 098b4f2cb080fae1990318f0b3636731
+    Hash: a0ce426e8e80851017957bc2b44675f0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -95,6 +95,10 @@ ClassTypes:
   Script: {fileID: 1544324888, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 114
   Script: {fileID: 399131553, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 1136780798, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 754268901, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -110,23 +114,35 @@ Assets:
 - Assets/_SummerGameJam/Materials/Button.mat
 - Assets/_SummerGameJam/Textures/Decals/SkullIcon.png
 - Assets/_SummerGameJam/Prefabs/LavaPlanet.prefab
+- Assets/_SummerGameJam/Prefabs/Door.prefab
 - Assets/_SummerGameJam/Textures/ButtonGlow.png
+- Assets/_SummerGameJam/Prefabs/Satellite.prefab
+- Assets/_SummerGameJam/Prefabs/ShipPanelButton.prefab
+- Assets/_SummerGameJam/Prefabs/LavaSwitch.prefab
+- Assets/_SummerGameJam/Prefabs/CryoChamber.prefab
+- Assets/_SummerGameJam/Prefabs/Isle Step.prefab
+- Assets/_SummerGameJam/Prefabs/Isle Double Step.prefab
 - Assets/_SummerGameJam/Materials/ButtonGlow.mat
 - Assets/_SummerGameJam/Prefabs/LakePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsWhite.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorBlue.prefab
 - Assets/_SummerGameJam/Prefabs/FuelDispenser.prefab
 - Assets/_SummerGameJam/Prefabs/MuseumBox.prefab
+- Assets/_SummerGameJam/Prefabs/LavaShrine.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab
+- Assets/_SummerGameJam/Prefabs/ShipPanel.prefab
 - Assets/_SummerGameJam/Prefabs/DerelictShipExterior.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorWhite.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorRed.prefab
+- Assets/_SummerGameJam/Prefabs/Isle Flat.prefab
 - Assets/_SummerGameJam/Materials/ButtonPersistentGlow.mat
 - Assets/_SummerGameJam/Prefabs/DerelictShipInterior.prefab
 - Assets/_SummerGameJam/Materials/ButtonPersistent.mat
+- Assets/_SummerGameJam/Prefabs/HNEscapePod.prefab
 - Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 - Assets/_SummerGameJam/Prefabs/AlpinePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/FuelCanister.prefab
+- Assets/_SummerGameJam/Prefabs/TreeMound.prefab
 - Assets/_SummerGameJam/Prefabs/MuseumPlate.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsRed.prefab
 Dependencies: []

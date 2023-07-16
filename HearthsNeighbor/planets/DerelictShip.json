@@ -1,26 +1,38 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Derelict Ship",
-    "starSystem": "GameWyrm.JamSystem",
+    "starSystem": "GameWyrm.HearthsNeighbor",
     "Base": {
         "surfaceSize": 200,
         "groundSize": 0,
         "surfaceGravity": 0,
-        "hasMapMarker": true,
+        "hasMapMarker": false,
         "showMinimap": false
     },
     "canShowOnTitle": false,
     "Orbit": {
         "primaryBody": "Neighbor Sun",
         "semiMajorAxis": 30000,
-        "tint": {
-            "r": 0,
-            "g": 50,
-            "b": 150,
-            "a": 255
-        },
         "trueAnomaly": 180,
-        "inclination": 60
+        "inclination": 60,
+        "showOrbitLine": false
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Log/DerelictShip.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 1000,
+                "y": 0
+            },
+            "manualNavigationPosition": {
+                "x": 3,
+                "y": 1
+            },
+            "revealedSprite": "planets/Log/sprites/ShipLogShip.png",
+            "outlineSprite": "planets/Log/sprites/ShipLogShip.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
     },
     "Props": {
         "details": [
@@ -45,6 +57,162 @@
                 },
                 "alignRadial": false,
                 "keepLoaded": false
+            }
+        ],
+        "signals": [
+            {
+                "audio": "assets/signalAudio/SOS Cut.wav",
+                "detectionRadius": 50,
+                "frequency": "NEIGHBOR'S DISTRESS SIGNAL",
+                "name": "DERELICT SHIP",
+                "parentPath": "Sector/DerelictShipExterior/DerelictShipSatellite",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 1.wav",
+                "detectionRadius": 50,
+                "frequency": "GALACTIC COMMUNICATION",
+                "name": "DERELICT SHIP COCKPIT",
+                "parentPath": "Sector/DerelictShipInterior/Cockpit/Desks/DeskGoal/FinalButton/Satellite",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "FinalSignal",
+                "reveals": "HN_POD_RUMOR"
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {
+                    "x": 2.008896,
+                    "y": 8,
+                    "z": -72.64779
+                },
+                "xmlFile": "dialogue/Shoe.xml"
+            },
+            {
+                "position": {
+                    "x": 3.090457,
+                    "y": 8,
+                    "z": -68.85008
+                },
+                "xmlFile": "dialogue/Lumine.xml"
+            },
+            {
+                "position": {
+                    "x": 6.083928,
+                    "y": 8,
+                    "z": -67.60979
+                },
+                "xmlFile": "dialogue/GameWyrm.xml"
+            },
+            {
+                "position": {
+                    "x": 9.580267,
+                    "y": 8,
+                    "z": -68.94692
+                },
+                "xmlFile": "dialogue/Endgame.xml"
+            },
+            {
+                "position": {
+                    "x": 10.78622,
+                    "y": 8,
+                    "z": -72.89917
+                },
+                "xmlFile": "dialogue/MiscCredits.xml"
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 300,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_ENTRY" ]
+            },
+            {
+                "radius": 2,
+                "position": {
+                    "x": -7.41,
+                    "y": 25.87,
+                    "z": -38.78
+                },
+                "revealOn": "observe",
+                "revealFor": "both",
+                "maxDistance": 50,
+                "reveals": [ "DS_BARRIER" ]
+            },
+            {
+                "radius": 5,
+                "position": {
+                    "x": 0,
+                    "y": 18,
+                    "z": -53
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_INFO" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": 3,
+                    "y": 9,
+                    "z": 10
+                },
+                "revealOn": "observe",
+                "revealFor": "player",
+                "maxDistance": 20,
+                "reveals": [ "DS_CRYO" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": 0,
+                    "y": 2,
+                    "z": -93
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_COCKPIT" ]
+            },
+            {
+                "radius": 1,
+                "position": {
+                    "x": 3,
+                    "y": -2.5,
+                    "z": -108
+                },
+                "revealOn": "observe",
+                "revealFor": "player",
+                "maxDistance": 5,
+                "reveals": [ "DS_DAMAGE" ]
+            },
+            {
+                "radius": 2,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -117
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_HOPE" ]
             }
         ]
     }

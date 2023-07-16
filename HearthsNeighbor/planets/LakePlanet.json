@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Lake Core",
-    "starSystem": "GameWyrm.JamSystem",
+    "starSystem": "GameWyrm.HearthsNeighbor",
     "Base": {
         "surfaceSize": 200,
         "surfaceGravity": 15,
@@ -56,6 +56,23 @@
             }
         }
     ],
+    "ShipLog": {
+        "xmlFile": "planets/Log/LakeCore.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 100,
+                "y": -150
+            },
+            "manualNavigationPosition": {
+                "x": 0,
+                "y": 0
+            },
+            "revealedSprite": "planets/Log/sprites/LakeCore.png",
+            "outlineSprite": "planets/Log/sprites/LakeCoreOutline.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
+    },
     "Props": {
         "details": [
             {
@@ -116,6 +133,87 @@
                     "z": 0
                 },
                 "radius": 400
+            }
+        ],
+        "revealVolumes": [
+            {
+                "radius": 400,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LH_ELEVATOR", "LK_DESCRIPTION" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 82,
+                    "y": -24,
+                    "z": 181
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LK_RAFT" ]
+            },
+            {
+                "radius": 120,
+                "position": {
+                    "x": 0,
+                    "y": 206,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LK_SHRINE_RUMOR" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": 0,
+                    "y": 82,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_SHRINE_ENTRY" ]
+            },
+            {
+                "radius": 1,
+                "position": {
+                    "x": -9.5,
+                    "y": 248,
+                    "z": -3.7
+                },
+                "revealOn": "observe",
+                "revealFor": "player",
+                "maxDistance": 20,
+                "reveals": [ "LK_SHRINE_STATION", "LK_SHRINE_MURAL", "LK_SHRINE_POSTER", "DS_LAKE_RUMOR" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": -31,
+                    "y": -153,
+                    "z": -148
+                },
+                "revealOn": "observe",
+                "revealFor": "player",
+                "maxDistance": 100,
+                "reveals": [ "LK_MAZE_INFO" ]
+            },
+            {
+                "radius": 7,
+                "position": {
+                    "x": 66.7,
+                    "y": -109.4,
+                    "z": -185
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_MAZE_GAZEBO" ]
             }
         ]
     }

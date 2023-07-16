@@ -12,8 +12,8 @@
       <Page>We long believed we would never know the answer, but due to recent Outer Wilds Ventures ships being equipped with a warp drive, this mystery may actually be solved one day!</Page>
     </Dialogue>
     <RevealFacts>
-      <FactID>MUSEUM_PLATE_INTRO</FactID>
-      <FactID>MUSEUM_PLATE_DETAILS</FactID>
+      <FactID>HN_MUSEUM_PLATE_INTRO</FactID>
+      <FactID>HN_MUSEUM_PLATE_DETAILS</FactID>
     </RevealFacts>
   </DialogueNode>
 </DialogueTree>

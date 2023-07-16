@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
     "name": "Lonely Hermit",
-    "starSystem": "GameWyrm.JamSystem",
+    "starSystem": "GameWyrm.HearthsNeighbor",
     "Base": {
         "surfaceSize": 280,
         "groundSize": 0,
@@ -67,6 +67,22 @@
             "g": 70,
             "b": 42
         }
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Log/LonelyHermit.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 300,
+                "y": 0
+            },
+            "manualNavigationPosition": {
+                "x": 1,
+                "y": 1
+            },
+            "revealedSprite": "planets/Log/sprites/LonelyHermitIcon.png",
+            "outlineSprite": "planets/Log/sprites/LonelyHermitIconOutline.png"
+        },
+        "spriteFolder": "planets/Log/sprites/"
     },
     "Props": {
         "details": [
@@ -224,7 +240,107 @@
                     "z": -177.803543
                 }
             }
+        ],
+        "signals": [
+            {
+                "audio": "assets/signalAudio/SOS Cut.wav",
+                "detectionRadius": 12.5,
+                "frequency": "NEIGHBOR'S DISTRESS SIGNAL",
+                "name": "DEAD LAKE DISH",
+                "position": {
+                    "x": 112.2916,
+                    "y": -150.9964,
+                    "z": 243.1255
+                },
+                "reveals": "LH_LAKE_SATELLITE"
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 400,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "reveals": [ "LH_INFO", "LH_PLANT_RUMOR", "LH_WASTELAND_RUMOR", "LH_VOLCANO_RUMOR", "LH_LAKE_RUMOR" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 210,
+                    "y": -6,
+                    "z": -204
+                },
+                "revealOn": "enter",
+                "reveals": [ "LH_PLANT_NO_ENTRY", "LH_PLANT_INFO" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 60,
+                    "y": 305,
+                    "z": 38
+                },
+                "revealOn": "enter",
+                "reveals": [ "LH_WASTELAND_ELEVATOR" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": -236,
+                    "y": -136,
+                    "z": -190
+                },
+                "revealOn": "enter",
+                "reveals": [ "LH_VOLCANO_ELEVATOR" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": 145,
+                    "y": -131,
+                    "z": 230
+                },
+                "revealOn": "enter",
+                "reveals": [ "LH_LAKE_ELEVATOR" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 56,
+                    "y": 37,
+                    "z": 272
+                },
+                "revealOn": "observe",
+                "maxDistance": 200,
+                "reveals": [ "LH_LAKE_HANGAR" ]
+            },
+            {
+                "radius": 5,
+                "position": {
+                    "x": 123,
+                    "y": -144,
+                    "z": -239
+                },
+                "maxDistance": 100,
+                "revealOn": "observe",
+                "reveals": [ "LH_LAKE_DOOR" ]
+            },
+            {
+                "radius": 11,
+                "position": {
+                    "x": 112.2916,
+                    "y": -150.9964,
+                    "z": 243.1255
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LK_SHRINE_LEVER", "DS_DEADLAKE_RUMOR" ]
+            }
         ]
     }
-
 }

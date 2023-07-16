@@ -6,6 +6,9 @@
     <Compile Update="DisplayBounds.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FinalButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FireShrineButton.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -13,6 +16,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LakePlanetLever.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlayEnding.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PressurePlate.cs">
