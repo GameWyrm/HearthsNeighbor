@@ -1,0 +1,561 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Lava Core",
+    "starSystem": "GameWyrm.HearthsNeighbor",
+    "Base": {
+        "surfaceSize": 200,
+        "surfaceGravity": 15,
+        "groundSize": 0,
+        "hasMapMarker": false,
+        "showMinimap": false
+    },
+    "canShowOnTitle": false,
+    "Orbit": {
+        "staticPosition": {
+            "x": -10000,
+            "y": -15000,
+            "z": 0
+        },
+        "isStatic": true
+    },
+    "Atmosphere": {
+        "size": 380,
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "fluidType": "tractorBeam",
+            "texturePath": "assets/clouds/LavaClouds.png",
+            "hasLightning": true,
+            "innerCloudRadius": 350,
+            "outerCloudRadius": 380,
+            "tint": {
+                "r": 200,
+                "g": 100,
+                "b": 100,
+                "a": 255
+            }
+        },
+        "fogSize": 350,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 81,
+            "g": 31,
+            "b": 31,
+            "a": 255
+        }
+    },
+    "AmbientLights": [
+        {
+            "intensity": 0.8,
+            "tint": {
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "a": 255
+            }
+        }
+    ],
+    "ShipLog": {
+        "xmlFile": "planets/Log/LavaCore.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 300,
+                "y": -150
+            },
+            "manualNavigationPosition": {
+                "x": 1,
+                "y": 0
+            },
+            "revealedSprite": "planets/Log/sprites/LavaCore.png",
+            "outlineSprite": "planets/Log/sprites/LavaCoreOutline.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/LavaPlanet.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": true
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "position": {
+                    "x": -58.27175,
+                    "y": 222.1113,
+                    "z": 21.68469
+                },
+                "rotation": {
+                    "x": 8.635559,
+                    "y": 237.4735,
+                    "z": 347.3245
+                }
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {
+                    "x": -87.3654,
+                    "y": 202.0484,
+                    "z": 76.03284
+                },
+                "rotation": {
+                    "x": 21.05078,
+                    "y": 254.9769,
+                    "z": 340.9017
+                }
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {
+                    "x": -201.502,
+                    "y": 52.16579,
+                    "z": -102.4086
+                },
+                "rotation": {
+                    "x": 297.8509,
+                    "y": 118.3751,
+                    "z": 308.642
+                }
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {
+                    "x": -39.47213,
+                    "y": -7.182866,
+                    "z": 227.9894
+                },
+                "rotation": {
+                    "x": 13.2258,
+                    "y": 83.21252,
+                    "z": 91.53674
+                }
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {
+                    "x": 33.11079,
+                    "y": -223.6404,
+                    "z": -48.42218
+                },
+                "rotation": {
+                    "x": 9.353279,
+                    "y": 309.2858,
+                    "z": 177.902
+                }
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {
+                    "x": -70.07,
+                    "y": 220.19,
+                    "z": 13.25
+                },
+                "alignRadial": true
+            }
+        ],
+        "signals": [
+            {
+                "audio": "assets/signalAudio/Beeps 1.wav",
+                "position": {
+                    "x": -75.35616,
+                    "y": 210.8785,
+                    "z": 63.85544
+                },
+                "detectionRadius": 3.5,
+                "frequency": "Lava Core Signals",
+                "name": "ENTRANCE STATION",
+                "sourceRadius": 3,
+                "reveals": "LV_SIGNAL"
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 5.wav",
+                "position": {
+                    "x": -226.5484,
+                    "y": 24.40268,
+                    "z": 108.6256
+                },
+                "detectionRadius": 0,
+                "frequency": "Lava Core Signals",
+                "name": "LAVA SHRINE",
+                "sourceRadius": 3
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 2.wav",
+                "position": {
+                    "x": -115.2617,
+                    "y": 57.16056,
+                    "z": -193.3427
+                },
+                "detectionRadius": 0,
+                "frequency": "Lava Core Signals",
+                "name": "STRUCTURE BY CLIFF",
+                "sourceRadius": 3
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 3.wav",
+                "position": {
+                    "x": 133.123,
+                    "y": -158.6839,
+                    "z": -103.0891
+                },
+                "detectionRadius": 0,
+                "frequency": "Lava Core Signals",
+                "name": "STRUCTURE WITH PILLARS",
+                "sourceRadius": 3
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 4.wav",
+                "position": {
+                    "x": 79.28615,
+                    "y": -83.88371,
+                    "z": 200.4777
+                },
+                "detectionRadius": 0,
+                "frequency": "Lava Core Signals",
+                "name": "OLD ABANDONED TOWN",
+                "sourceRadius": 3
+            }
+        ]
+    },
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
+            }
+        ],
+        "mapRestrictionVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
+            }
+        ],
+        "revealVolumes": [
+            {
+                "radius": 400,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LH_ELEVATOR", "LV_DESCRIPTION" ]
+            },
+            {
+                "radius": 7,
+                "position": {
+                    "x": -75,
+                    "y": 216,
+                    "z": 34
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_BUTTONS" ]
+            },
+            {
+                "radius": 50,
+                "position": {
+                    "x": -116,
+                    "y": 58,
+                    "z": -195
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LV_FIRST_BUTTON_INFO" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": -116.23,
+                    "y": 57.92,
+                    "z": -194.66
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_SHRINE_BUTTON_ONE" ]
+            },
+            {
+                "radius": 50,
+                "position": {
+                    "x": 134,
+                    "y": -160,
+                    "z": -102
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LV_SECOND_BUTTON_INFO" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": 134.03,
+                    "y": -160.49,
+                    "z": -102.35
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_SHRINE_BUTTON_TWO" ]
+            },
+            {
+                "radius": 50,
+                "position": {
+                    "x": 80,
+                    "y": -85,
+                    "z": 201
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LV_THIRD_BUTTON_INFO" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": 79.51,
+                    "y": -84.8,
+                    "z": 201.01
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_SHRINE_BUTTON_THREE" ]
+            },
+            {
+                "radius": 50,
+                "position": {
+                    "x": -221,
+                    "y": 0,
+                    "z": 112
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LV_SHRINE_INFO" ]
+            },
+            {
+                "radius": 9,
+                "position": {
+                    "x": -203,
+                    "y": 6,
+                    "z": 112
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_SHRINE_ENTRY" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": -225,
+                    "y": -14,
+                    "z": 147
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LV_SHRINE_MURALS", "DS_LAVA_RUMOR" ]
+            }
+        ]
+    },
+
+    "Lava": {
+        "size": 1,
+        "curve": [
+            {
+                "time": 0,
+                "value": 230
+            },
+            {
+                "time": 0.5,
+                "value": 210
+            },
+            {
+                "time": 1,
+                "value": 229
+            },
+            {
+                "time": 1.5,
+                "value": 210
+            },
+            {
+                "time": 2,
+                "value": 228
+            },
+            {
+                "time": 2.5,
+                "value": 210
+            },
+            {
+                "time": 3,
+                "value": 227
+            },
+            {
+                "time": 3.5,
+                "value": 210
+            },
+            {
+                "time": 4,
+                "value": 226
+            },
+            {
+                "time": 4.5,
+                "value": 210
+            },
+            {
+                "time": 5,
+                "value": 225
+            },
+            {
+                "time": 5.5,
+                "value": 210
+            },
+            {
+                "time": 6,
+                "value": 224
+            },
+            {
+                "time": 6.5,
+                "value": 210
+            },
+            {
+                "time": 7,
+                "value": 223
+            },
+            {
+                "time": 7.5,
+                "value": 210
+            },
+            {
+                "time": 8,
+                "value": 222
+            },
+            {
+                "time": 8.5,
+                "value": 210
+            },
+            {
+                "time": 9,
+                "value": 221
+            },
+            {
+                "time": 9.5,
+                "value": 210
+            },
+            {
+                "time": 10,
+                "value": 220
+            },
+            {
+                "time": 10.5,
+                "value": 210
+            },
+            {
+                "time": 11,
+                "value": 219
+            },
+            {
+                "time": 11.5,
+                "value": 210
+            },
+            {
+                "time": 12,
+                "value": 218
+            },
+            {
+                "time": 12.5,
+                "value": 210
+            },
+            {
+                "time": 13,
+                "value": 217
+            },
+            {
+                "time": 13.5,
+                "value": 210
+            },
+            {
+                "time": 14,
+                "value": 216
+            },
+            {
+                "time": 14.5,
+                "value": 210
+            },
+            {
+                "time": 15,
+                "value": 215
+            },
+            {
+                "time": 15.5,
+                "value": 210
+            },
+            {
+                "time": 16,
+                "value": 214
+            },
+            {
+                "time": 16.5,
+                "value": 210
+            },
+            {
+                "time": 16,
+                "value": 213.5
+            },
+            {
+                "time": 16.5,
+                "value": 210
+            },
+            {
+                "time": 17,
+                "value": 213
+            },
+            {
+                "time": 17.5,
+                "value": 210
+            },
+            {
+                "time": 18,
+                "value": 212.5
+            },
+            {
+                "time": 18.5,
+                "value": 210
+            },
+            {
+                "time": 19,
+                "value": 212
+            },
+            {
+                "time": 19.5,
+                "value": 210
+            },
+            {
+                "time": 20,
+                "value": 211.5
+            },
+            {
+                "time": 20.5,
+                "value": 210
+            },
+            {
+                "time": 21,
+                "value": 211
+            },
+            {
+                "time": 21.5,
+                "value": 210
+            }
+        ]
+    }
+}

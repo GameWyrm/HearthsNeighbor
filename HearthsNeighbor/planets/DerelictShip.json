@@ -1,0 +1,743 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Derelict Ship",
+    "starSystem": "GameWyrm.HearthsNeighbor",
+    "Base": {
+        "surfaceSize": 200,
+        "groundSize": 0,
+        "surfaceGravity": 0,
+        "hasMapMarker": false,
+        "showMinimap": false
+    },
+    "canShowOnTitle": false,
+    "Orbit": {
+        "primaryBody": "Neighbor Sun",
+        "semiMajorAxis": 30000,
+        "trueAnomaly": 180,
+        "inclination": 60,
+        "showOrbitLine": false
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Log/DerelictShip.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 600,
+                "y": 1
+            },
+            "manualNavigationPosition": {
+                "x": 3,
+                "y": 1
+            },
+            "scale": 3,
+            "revealedSprite": "planets/Log/sprites/ShipLogShip.png",
+            "outlineSprite": "planets/Log/sprites/ShipLogShip.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/DerelictShipExterior.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": true
+            },
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/DerelictShipInterior.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": false
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -7.221815,
+                    "y": 20,
+                    "z": -55.50319
+                },
+                "rotation": {
+                    "x": 4.6738E-06,
+                    "y": 149.5691,
+                    "z": -3.459488E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -17.43997,
+                    "y": 15.65043,
+                    "z": -40.41349
+                },
+                "rotation": {
+                    "x": 1.844361,
+                    "y": 85.84512,
+                    "z": 23.89557
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -15.29559,
+                    "y": 16,
+                    "z": -31.93547
+                },
+                "rotation": {
+                    "x": 5.664998E-06,
+                    "y": 137.9808,
+                    "z": -4.571993E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -15.42644,
+                    "y": 16,
+                    "z": -24.1299
+                },
+                "rotation": {
+                    "x": 5.610304E-06,
+                    "y": 139.6898,
+                    "z": -4.418626E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 16.47442,
+                    "y": 16,
+                    "z": -22.14301
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 275.6435,
+                    "z": 6.797084E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 13.84318,
+                    "y": 16,
+                    "z": -26.37082
+                },
+                "rotation": {
+                    "x": -3.672218E-06,
+                    "y": 300.5905,
+                    "z": 5.879608E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 14.27995,
+                    "y": 16,
+                    "z": -32.14598
+                },
+                "rotation": {
+                    "x": -3.672217E-06,
+                    "y": 300.5905,
+                    "z": 5.879609E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.84054,
+                    "y": 15.04872,
+                    "z": -39.05963
+                },
+                "rotation": {
+                    "x": 7.783951,
+                    "y": 287.9128,
+                    "z": 337.2661
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -6.009575,
+                    "y": 8.000007,
+                    "z": 43.23625
+                },
+                "rotation": {
+                    "x": 6.106957E-06,
+                    "y": 147.601,
+                    "z": -3.659702E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 0.504524,
+                    "y": 5.00679E-06,
+                    "z": -8.830156
+                },
+                "rotation": {
+                    "x": 6.986258E-06,
+                    "y": 185.144,
+                    "z": 6.123838E-07
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 0.02771664,
+                    "y": 4.529953E-06,
+                    "z": -14.64624
+                },
+                "rotation": {
+                    "x": 8.213973E-06,
+                    "y": 186.0581,
+                    "z": 7.208387E-07
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.11374,
+                    "y": 1.216339,
+                    "z": -23.86398
+                },
+                "rotation": {
+                    "x": 16.77732,
+                    "y": 320.3956,
+                    "z": 346.5676
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.21872,
+                    "y": 6.026166,
+                    "z": -36.15577
+                },
+                "rotation": {
+                    "x": 21.36336,
+                    "y": 358.4349,
+                    "z": 359.4297
+                }
+            },
+
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -7.221815,
+                    "y": 20,
+                    "z": -55.50319
+                },
+                "rotation": {
+                    "x": 4.6738E-06,
+                    "y": 149.5691,
+                    "z": -3.459488E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -17.43997,
+                    "y": 15.65043,
+                    "z": -40.41349
+                },
+                "rotation": {
+                    "x": 1.844361,
+                    "y": 85.84512,
+                    "z": 23.89557
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -15.29559,
+                    "y": 16,
+                    "z": -31.93547
+                },
+                "rotation": {
+                    "x": 5.664998E-06,
+                    "y": 137.9808,
+                    "z": -4.571993E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -15.42644,
+                    "y": 16,
+                    "z": -24.1299
+                },
+                "rotation": {
+                    "x": 5.610304E-06,
+                    "y": 139.6898,
+                    "z": -4.418626E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 16.47442,
+                    "y": 16,
+                    "z": -22.14301
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 275.6435,
+                    "z": 6.797084E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 13.84318,
+                    "y": 16,
+                    "z": -26.37082
+                },
+                "rotation": {
+                    "x": -3.672218E-06,
+                    "y": 300.5905,
+                    "z": 5.879608E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 14.27995,
+                    "y": 16,
+                    "z": -32.14598
+                },
+                "rotation": {
+                    "x": -3.672217E-06,
+                    "y": 300.5905,
+                    "z": 5.879609E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.84054,
+                    "y": 15.04872,
+                    "z": -39.05963
+                },
+                "rotation": {
+                    "x": 7.783951,
+                    "y": 287.9128,
+                    "z": 337.2661
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": -6.009575,
+                    "y": 8.000007,
+                    "z": 43.23625
+                },
+                "rotation": {
+                    "x": 6.106957E-06,
+                    "y": 147.601,
+                    "z": -3.659702E-06
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 0.504524,
+                    "y": 5.00679E-06,
+                    "z": -8.830156
+                },
+                "rotation": {
+                    "x": 6.986258E-06,
+                    "y": 185.144,
+                    "z": 6.123838E-07
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 0.02771664,
+                    "y": 4.529953E-06,
+                    "z": -14.64624
+                },
+                "rotation": {
+                    "x": 8.213973E-06,
+                    "y": 186.0581,
+                    "z": 7.208387E-07
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.11374,
+                    "y": 1.216339,
+                    "z": -23.86398
+                },
+                "rotation": {
+                    "x": 16.77732,
+                    "y": 320.3956,
+                    "z": 346.5676
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+                "position": {
+                    "x": 17.21872,
+                    "y": 6.026166,
+                    "z": -36.15577
+                },
+                "rotation": {
+                    "x": 21.36336,
+                    "y": 358.4349,
+                    "z": 359.4297
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (48)",
+                "position": {
+                    "x": -7.221815,
+                    "y": 20,
+                    "z": -55.50319
+                },
+                "rotation": {
+                    "x": 4.6738E-06,
+                    "y": 149.5691,
+                    "z": -3.459488E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (49)",
+                "position": {
+                    "x": -17.43997,
+                    "y": 15.65043,
+                    "z": -40.41349
+                },
+                "rotation": {
+                    "x": 1.844361,
+                    "y": 85.84512,
+                    "z": 23.89557
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (47)",
+                "position": {
+                    "x": -15.29559,
+                    "y": 16,
+                    "z": -31.93547
+                },
+                "rotation": {
+                    "x": 5.664998E-06,
+                    "y": 137.9808,
+                    "z": -4.571993E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (46)",
+                "position": {
+                    "x": -15.42644,
+                    "y": 16,
+                    "z": -24.1299
+                },
+                "rotation": {
+                    "x": 5.610304E-06,
+                    "y": 139.6898,
+                    "z": -4.418626E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (45)",
+                "position": {
+                    "x": 16.47442,
+                    "y": 16,
+                    "z": -22.14301
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 275.6435,
+                    "z": 6.797084E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (44)",
+                "position": {
+                    "x": 13.84318,
+                    "y": 16,
+                    "z": -26.37082
+                },
+                "rotation": {
+                    "x": -3.672218E-06,
+                    "y": 300.5905,
+                    "z": 5.879608E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (43)",
+                "position": {
+                    "x": 14.27995,
+                    "y": 16,
+                    "z": -32.14598
+                },
+                "rotation": {
+                    "x": -3.672217E-06,
+                    "y": 300.5905,
+                    "z": 5.879609E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (42)",
+                "position": {
+                    "x": 17.84054,
+                    "y": 15.04872,
+                    "z": -39.05963
+                },
+                "rotation": {
+                    "x": 7.783951,
+                    "y": 287.9128,
+                    "z": 337.2661
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (41)",
+                "position": {
+                    "x": -6.009575,
+                    "y": 8.000007,
+                    "z": 43.23625
+                },
+                "rotation": {
+                    "x": 6.106957E-06,
+                    "y": 147.601,
+                    "z": -3.659702E-06
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (10)",
+                "position": {
+                    "x": 0.504524,
+                    "y": 5.00679E-06,
+                    "z": -8.830156
+                },
+                "rotation": {
+                    "x": 6.986258E-06,
+                    "y": 185.144,
+                    "z": 6.123838E-07
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (11)",
+                "position": {
+                    "x": 0.02771664,
+                    "y": 4.529953E-06,
+                    "z": -14.64624
+                },
+                "rotation": {
+                    "x": 8.213973E-06,
+                    "y": 186.0581,
+                    "z": 7.208387E-07
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (12)",
+                "position": {
+                    "x": 17.11374,
+                    "y": 1.216339,
+                    "z": -23.86398
+                },
+                "rotation": {
+                    "x": 16.77732,
+                    "y": 320.3956,
+                    "z": 346.5676
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (13)",
+                "position": {
+                    "x": 17.21872,
+                    "y": 6.026166,
+                    "z": -36.15577
+                },
+                "rotation": {
+                    "x": 21.36336,
+                    "y": 358.4349,
+                    "z": 359.4297
+                }
+            }
+        ],
+        "signals": [
+            {
+                "audio": "assets/signalAudio/SOS Cut.wav",
+                "detectionRadius": 50,
+                "frequency": "NEIGHBOR'S DISTRESS SIGNAL",
+                "name": "DERELICT SHIP",
+                "parentPath": "Sector/DerelictShipExterior/DerelictShipSatellite",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "audio": "assets/signalAudio/Beeps 1.wav",
+                "detectionRadius": 50,
+                "frequency": "GALACTIC COMMUNICATION",
+                "name": "DERELICT SHIP COCKPIT",
+                "parentPath": "Sector/DerelictShipInterior/Cockpit/Desks/DeskGoal/FinalButton/Satellite",
+                "isRelativeToParent": true,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rename": "FinalSignal",
+                "reveals": "HN_POD_RUMOR"
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {
+                    "x": 2.008896,
+                    "y": 9,
+                    "z": -72.64779
+                },
+                "radius": 1.5,
+                "xmlFile": "dialogue/Shoe.xml"
+            },
+            {
+                "position": {
+                    "x": 3.090457,
+                    "y": 9,
+                    "z": -68.85008
+                },
+                "radius": 1.5,
+                "xmlFile": "dialogue/Lumine.xml"
+            },
+            {
+                "position": {
+                    "x": 6.083928,
+                    "y": 9,
+                    "z": -67.60979
+                },
+                "radius": 1.5,
+                "xmlFile": "dialogue/GameWyrm.xml"
+            },
+            {
+                "position": {
+                    "x": 9.580267,
+                    "y": 9,
+                    "z": -68.94692
+                },
+                "radius": 1.5,
+                "xmlFile": "dialogue/Endgame.xml"
+            },
+            {
+                "position": {
+                    "x": 10.78622,
+                    "y": 9,
+                    "z": -72.89917
+                },
+                "radius": 1.5,
+                "xmlFile": "dialogue/MiscCredits.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "DERELICT_SHIP_ROOT",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "cloaked": false
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 300,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_ENTRY" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": -7.41,
+                    "y": 25.87,
+                    "z": -38.78
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "DS_BARRIER" ]
+            },
+            {
+                "radius": 5,
+                "position": {
+                    "x": 0,
+                    "y": 18,
+                    "z": -53
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_INFO" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": 3,
+                    "y": 9,
+                    "z": 10
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "maxDistance": 20,
+                "reveals": [ "DS_CRYO" ]
+            },
+            {
+                "radius": 3,
+                "position": {
+                    "x": 0,
+                    "y": 2,
+                    "z": -93
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_COCKPIT" ]
+            },
+            {
+                "radius": 5,
+                "position": {
+                    "x": 3,
+                    "y": -2.5,
+                    "z": -108
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "maxDistance": 5,
+                "reveals": [ "DS_DAMAGE" ]
+            },
+            {
+                "radius": 2,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -117
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "DS_HOPE" ]
+            }
+        ]
+    }
+}

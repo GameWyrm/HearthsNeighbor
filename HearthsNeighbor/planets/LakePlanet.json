@@ -1,0 +1,218 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Lake Core",
+    "starSystem": "GameWyrm.HearthsNeighbor",
+    "Base": {
+        "surfaceSize": 200,
+        "surfaceGravity": 15,
+        "groundSize": 0,
+        "hasMapMarker": false,
+        "showMinimap": true
+    },
+    "canShowOnTitle": false,
+    "Orbit": {
+        "staticPosition": {
+            "x": 10000,
+            "y": -15000,
+            "z": 0
+        },
+        "isStatic": true
+    },
+    "Atmosphere": {
+        "size": 400,
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "fluidType": "tractorBeam",
+            "texturePath": "assets/clouds/LakeClouds.png",
+            "hasLightning": true,
+            "innerCloudRadius": 350,
+            "outerCloudRadius": 380,
+            "tint": {
+                "r": 70,
+                "g": 70,
+                "b": 255,
+                "a": 255
+            }
+        },
+        "fogSize": 350,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 70,
+            "g": 70,
+            "b": 255,
+            "a": 255
+        },
+        "hasRain": true,
+        "hasOxygen": true
+    },
+    "AmbientLights": [
+        {
+            "intensity": 0.8,
+            "tint": {
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "a": 255
+            }
+        }
+    ],
+    "ShipLog": {
+        "xmlFile": "planets/Log/LakeCore.xml",
+        "mapMode": {
+            "manualPosition": {
+                "x": 300,
+                "y": 0
+            },
+            "manualNavigationPosition": {
+                "x": 1,
+                "y": 1
+            },
+            "revealedSprite": "planets/Log/sprites/LakeCore.png",
+            "outlineSprite": "planets/Log/sprites/LakeCoreOutline.png",
+            "invisibleWhenHidden": true
+        },
+        "spriteFolder": "planets/Log/sprites/"
+    },
+    "Props": {
+        "details": [
+            {
+                "assetBundle": "assets/jamassets",
+                "path": "Assets/_SummerGameJam/Prefabs/LakePlanet.prefab",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": false,
+                "keepLoaded": true
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "position": {
+                    "x": 98.75795,
+                    "y": -111.0339,
+                    "z": 157.0358
+                },
+                "rotation": {
+                    "x": 304.6544,
+                    "y": 70.44778,
+                    "z": 141.5719
+                }
+            }
+        ],
+        "rafts": [
+            {
+                "position": {
+                    "x": 87.07298,
+                    "y": -18.32938,
+                    "z": 179.5837
+                },
+                "alignRadial": true
+            }
+        ]
+    },
+    "Water": {
+        "size": 200
+    },
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
+            }
+        ],
+        "mapRestrictionVolumes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "radius": 400
+            }
+        ],
+        "revealVolumes": [
+            {
+                "radius": 400,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LH_ELEVATOR", "LK_DESCRIPTION" ]
+            },
+            {
+                "radius": 20,
+                "position": {
+                    "x": 82,
+                    "y": -24,
+                    "z": 181
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LK_RAFT" ]
+            },
+            {
+                "radius": 120,
+                "position": {
+                    "x": 0,
+                    "y": 206,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "both",
+                "reveals": [ "LK_SHRINE_RUMOR" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": 0,
+                    "y": 82,
+                    "z": 0
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_SHRINE_ENTRY" ]
+            },
+            {
+                "radius": 10,
+                "position": {
+                    "x": -9.5,
+                    "y": 248,
+                    "z": -3.7
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_SHRINE_STATION", "LK_SHRINE_MURAL", "LK_SHRINE_POSTER", "DS_LAKE_RUMOR" ]
+            },
+            {
+                "radius": 50,
+                "position": {
+                    "x": -31,
+                    "y": -153,
+                    "z": -148
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_MAZE_INFO" ]
+            },
+            {
+                "radius": 7,
+                "position": {
+                    "x": 66.7,
+                    "y": -109.4,
+                    "z": -185
+                },
+                "revealOn": "enter",
+                "revealFor": "player",
+                "reveals": [ "LK_MAZE_GAZEBO" ]
+            }
+        ]
+    }
+}

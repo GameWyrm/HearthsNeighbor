@@ -1,0 +1,16 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>GameWyrm</NameField>
+  
+  <DialogueNode>
+    <Name>Start</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.</Page>
+      <Page>I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.</Page>
+      <Page>We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.</Page>
+      <Page>My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks. This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+</DialogueTree>

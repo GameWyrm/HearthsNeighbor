@@ -1,0 +1,16 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Special Thanks</NameField>
+
+  <DialogueNode>
+    <Name>Start</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.</Page>
+      <Page>A few sounds were taken from FreeSounds, by smokinghotdog.</Page>
+      <Page>Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.</Page>
+      <Page>Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+</DialogueTree>

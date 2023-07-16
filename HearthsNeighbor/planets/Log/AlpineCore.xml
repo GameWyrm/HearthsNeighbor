@@ -1,0 +1,51 @@
+﻿<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+
+  <ID>Alpine Core</ID>
+  <Entry>
+    <ID>AC_ROOT</ID>
+    <Name>Alpine Core</Name>
+
+    <RumorFact>
+      <ID>AC_DESCRIPTION</ID>
+      <SourceID>LH_NORTHERN_WASTELAND_FACT</SourceID>
+      <Text>Below the Northern Wasteland, I found a strange land of frozen floating islands. It will take a lot of jetpacking skill to traverse them, such as remembering that I can gain extra height by boosting while I have upwards momentum from a jump.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>AC_RED_HOUSE</ID>
+      <Text>On the largest island, I found a building, likely the former dwelling place of this planet's inhabitants.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>AC_RED_MURAL</ID>
+      <Text>In the house, there is a mural depicting a red inhabitant somehow creating three pocket dimensions inside Lonely Hermit.</Text>
+    </ExploreFact>
+    
+    <Entry>
+      <ID>AC_CODE_FACT</ID>
+      <Name>Odd Code</Name>
+
+      <ExploreFact>
+        <ID>AC_CODE</ID>
+        <Text>Some kind of code has been written on a table.</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+
+  <Entry>
+    <ID>AC_SECRET</ID>
+    <Name>Blue House</Name>
+
+    <RumorFact>
+      <ID>AC_SECRET_INFO</ID>
+      <Text>There is a house on a very remote island in the Alpine Core.</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>AC_SECRET_MAP</ID>
+      <Text>The house contains a starmap showing nearby systems, including our own. The inhabitants seemed interested in a strange anomaly near our system, but there seems to have been disagreement about the route, or whether they should go at all.</Text>
+    </ExploreFact>
+  </Entry>
+  
+</AstroObjectEntry>

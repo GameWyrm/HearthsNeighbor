@@ -1,0 +1,37 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\GameWyrm.HearthsNeighbor</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="DisplayBounds.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FinalButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FireShrineButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FireShrineGate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LakePlanetLever.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlayEnding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PressurePlate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PressurePlateDoor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShipBarrierButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShipBarrierPanel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

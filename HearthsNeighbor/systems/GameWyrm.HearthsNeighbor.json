@@ -1,0 +1,137 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "respawnHere": true,
+    "startHere": false,
+    "factRequiredForWarp": "HN_MUSEUM_PLATE_DETAILS",
+    "entryPositions": [
+        {
+            "id": "LONELY_HERMIT_ROOT",
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "LH_NORTHERN_WASTELAND_FACT",
+            "position": {
+                "x": 500,
+                "y": 500
+            }
+        },
+        {
+            "id": "LH_DEAD_LAKE_FACT",
+            "position": {
+                "x": 500,
+                "y": 0
+            }
+        },
+        {
+            "id": "LH_LAKE_DOOR_FACT",
+            "position": {
+                "x": 550,
+                "y": -100
+            }
+        },
+        {
+            "id": "LH_EXTINCT_VOLCANO_FACT",
+            "position": {
+                "x": 500,
+                "y": -500
+            }
+        },
+        {
+            "id": "LH_POWER_PLANT_FACT",
+            "position": {
+                "x": -100,
+                "y": -300
+            }
+        },
+        {
+            "id": "AC_ROOT",
+            "position": {
+                "x": 850,
+                "y": 500
+            }
+        },
+        {
+            "id": "AC_CODE_FACT",
+            "position": {
+                "x": 900,
+                "y": 400
+            }
+        },
+        {
+            "id": "AC_SECRET",
+            "position": {
+                "x": 750,
+                "y": 700
+            }
+        },
+        {
+            "id": "LAKE_CORE_ROOT",
+            "position": {
+                "x": 850,
+                "y": 0
+            }
+        },
+        {
+            "id": "LK_MAZE_FACT",
+            "position": {
+                "x": 800,
+                "y": -100
+            }
+        },
+        {
+            "id": "LK_SHRINE_FACT",
+            "position": {
+                "x": 900,
+                "y": -100
+            }
+        },
+        {
+            "id": "LAVA_CORE_ROOT",
+            "position": {
+                "x": 850,
+                "y": -500
+            }
+        },
+        {
+            "id": "LV_FIRST_BUTTON_FACT",
+            "position": {
+                "x": 760,
+                "y": -600
+            }
+        },
+        {
+            "id": "LV_SECOND_BUTTON_FACT",
+            "position": {
+                "x": 830,
+                "y": -600
+            }
+        },
+        {
+            "id": "LV_THIRD_BUTTON_FACT",
+            "position": {
+                "x": 900,
+                "y": -600
+            }
+        },
+        {
+            "id": "LV_SHRINE_FACT",
+            "position": {
+                "x": 900,
+                "y": -800
+            }
+        },
+        {
+            "id": "DERELICT_SHIP_ROOT",
+            "position": {
+                "x": 1200,
+                "y": 0
+            }
+        }
+    ],
+    "initialReveal": [
+        "LH_ARRIVAL"
+    ]
+}
