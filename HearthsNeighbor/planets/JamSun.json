@@ -49,7 +49,8 @@
                 "x": 5805,
                 "y": 6825,
                 "z": 13164
-            }
+            },
+            "offset": {"x": 0, "y": 0, "z": 0}
         },
         "shipSpawn": {
             "alignRadial": true,
