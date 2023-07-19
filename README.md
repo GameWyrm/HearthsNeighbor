@@ -9,7 +9,7 @@ Made for the 2023 Outer Wilds Summer Jam
 Credits:
 * FunkyShoeMan: Some models, including a dock model that was made before the jam
 * Lumine0409: Ship Log Map Mode icons and main logo
-* EndgameZero: Music
+* EndgameZero: Music. You can listen to the soundtrack [here!](https://youtu.be/WfaBq_FN-ko)
 * GameWyrm: Literally everything else
 
 A few sounds were taken from FreeSound.
