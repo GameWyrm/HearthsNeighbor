@@ -11,8 +11,8 @@ on:
           type: boolean
 
 env:
-    PROJ_USERNAME: GameWyrmTeam
-    PROJ_NAME: OuterWildsSummerJam
+    PROJ_USERNAME: GameWyrm
+    PROJ_NAME: HearthsNeighbor
 
 jobs:
     pre_job:
