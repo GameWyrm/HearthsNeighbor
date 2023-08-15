@@ -23,7 +23,7 @@
         "clouds": {
             "cloudsPrefab": "giantsDeep",
             "fluidType": "tractorBeam",
-            "texturePath": "assets/clouds/LakeClouds.png",
+            "texturePath": "assets/clouds/BlackClouds.png",
             "hasLightning": true,
             "innerCloudRadius": 350,
             "outerCloudRadius": 380,

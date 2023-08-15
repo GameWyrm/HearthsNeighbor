@@ -7,7 +7,7 @@ namespace HearthsNeighbor
     public class PressurePlate : MonoBehaviour
     {
         public PressurePlateDoor target;
-        public Renderer glowRenderer;
+        public GameObject glowButton;
         public float offsetMultiplier = 1;
 
         private float scoutDistance = 5;
@@ -17,6 +17,7 @@ namespace HearthsNeighbor
         private GameObject player;
         private SurveyorProbe scout;
         private Collider collider;
+        private AudioSource aud;
 
         private void Start ()
         {
@@ -25,7 +26,8 @@ namespace HearthsNeighbor
             collider = GetComponent<Collider>();
             player = Locator.GetPlayerBody().gameObject;
             scout = Locator.GetProbe();
-            glowRenderer.enabled = false;
+            aud = GetComponent<AudioSource>();
+            glowButton.SetActive(false);
         }
 
         private void Update ()
@@ -91,13 +93,14 @@ namespace HearthsNeighbor
             if (scoutCollided || playerCollided)
             {
                 renderer.enabled = false;
-                glowRenderer.enabled = true;
+                glowButton.SetActive(true);
                 target.PowerSource(this);
+                aud.Play();
             }
             else
             {
                 renderer.enabled = true;
-                glowRenderer.enabled = false;
+                glowButton.SetActive(false);
                 target.UnpowerSource(this);
             }
         }
