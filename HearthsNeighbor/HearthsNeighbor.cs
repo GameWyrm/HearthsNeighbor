@@ -183,6 +183,10 @@ namespace HearthsNeighbor
             {
                 obj.gameObject.SetActive(false);
             }
+
+            GameObject.Find("Alpine Core_Proxy").SetActive(false);
+            GameObject.Find("Lake Core_Proxy").SetActive(false);
+            GameObject.Find("Lava Core_Proxy").SetActive(false);
         }
     }
 }
