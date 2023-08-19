@@ -18,6 +18,9 @@
     <Compile Update="LakePlanetLever.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="LavaHeatShader.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PlayEnding.cs">
       <SubType>Code</SubType>
     </Compile>
