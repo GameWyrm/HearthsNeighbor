@@ -1,0 +1,179 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+		//Observatory
+		"Plaque": "Табличка",
+		"This is a strange, ancient metal plate found in the river in a grove near the village.": "Это странная, древняя металлическая пластина, найденная в реке в роще недалеко от деревни.",
+		"Its origins are unknown; it is clearly not Nomai or Hearthian. Was there yet another civilization on Timber Hearth at one point? Unfortunately, this is the only trace of said civilization that has ever been found.": "Ее происхождение неизвестно; это явно не Номаи или Камелян. Была ли когда-то на Камельке еще одна цивилизация? К сожалению, это единственный след этой цивилизации, который когда-либо был найден.",
+		"The carving on the plate depicts our solar system and what seems to be our nearest system, Hearth's Neighbor. Could it have come from all the way over there?": "Резьба на пластине изображает нашу солнечную систему и то, что кажется нам ближайшей системой, «Hearth's Neighbor». Могла ли она прийти издалека?",
+		"We long believed we would never know the answer, but due to recent Outer Wilds Ventures ships being equipped with a warp drive, this mystery may actually be solved one day!": "Мы долгое время считали, что никогда не узнаем ответ, но из-за того, что недавно корабли «Покорителей Дикого Космоса» были оснащены варп-двигателями, эта загадка может быть однажды разгадана!"
+
+	},
+	"ShipLogDictionary": {
+
+		//Alpine Core
+		"Alpine Core": "Альпийское Ядро",
+		"Below the Northern Wasteland, I found a strange land of frozen floating islands. It will take a lot of jetpacking skill to traverse them, such as remembering that I can gain extra height by boosting while I have upwards momentum from a jump.": "Под Северной Пустошью я нашел странную землю с замерзшими парящими островами. Чтобы пересечь их, потребуется много навыков реактивного ранца, например, помнить, что я могу набрать дополнительную высоту, ускоряясь, пока у меня есть импульс вверх от прыжка.",
+		"On the largest island, I found a building, likely the former dwelling place of this planet's inhabitants.": "На самом большом острове я нашел здание, вероятно, бывшее жилище обитателей этой планеты.",
+		"In the house, there is a mural depicting a red inhabitant somehow creating three pocket dimensions inside Lonely Hermit.": "В доме есть фреска, изображающая красного жителя, каким-то образом создающего три карманных измерения внутри Одинокого Отшельника.",
+
+		//Odd Code
+		"Odd Code": "Странный код",
+		"Some kind of code has been written on a table.": "Какой-то код был написан на столе.",
+
+		//Blue House
+		"Blue House": "Синий Дом",
+		"There is a house on a very remote island in the Alpine Core.": "На очень отдаленном острове в Альпийском Ядре есть дом.",
+		"The house contains a starmap showing nearby systems, including our own. The inhabitants seemed interested in a strange anomaly near our system, but there seems to have been disagreement about the route, or whether they should go at all.": "В доме есть звездная карта, показывающая близлежащие системы, включая нашу собственную. Жители, похоже, заинтересовались странной аномалией рядом с нашей системой, но, похоже, возникли разногласия по поводу маршрута и того, стоит ли им вообще отправляться.",
+
+		//Derelict Ship
+		"Derelict Ship": "Заброшенный корабль",
+		"On the Alpine Core, I found a code of some kind.": "На Альпийском Ядре я нашел какой-то код.",
+		"Blue Inhabitant's Ship": "Корабль синих жителей",
+		"At the Lake Shrine, I found evidence that the blue inhabitants built a large space ship.": "В Озерном Храме я нашел доказательства того, что синие жители построили большой космический корабль.",
+		"At the satellite dish behind the big door at the Dead Lake, I detected a signal coming from space. It seems to be some kind of distress signal.": "У спутниковой тарелки за большой дверью на Мертвом Озере я обнаружил сигнал, исходящий из космоса. Похоже, это какой-то сигнал бедствия.",
+		"At the Lava Shrine, I found a mural depicting a large ship that the inhabitants built.": "В Лавовом Храме я нашел фреску с изображением большого корабля, который построили жители.",
+		"A lifeless ship hovers at the edge of the solar system.": "Безжизненный корабль парит на краю Солнечной системы.",
+		"The entrance to the ship is blocked by a barrier. A panel is nearby that accepts a five-digit code.": "Вход на корабль перекрыт барьером. Рядом находится панель, принимающая пятизначный код.",
+		"The ship is filled with Ghost Matter. There is still minimal power, but the engines do not seem to function.": "Корабль заполнен Призрачной Материей. Минимальная мощность все еще есть, но двигатели, похоже, не работают.",
+		"There is a room filled with cryogenic sleeping pods. However, every inhabitant within them has died long ago.": "Есть комната, заполненная криогенными спальными модулями. Однако каждый обитатель их давно умер.",
+		"I found a way into the cockpit.": "Я нашел способ попасть в кабину.",
+		"On the screens in the cockpit, I saw some kind of damage report. The red inhabitants invaded the ship and tried to take over, but the blue inhabitants who were awake fought back. The leader of the reds tried to fight the leader of the blues, but was defeated. In a final act of defiance, the red leader activated a ghost matter bomb that killed everyone on-board and immobolized the ship.": "На экранах в кабине я увидел какой-то отчет о повреждениях. Красные жители вторглись на корабль и попытались захватить его, но проснувшиеся синие жители сопротивлялись. Лидер красных пытался сразиться с лидером синих, но потерпел поражение. В последнем акте неповиновения красный лидер активировал бомбу из призрачной материи, которая убила всех на борту и парализовала корабль.",
+		"One screen displayed that one of the escape pods had managed to successfully launch. It landed on Timber Hearth. The ship then began opening communications with the pod, revealing a signal frequency.": "На одном экране было показано, что одной из спасательных капсул удалось успешно запуститься. Она приземлилась на Камельке. Затем корабль начал устанавливать связь с капсулой, обнаруживая частоту сигнала.",
+
+		//Lake Core
+		"Lake Core": "Ядро Озера",
+		"Below the Dead Lake, there is a strange sea dotted with a few islands. Next to the elevator that took me down is a levitating radio dish pointing north.": "Под Мертвым Озером находится странное море, усеянное несколькими островами. Рядом с лифтом, спустившим меня вниз, находится левитирующая радиотарелка, направленная на север.",
+		"There is a raft on the starting island. Its controls appear to react to light.": "На стартовом острове находится плот. Кажется, что его элементы управления реагируют на свет.",
+
+		//Shrine Island
+		"Shrine Island": "Остров святилища",
+		"North of the starting island, there is a shrine of some kind on elevated ground. The stairs to the shrine have long crumbled.": "К северу от стартового острова на возвышенности есть какое-то святилище. Лестница к святыне давно обрушилась.",
+		"The shrine has a secret entrance via a tunnel in the water.": "В святилище есть секретный вход через туннель в воде.",
+		"There seems to be some kind of makeshift communications station in the shrine. There is a lever and a levitating radio dish pointing towards the entrance.": "Кажется, в святилище есть какая-то самодельная станция связи. Есть рычаг и левитирующая радиотарелка, указывающая на вход.",
+		"The lever opened a door in the hangar at the Dead Lake.": "Рычаг открыл дверь в ангаре у Мертвого озера.",
+		"There is a mural in the shrine recounting a war between two factions, conveyed with red against blue inhabitants. This war lead to most of the planet becoming uninhabitable. Seeing this, the leaders of the two factions agreed to a truce and began to rebuild.": "В святилище есть фреска, рассказывающая о войне между двумя фракциями, изображенная красными против синих жителей. Эта война привела к тому, что большая часть планеты стала непригодной для жизни. Видя это, лидеры двух фракций согласились на перемирие и начали восстановление.",
+		"A poster above the communications area displays blue inhabitants flying ships into space and slowly building a much larger ship.": "На плакате над зоной связи изображены синие жители, летящие в космос на кораблях и медленно строящие корабль гораздо большего размера.",
+
+		//Maze Island
+		"Maze Island": "Лабиринтный Остров",
+		"South of the starting island, there is a large landmass. It contains a tunnel.": "К югу от стартового острова есть большой участок суши. Он содержит туннель.",
+		"After going through the tunnel, I emerged at the surface. There is a gazebo with a mural on it. The mural seems to point out a tunnel below the water under a shrine.": "Пройдя через туннель, я вышел на поверхность. На ней есть беседка с фреской. Фреска, кажется, указывает на туннель под водой под храмом.",
+
+		//Lava Core
+		"Lava Core": "Ядро Лавы",
+		"Below the Extinct Volcano, there is a cracked sphere with lava rising and falling.": "Под Потухшим Вулканом находится треснувшая сфера, из которой поднимается и опускается лава.",
+		"This core contains structures locked by various buttons. They are very easy to press, not requiring very much pressure to activate, but must all be activated simultaneously.": "В этом ядре находятся структуры, заблокированные различными кнопками. Их очень легко нажимать, для активации не требуется сильного нажатия, но все они должны активироваться одновременно.",
+		"A dish at the entrance to the core is sending and receiving communications from various structures on the core.": "Тарелка на входе в ядро ​​отправляет и принимает сообщения от различных структур ядра.",
+
+		//Structure On A Cliff
+		"Structure On A Cliff": "Строение На Скале",
+		"I found a locked structure with a button right outside of it. I don't see a second one, could it have fallen into the lava?": "Я нашел запертое строение с кнопкой прямо снаружи. Второй я не вижу, может она упала в лаву?",
+
+		//Structure By Pillars
+		"Structure By Pillars": "Строение У Столбов",
+		"I found a locked structure with two pillars nearby sticking out of the lava.": "Я нашел запертую структуру с двумя столбами рядом, торчащими из лавы.",
+
+		//Old Abandoned Town
+		"Old Abandoned Town": "Старый Заброшенный Город",
+		"I found a series of locked structures.": "Я нашел ряд запертых структур.",
+
+		//Lava Shrine
+		"Lava Shrine": "Святилище Лавы",
+		"Strange Building": "Странная Постройка",
+		"Near the entrance to the lava core exists a very large building. It is not made of metal like the other structures nearby. A barrier prevents entry.": "Рядом со входом в лавовое ядро находится очень большое здание. Оно не сделано из металла, как другие постройки поблизости. Барьер препятствует входу.",
+		"A shrine can be found a short distance from the entrance to the lava core. A barrier blocks entry, but activating three buttons across the core opens it.": "Святилище можно найти недалеко от входа в лавовое ядро. Барьер блокирует вход, но активация трех кнопок на ядре открывает его.",
+		"Button's Response": "Ответ Кнопки",
+		"I found a button at the Structure on a Cliff.": "Я нашел кнопку в Строении на Скале.",
+		"I found a button at the Structure by Pillars.": "Я нашел кнопку в Строении у Столбов.",
+		"I found a button at the Old Abandoned Town.": "Я нашел кнопку в Старом Заброшенном Городе.",
+		"When I entered the shrine, I fell through a fake floor! It turns out that the inhabitants have walls that appear to exist, but are not at all solid. The only way to tell that wall is fake is a symbol on it, which could be <![CDATA[<color=FF6E2B>hidden in plain sight</color>]]>.": "Когда я вошел в святилище, я провалился сквозь фальшивый пол! Оказывается, у жителей есть стены, которые кажутся существующими, но вовсе не твердыми. Единственный способ узнать, что стена фальшивая — это символ на ней, который можно <![CDATA[<color=FF6E2B>спрятать на виду</color>]]>.",
+		"At the end of the shrine, I found four murals. The first three seem to depict several planets becoming increasingly unstable and falling apart. The fourth depicts a group flying away in a ship, while another group is saddened and angered at being left behind.": "В конце святилища я обнаружил четыре фрески. Первые три, кажется, изображают несколько планет, которые становятся все более нестабильными и распадаются на части. На четвертой изображена группа, улетающая на корабле, а другая группа опечалена и возмущена тем, что осталась позади.",
+
+		//Lonely Hermit
+		"Lonely Hermit": "Одинокий Отшельник",
+		"Dusty Planet": "Пыльная Планета",
+		"I've arrived in Hearth's Neighbor. The only immediately obvious feature in this system is a lone, dusty planet.": "Я прибыл в «Hearth's Neighbor». Единственная сразу бросающаяся в глаза особенность этой системы — одинокая пыльная планета.",
+		"Hearth's Neighbor's sole planet. The surface is devoid of life.": "Единственная планета «Hearth's Neighbor». Поверхность лишена жизни.",
+		"I found some kind of elevator that went below the surface and emerged in a strange expansive area. Is this planet <![CDATA[<color=FF6E2B>bigger on the inside?</color>]]>?": "Я нашел что-то вроде лифта, который спустился под поверхность и оказался в странном обширном районе. Эта планета <![CDATA[<color=FF6E2B>больше внутри?</color>]]>?",
+
+		//Ghost Matter Structure
+		"Ghost Matter Structure": "Здание С Призрачной Материей",
+		"Domed Structure": "Куполообразное Здание",
+		"There is a strange domed structure on the surface of Lonely Hermit.": "На поверхности Одинокого Отшельника находится странное куполообразное здание.",
+		"There does not seem to be a way inside. Judging by the copious amounts of Ghost Matter leaking out of it, it may not be a good idea to go inside it regardless.": "Кажется, нет пути внутрь. Судя по обильному количеству просачивающейся из него Призрачной Материи, в любом случае заходить внутрь может быть плохой идеей.",
+		"A mural indicates that this structure is built around a comet that once crashed into the planet. The planet's inhabitants harnessed a power from within the comet to fuel their civilization.": "Фреска указывает на то, что это здание построено вокруг кометы, которая когда-то врезалась в планету. Жители планеты использовали силу кометы для подпитки своей цивилизации.",
+
+		//Northern Wasteland
+		"Northern Wasteland": "Северная Пустошь",
+		"North Pole": "Северный Полюс",
+		"There appears to be some snow-covered mountains at the north pole.": "Кажется, на северном полюсе есть заснеженные горы.",
+		"At the north pole, there are small remnants of civilization.": "На северном полюсе есть небольшие остатки цивилизации.",
+		"I found a functioning elevator in the wasteland.": "Я нашел работающий лифт в пустоши.",
+
+		//Extinct Volcano
+		"Extinct Volcano": "Потухший Вулкан",
+		"Tall Mountain": "Высокая Гора",
+		"There appears to be a tall, hollow mountain close to the south pole.": "Похоже, что недалеко от южного полюса находится высокая полая гора.",
+		"A long-extinct volcano exists on the surface.": "Давно потухший вулкан существует на поверхности.",
+		"I found a functioning elevator on a structure within the caldera of the volcano.": "Я нашел функционирующий лифт на сооружении в кальдере вулкана.",
+
+		//Dead Lake
+		"Dead Lake": "Мертвое Озеро",
+		"Large Structure": "Большое Здание",
+		"There is a large structure surrounded by a moat.": "Здесь есть большое здание, окруженное рвом.",
+		"A strange structure exists surrounded by a moat. Despite the water, the area does not have any signs of life.": "Странное сооружение окружено рвом. Несмотря на воду, в этом районе нет никаких признаков жизни.",
+		"I found a functioning elevator within the structure.": "Я нашел функционирующий лифт в здании.",
+		"The structure has some kind of landing/launching pad for larger ships. The pad is connected to a large hangar of some kind where the inhabitants of this planet stored resources to build a much larger structure.": "В здании есть что-то вроде посадочной/стартовой площадки для больших кораблей. Площадка соединена с каким-то большим ангаром, где жители этой планеты хранили ресурсы для постройки гораздо более крупной конструкции.",
+
+		//Satellite Room
+		"Satellite Room": "Спутниковая Комната",
+		"Strange Door": "Странная Дверь",
+		"There is a massive locked door in the hangar.": "В ангаре находится массивная запертая дверь.",
+		"Behind the door was a floating satellite pointing at something in space. There is a signal coming out of it.": "За дверью находился парящий спутник, указывающий на что-то в космосе. От него исходит сигнал.",
+
+		//Museum Plate
+		"Museum Plate": "Музейная Пластина",
+		"The museum has restored an old exhibit that's been in storage for a while. It can be found behind the stairs.": "Музей отреставрировал старый экспонат, который некоторое время находился на хранении. Его можно найти за лестницей.",
+		"The museum has an alien plate on display. While it doesn't seem to be Nomai in origin, its creator is unknown.": "В музее выставлена инопланетная пластина. Хотя по происхождению она не похожа на Номаи, ее создатель неизвестен.",
+		"The plate has a map of two solar systems carved on it. One is our system, but the other is a nearby system, Hearth's Neighbor. With a warp drive in one's ship, one could warp to that system and check it out.": "На пластине вырезана карта двух солнечных систем. Одна из них — наша система, а другая — близлежащая система, «Hearth's Neighbor». Имея на корабле варп-двигатель, можно телепортироваться в эту систему и проверить ее.",
+		"The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and lived here until the end of their days.": "Пластина была оставлена единственным выжившим из обитателей «Hearth's Neighbor». Он потерпел крушение на нашей планете и прожил здесь до конца своих дней.",
+
+		//Escape Pod
+		"Escape Pod": "Спасательная Капсула",
+		"The damage report from the Derelict Ship showed an escape pod land on Timber Hearth. A signal from the ship connected to it.": "Отчет о повреждениях с Заброшенного Корабля показал, что спасательная капсула приземлилась на Камельке. Сигнал с подключенного к ней корабля.",
+		"The pod is intact! Whoever landed here survived, though what happened to them is a mystery lost to time. The plate at the museum came from the hull of the pod, likely carved out by the survivor(s) wanting to leave a message of where they came from.": "Капсула цела! Кто бы ни приземлились здесь, они выжили, хотя то, что с ними случилось, остается загадкой, затерянной во времени. Табличка в музее была сделана из корпуса капсулы, вероятно, вырезанной оставшимся(мися) в живых, желающим(и) оставить сообщение о том, откуда они прибыли.",
+		"You have finished the Jam version of Hearth's Neighbor! Congrats! Of course, there may still be a few secrets remaining...": "Вы прошли Jam версию «Hearth's Neighbor»! Поздравляем! Конечно, здесь может еще остаться несколько секретов..."
+
+	},
+	"UIDictionary": {
+
+		//Planet(s)
+		"Lonely Hermit": "Одинокий Отшельник",
+		"Dusty Planet": "Пыльная Планета",
+		"Alpine Core": "Альпийское Ядро",
+		"Lake Core": "Ядро Озера",
+		"Lava Core": "Ядро Лавы",
+		"Derelict Ship": "Заброшенный Корабль",
+
+		//Neighbor's Distress Signal
+		"NEIGHBOR'S DISTRESS SIGNAL": "СИГНАЛ БЕДСТВИЯ NEIGHBOR'S",
+		"DERELICT SHIP": "ЗАБРОШЕННЫЙ КОРАБЛЬ",
+		"DEAD LAKE DISH": "АНТЕННА МЕРТВОГО ОЗЕРА",
+
+		//Lava Core Signals
+		"Lava Core Signals": "Сигналы Ядра Лавы",
+		"ENTRANCE STATION": "ВХОДНАЯ СТАНЦИЯ",
+		"LAVA SHRINE": "СВЯТИЛИЩЕ ЛАВЫ",
+		"STRUCTURE BY CLIFF": "СТРУКТУРА У СКАЛЫ",
+		"STRUCTURE WITH PILLARS": "СТРУКТУРА С СТОЛБАМИ",
+		"OLD ABANDONED TOWN": "СТАРЫЙ ЗАБРОШЕННЫЙ ГОРОД",
+
+		//Galactic Communication
+		"GALACTIC COMMUNICATION": "ГАЛАКТИЧЕСКАЯ КОММУНИКАЦИЯ",
+		"DERELICT SHIP COCKPIT": "КАБИНА ЗАБРОШЕННОГО КОРАБЛЯ",
+		"SOLE SURVIVOR": "ЕДИНСТВЕННЫЙ ВЫЖИВШИЙ"
+
+	}
+}
