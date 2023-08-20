@@ -1,13 +1,13 @@
 ﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-  <NameField>FunkyShoeMan</NameField>
+  <NameField>$HNDevShoeName</NameField>
 
   <DialogueNode>
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>tis is i shoer, i was quite lazy when modeling blehh</Page>
-      <Page>[Shoe:Modeller, when he wasn't "busy" playing Terraria, Minecraft, or QSB]</Page>
+      <Page>$HNDevShoe1</Page>
+      <Page>$HNDevShoe2</Page>
     </Dialogue>
   </DialogueNode>
   

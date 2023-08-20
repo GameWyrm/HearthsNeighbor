@@ -8,9 +8,9 @@
     <RumorFact>
       <ID>HN_MUSEUM_PLATE_INTRO</ID>
       <IgnoreMoreToExplore/>
-      <Text>The museum has restored an old exhibit that's been in storage for a while. It can be found behind the stairs.</Text>
+      <Text>$HNMuseumPlateIntro</Text>
       <AltText>
-        <Text>The museum has an alien plate on display. While it doesn't seem to be Nomai in origin, its creator is unknown.</Text>
+        <Text>$HNMuseumPlateIntroAlt</Text>
         <Condition>HN_MUSEUM_PLATE_DETAILS</Condition>
       </AltText>
     </RumorFact>
@@ -18,34 +18,34 @@
     <ExploreFact>
       <ID>HN_MUSEUM_PLATE_DETAILS</ID>
       <IgnoreMoreToExplore/>
-      <Text>The plate has a map of two solar systems carved on it. One is our system, but the other is a nearby system, Hearth's Neighbor. With a warp drive in one's ship, one could warp to that system and check it out.</Text>
+      <Text>$HNMuseumPlateDetails</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>HN_MUSEUM_PLATE_RESOLUTION</ID>
       <IgnoreMoreToExplore/>
-      <Text>The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and lived here until the end of their days.</Text>
+      <Text>$HNMuseumPlateResolution</Text>
     </ExploreFact>
   </Entry>
 
   <Entry>
     <ID>HN_ESCAPE_POD</ID>
-    <Name>Escape Pod</Name>
+    <Name>$HNPodName</Name>
     
     <RumorFact>
       <ID>HN_POD_RUMOR</ID>
       <SourceID>HN_MUSEUM_PLATE</SourceID>
-      <Text>The damage report from the Derelict Ship showed an escape pod land on Timber Hearth. A signal from the ship connected to it.</Text>
+      <Text>$HNPodRumor</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>HN_POD_RESOLUTION</ID>
-      <Text>The pod is intact! Whoever landed here survived, though what happened to them is a mystery lost to time. The plate at the museum came from the hull of the pod, likely carved out by the survivor(s) wanting to leave a message of where they came from.</Text>
+      <Text>$HNPodResolution</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>HN_POD_THANKS</ID>
-      <Text>You have finished the Jam version of Hearth's Neighbor! Congrats! Of course, there may still be a few secrets remaining...</Text>
+      <Text>$HNPodThanks</Text>
     </ExploreFact>
     
   </Entry>

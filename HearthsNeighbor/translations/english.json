@@ -1,0 +1,226 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+		//Observatory
+		"$HNPlaqueName" : "Plaque",
+		"$HNPlaque1" : "This is a strange, ancient metal plate found in the river in a grove near the village.",
+		"$HNPlaque2" : "Its origins are unknown; it is clearly not Nomai or Hearthian. Was there yet another civilization on Timber Hearth at one point? Unfortunately, this is the only trace of said civilization that has ever been found.",
+		"$HNPlaque3" : "The carving on the plate depicts our solar system and what seems to be our nearest system, Hearth's Neighbor. Could it have come from all the way over there?",
+		"$HNPlaque4" : "We long believed we would never know the answer, but due to recent Outer Wilds Ventures ships being equipped with a warp drive, this mystery may actually be solved one day!",
+
+		//Escape Pod
+		"$HNDialoguePodName" : "Escape Pod",
+		"$HNDialoguePod1" : "[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]",
+		"$HNDialoguePod2" : "[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]",
+		"$HNDialoguePod3" : "[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]",
+		"$HNDialoguePod4" : "[Congrats! You have completed the Jam version of Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]",
+		"$HNDialoguePod5" : "[Perhaps one day, we'll actually give this mod a full overhaul, with a proper ending, but no promises.]",
+		"$HNDialoguePod6" : "[...]",
+		"$HNDialoguePod7" : "[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]",
+
+		//Dev Room
+		//Shoe
+		"$HNDevShoeName" : "FunkyShoeMan",
+		"$HNDevShoe1" : "tis is i shoer, i was quite lazy when modeling blehh",
+		"$HNDevShoe2" : "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+
+		//Lumine
+		"$HNDevLumineName" : "Lumine",
+		"$HNDevLumine1" : "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
+		"$HNDevLumine2" : "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
+		"$HNDevLumine3" : "Even though the story is short, maybe I can continue it in other Mod Jams.",
+		"$HNDevLumine4" : "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+
+		//GameWyrm
+		"$HNDevGameWyrmName" : "GameWyrm",
+		"$HNDevGameWyrm1" : "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
+		"$HNDevGameWyrm2" : "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
+		"$HNDevGameWyrm3" : "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
+		"$HNDevGameWyrm4" : "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+
+		//Endgame
+		"$HNDevEndgameName" : "EndgameZero",
+		"$HNDevEndgame1" : "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
+		"$HNDevEndgame2" : "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
+		"$HNDevEndgame3" : "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
+		"$HNDevEndgame4" : "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+
+		//Misc
+		"$HNDevMiscName" : "Special Thanks",
+		"$HNDevMisc1" : "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
+		"$HNDevMisc2" : "A few sounds were taken from FreeSounds, by smokinghotdog.",
+		"$HNDevMisc3" : "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
+		"$HNDevMisc4" : "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
+		"$HNDevMisc5" : "Russian Translation by Metrocop12."
+	},
+	"ShipLogDictionary": {
+
+		//Alpine Core
+		"$HNACName" : "Alpine Core",
+		"$HNACDescription" : "Below the Northern Wasteland, I found a strange land of frozen floating islands. It will take a lot of jetpacking skill to traverse them, such as remembering that I can gain extra height by boosting while I have upwards momentum from a jump.",
+		"$HNACRedHouse" : "On the largest island, I found a building, likely the former dwelling place of this planet's inhabitants.",
+		"$HNACRedMural" : "In the house, there is a mural depicting a red inhabitant somehow creating three pocket dimensions inside Lonely Hermit.",
+
+		//Odd Code
+		"$HNACCodeName" : "Odd Code",
+		"$HNACCode" : "Some kind of code has been written on a table.",
+
+		//Blue House
+		"$HNACSecret" : "Blue House",
+		"$HNACSecretInfo" : "There is a house on a very remote island in the Alpine Core.",
+		"$HNACSecretMap" : "The house contains a starmap showing nearby systems, including our own. The inhabitants seemed interested in a strange anomaly near our system, but there seems to have been disagreement about the route, or whether they should go at all.",
+
+		//Derelict Ship
+		"$HNDSName" : "Derelict Ship",
+		"$HNDSAlpineRumorName" : "Use for a Code",
+		"$HNDSAlpineRumor" : "On the Alpine Core, I found a code of some kind.",
+		"$HNDSLakeRumorName" : "Blue Inhabitant's Ship",
+		"$HNDSLakeRumor" : "At the Lake Shrine, I found evidence that the blue inhabitants built a large space ship.",
+		"$HNDSDeadlakeRumorName" : "Endpoint of a Signal",
+		"$HNDSDeadLakeRumor" : "At the satellite dish behind the big door at the Dead Lake, I detected a signal coming from space. It seems to be some kind of distress signal.",
+		"$HNDSLavaRumorName" : "Strange Ship",
+		"$HNDSLavaRumor" : "At the Lava Shrine, I found a mural depicting a large ship that the inhabitants built.",
+		"$HNDSEntry" : "A lifeless ship hovers at the edge of the solar system.",
+		"$HNDSBarrier" : "The entrance to the ship is blocked by a barrier. A panel is nearby that accepts a five-digit code.",
+		"$HNDSInfo" : "The ship is filled with Ghost Matter. There is still minimal power, but the engines do not seem to function.",
+		"$HNDSCryo" : "There is a room filled with cryogenic sleeping pods. However, every inhabitant within them has died long ago.",
+		"$HNDSCockpit" : "I found a way into the cockpit.",
+		"$HNDSDamage" : "On the screens in the cockpit, I saw some kind of damage report. The red inhabitants invaded the ship and tried to take over, but the blue inhabitants who were awake fought back. The leader of the reds tried to fight the leader of the blues, but was defeated. In a final act of defiance, the red leader activated a ghost matter bomb that killed everyone on-board and immobolized the ship.",
+		"$HNDSHope" : "One screen displayed that one of the escape pods had managed to successfully launch. It landed on Timber Hearth. The ship then began opening communications with the pod, revealing a signal frequency.",
+
+		//Lake Core
+		"$HNLKName" : "Lake Core",
+		"$HNLKDescription" : "Below the Dead Lake, there is a strange sea dotted with a few islands. Next to the elevator that took me down is a levitating radio dish pointing north.",
+		"$HNLKRaft" : "There is a raft on the starting island. Its controls appear to react to light.",
+
+		//Shrine Island
+		"$HNLKShrineName" : "Shrine Island",
+		"$HNLKShrineRumor" : "North of the starting island, there is a shrine of some kind on elevated ground. The stairs to the shrine have long crumbled.",
+		"$HNLKShrineEntry" : "The shrine has a secret entrance via a tunnel in the water.",
+		"$HNKLKShrineStation" : "There seems to be some kind of makeshift communications station in the shrine. There is a lever and a levitating radio dish pointing towards the entrance.",
+		"$HNLKShrineLever" : "The lever opened a door in the hangar at the Dead Lake.",
+		"$HNLKShrineMural" : "There is a mural in the shrine recounting a war between two factions, conveyed with red against blue inhabitants. This war lead to most of the planet becoming uninhabitable. Seeing this, the leaders of the two factions agreed to a truce and began to rebuild.",
+		"$HNLKShrinePoster" : "A poster above the communications area displays blue inhabitants flying ships into space and slowly building a much larger ship.",
+
+		//Maze Island
+		"$HNLKMazeName" : "Maze Island",
+		"$HNLKMazeInfo" : "South of the starting island, there is a large landmass. It contains a tunnel.",
+		"$HNLKMazeGazebo" : "After going through the tunnel, I emerged at the surface. There is a gazebo with a mural on it. The mural seems to point out a tunnel below the water under a shrine.",
+
+		//Lava Core
+		"$HNLVName" : "Lava Core",
+		"$HNLVDescription" : "Below the Extinct Volcano, there is a cracked sphere with lava rising and falling.",
+		"$HNLVButtons" : "This core contains structures locked by various buttons. They are very easy to press, not requiring very much pressure to activate, but must all be activated simultaneously.",
+		"$HNLVSignal" : "A dish at the entrance to the core is sending and receiving communications from various structures on the core.",
+
+		//Structure On A Cliff
+		"$HNLVFirstButtonName" : "Structure On A Cliff",
+		"$HNLVFirstButtonInfo" : "I found a locked structure with a button right outside of it. I don't see a second one, could it have fallen into the lava?",
+
+		//Structure By Pillars
+		"$HNLVSecondButtonName" : "Structure By Pillars",
+		"$HNLVSecondButtonInfo" : "I found a locked structure with two pillars nearby sticking out of the lava.",
+
+		//Old Abandoned Town
+		"$HNLVThirdButtonName" : "Old Abandoned Town",
+		"$HNLVThirdButtonInfo" : "I found a series of locked structures.",
+
+		//Lava Shrine
+		"$HNLVShrineName" : "Lava Shrine",
+		"$HNLVShrineRumorName" : "Strange Building",
+		"$HNLVShrineInfo" : "Near the entrance to the lava core exists a very large building. It is not made of metal like the other structures nearby. A barrier prevents entry.",
+		"$HNLVShrineInfoAlt" : "A shrine can be found a short distance from the entrance to the lava core. A barrier blocks entry, but activating three buttons across the core opens it.",
+		"$HNLVShrineButtonRumorName" : "Button's Response",
+		"$HNLVButtonOne" : "I found a button at the Structure on a Cliff.",
+		"$HNLVButtonTwo" : "I found a button at the Structure by Pillars.",
+		"$HNLVButtonThree" : "I found a button at the Old Abandoned Town.",
+		"$HNLVShrineEntry" : "When I entered the shrine, I fell through a fake floor! It turns out that the inhabitants have walls that appear to exist, but are not at all solid. The only way to tell that wall is fake is a symbol on it, which could be <![CDATA[<color=orange>hidden in plain sight</color>]]>.",
+		"$HNLVShrineMurals" : "At the end of the shrine, I found four murals. The first three seem to depict several planets becoming increasingly unstable and falling apart. The fourth depicts a group flying away in a ship, while another group is saddened and angered at being left behind.",
+
+		//Lonely Hermit
+		"$HNLHName" : "Lonely Hermit",
+		"$HNLHRumorName" : "Dusty Planet",
+		"$HNLHArrival" : "I've arrived in Hearth's Neighbor. The only immediately obvious feature in this system is a lone, dusty planet.",
+		"$HNLHInfo" : "Hearth's Neighbor's sole planet. The surface is devoid of life.",
+		"$HNLHElevator" : "I found some kind of elevator that went below the surface and emerged in a strange expansive area. Is this planet <![CDATA[<color=orange>bigger on the inside</color>]]>?",
+
+		//Ghost Matter Structure
+		"$HNLHPlantName" : "Ghost Matter Structure",
+		"$HNLHPlantRumorName" : "Domed Structure",
+		"$HNLHPlantRumor" : "There is a strange domed structure on the surface of Lonely Hermit.",
+		"$HNLHPlantNoEntry" : "There does not seem to be a way inside. Judging by the copious amounts of Ghost Matter leaking out of it, it may not be a good idea to go inside it regardless.",
+		"$HNLHPlantInfo" : "A mural indicates that this structure is built around a comet that once crashed into the planet. The planet's inhabitants harnessed a power from within the comet to fuel their civilization.",
+
+		//Northern Wasteland
+		"$HNLHWastelandName" : "Northern Wasteland",
+		"$HNLHWastelandRumorName" : "North Pole",
+		"$HNLHWastelandRumor" : "There appears to be some snow-covered mountains at the north pole.",
+		"$HNLHWastelandRumorAlt" : "At the north pole, there are small remnants of civilization.",
+		"$HNLHWastelandElevator" : "I found a functioning elevator in the wasteland.",
+
+		//Extinct Volcano
+		"$HNLHVolcanoName" : "Extinct Volcano",
+		"$HNLHVolcanoRumorName" : "Tall Mountain",
+		"$HNLHVolcanoRumor" : "There appears to be a tall, hollow mountain close to the south pole.",
+		"$HNLHVolcanoRumorAlt" : "A long-extinct volcano exists on the surface.",
+		"$HNLHVolcanoElevator" : "I found a functioning elevator on a structure within the caldera of the volcano.",
+
+		//Dead Lake
+		"$HNLHLakeName" : "Dead Lake",
+		"$HNLHLakeRumorName" : "Large Structure",
+		"$HNLHLakeRumor" : "There is a large structure surrounded by a moat.",
+		"$HNLHLakeRumorAlt" : "A strange structure exists surrounded by a moat. Despite the water, the area does not have any signs of life.",
+		"$HNLHLakeElevator" : "I found a functioning elevator within the structure.",
+		"$HNLHLakeHangar" : "The structure has some kind of landing/launching pad for larger ships. The pad is connected to a large hangar of some kind where the inhabitants of this planet stored resources to build a much larger structure.",
+
+		//Satellite Room
+		"$HNLHLakeDoorName" : "Satellite Room",
+		"$HNLHLakeDoorRumorName" : "Strange Door",
+		"$HNLHLakeDoorRumor" : "There is a massive locked door in the hangar.",
+		"$HNLHLakeDoorSatellite" : "Behind the door was a floating satellite pointing at something in space. There is a signal coming out of it.",
+
+		//Museum Plate
+		"$HNMuseumPlateName" : "Museum Plate",
+		"$HNMuseumPlateIntro" : "The museum has restored an old exhibit that's been in storage for a while. It can be found behind the stairs.",
+		"$HNMuseumPlateIntroAlt" : "The museum has an alien plate on display. While it doesn't seem to be Nomai in origin, its creator is unknown.",
+		"$HNMuseumPlateDetails" : "The plate has a map of two solar systems carved on it. One is our system, but the other is a nearby system, Hearth's Neighbor. With a warp drive in one's ship, one could warp to that system and check it out.",
+		"$HNMuseumPlateResolution" : "The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and lived here until the end of their days.",
+
+		//Escape Pod
+		"$HNPodName" : "Escape Pod",
+		"$HNPodRumor" : "The damage report from the Derelict Ship showed an escape pod land on Timber Hearth. A signal from the ship connected to it.",
+		"$HNPodResolution" : "The pod is intact! Whoever landed here survived, though what happened to them is a mystery lost to time. The plate at the museum came from the hull of the pod, likely carved out by the survivor(s) wanting to leave a message of where they came from.",
+		"$HNPodThanks" : "You have finished the Jam version of Hearth's Neighbor! Congrats! Of course, there may still be a few secrets remaining..."
+
+	},
+	"UIDictionary": {
+
+		//Planet(s)
+		"Lonely Hermit" : "Lonely Hermit",
+		"Alpine Core" : "Alpine Core",
+		"Lake Core" : "Lake Core",
+		"Lava Core" : "Lava Core",
+		"Derelict Ship" : "Derelict Ship",
+		"Neighbor Sun" : "Neighbor's Sun",
+
+		//Neighbor's Distress Signal
+		"NEIGHBOR'S DISTRESS SIGNAL" : "NEIGHBOR'S DISTRESS SIGNAL",
+		"DERELICT SHIP" : "DERELICT SHIP",
+		"DEAD LAKE DISH" : "DEAD LAKE DISH",
+
+		//Lava Core Signals
+		"Lava Core Signals" : "LAVA CORE SIGNALS",
+		"ENTRANC STATION" : "ENTRANCE STATION",
+		"LAVA SHRINE" : "LAVA SHRINE",
+		"STRUCTURE BY CLIFF" : "STRUCTURE BY CLIFF",
+		"STRUCTURE WITH PILLARS" : "STRUCTURE WITH PILLARS",
+		"OlD ABANDONED TOWN" : "OLD ABANDONED TOWN",
+
+		//Galactic Communication
+		"GALACTIC COMMUNICATION" : "GALACTIC COMMUNICATION",
+		"DERELICT SHIP COCKPIT" : "DERELICT SHIP COCKPIT",
+		"SOLE SURVIVOR" : "SOLE SURVIVOR"
+
+	}
+}

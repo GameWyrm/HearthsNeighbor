@@ -3,73 +3,73 @@
   <ID>Derelict Ship</ID>
   <Entry>
     <ID>DERELICT_SHIP_ROOT</ID>
-    <Name>Derelict Ship</Name>
+    <Name>$HNDSName</Name>
 
     <RumorFact>
       <ID>DS_ALPINE_RUMOR</ID>
       <SourceID>AC_CODE_FACT</SourceID>
-      <RumorName>Use for a Code</RumorName>
+      <RumorName>$HNDSAlpineRumorName</RumorName>
       <RumorNamePriority>0</RumorNamePriority>
-      <Text>On the Alpine Core, I found a code of some kind.</Text>
+      <Text>$HNDSAlpineRumor</Text>
     </RumorFact>
 
     <RumorFact>
       <ID>DS_LAKE_RUMOR</ID>
       <SourceID>LK_SHRINE_FACT</SourceID>
-      <RumorName>Blue Inhabitant's Ship</RumorName>
+      <RumorName>$HNDSLakeRumorName</RumorName>
       <RumorNamePriority>3</RumorNamePriority>
-      <Text>At the Lake Shrine, I found evidence that the blue inhabitants built a large space ship.</Text>
+      <Text>$HNDSLakeRumor</Text>
     </RumorFact>
 
     <RumorFact>
       <ID>DS_DEADLAKE_RUMOR</ID>
       <SourceID>LH_LAKE_DOOR_FACT</SourceID>
-      <RumorName>Endpoint of a Signal</RumorName>
+      <RumorName>$HNDSDeadLakeRumorName</RumorName>
       <RumorNamePriority>2</RumorNamePriority>
-      <Text>At the satellite dish behind the big door at the Dead Lake, I detected a signal coming from space. It seems to be some kind of distress signal.</Text>
+      <Text>$HNDSDeadLakeRumor</Text>
     </RumorFact>
 
     <RumorFact>
       <ID>DS_LAVA_RUMOR</ID>
       <SourceID>LV_SHRINE_FACT</SourceID>
-      <RumorName>Strange Ship</RumorName>
+      <RumorName>$HNDSLavaRumorName</RumorName>
       <RumorNamePriority>1</RumorNamePriority>
-      <Text>At the Lava Shrine, I found a mural depicting a large ship that the inhabitants built.</Text>
+      <Text>$HNDSLavaRumor</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>DS_ENTRY</ID>
-      <Text>A lifeless ship hovers at the edge of the solar system.</Text>
+      <Text>$HNDSEntry</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_BARRIER</ID>
-      <Text>The entrance to the ship is blocked by a barrier. A panel is nearby that accepts a five-digit code.</Text>
+      <Text>$HNDSBarrier</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_INFO</ID>
-      <Text>The ship is filled with Ghost Matter. There is still minimal power, but the engines do not seem to function.</Text>
+      <Text>$HNDSInfo</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_CRYO</ID>
-      <Text>There is a room filled with cryogenic sleeping pods. However, every inhabitant within them has died long ago.</Text>
+      <Text>$HNDSCryo</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_COCKPIT</ID>
-      <Text>I found a way into the cockpit.</Text>
+      <Text>$HNDSCockpit</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_DAMAGE</ID>
-      <Text>On the screens in the cockpit, I saw some kind of damage report. The red inhabitants invaded the ship and tried to take over, but the blue inhabitants who were awake fought back. The leader of the reds tried to fight the leader of the blues, but was defeated. In a final act of defiance, the red leader activated a ghost matter bomb that killed everyone on-board and immobolized the ship.</Text>
+      <Text>$HNDSDamage</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>DS_HOPE</ID>
-      <Text>One screen displayed that one of the escape pods had managed to successfully launch. It landed on Timber Hearth. The ship then began opening communications with the pod, revealing a signal frequency.</Text>
+      <Text>$HNDSHope</Text>
     </ExploreFact>
   </Entry>
   

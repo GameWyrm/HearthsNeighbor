@@ -1,15 +1,15 @@
 ﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-  <NameField>Lumine</NameField>
+  <NameField>$HNDevLumineName</NameField>
 
   <DialogueNode>
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.</Page>
-      <Page>We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.</Page>
-      <Page>Even though the story is short, maybe I can continue it in other Mod Jams.</Page>
-      <Page>It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!</Page>
+      <Page>$HNDevLumine1</Page>
+      <Page>$HNDevLumine2</Page>
+      <Page>$HNDevLumine3</Page>
+      <Page>$HNDevLumine4</Page>
     </Dialogue>
   </DialogueNode>
 

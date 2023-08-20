@@ -4,47 +4,47 @@
   <ID>Alpine Core</ID>
   <Entry>
     <ID>AC_ROOT</ID>
-    <Name>Alpine Core</Name>
+    <Name>$HNACName</Name>
 
     <RumorFact>
       <ID>AC_DESCRIPTION</ID>
       <SourceID>LH_NORTHERN_WASTELAND_FACT</SourceID>
-      <Text>Below the Northern Wasteland, I found a strange land of frozen floating islands. It will take a lot of jetpacking skill to traverse them, such as remembering that I can gain extra height by boosting while I have upwards momentum from a jump.</Text>
+      <Text>$HNACDescription</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>AC_RED_HOUSE</ID>
-      <Text>On the largest island, I found a building, likely the former dwelling place of this planet's inhabitants.</Text>
+      <Text>$HNACRedHouse</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>AC_RED_MURAL</ID>
-      <Text>In the house, there is a mural depicting a red inhabitant somehow creating three pocket dimensions inside Lonely Hermit.</Text>
+      <Text>$HNACRedMural</Text>
     </ExploreFact>
     
     <Entry>
       <ID>AC_CODE_FACT</ID>
-      <Name>Odd Code</Name>
+      <Name>$HNACCodeName</Name>
 
       <ExploreFact>
         <ID>AC_CODE</ID>
-        <Text>Some kind of code has been written on a table.</Text>
+        <Text>$HNACCode</Text>
       </ExploreFact>
     </Entry>
   </Entry>
 
   <Entry>
     <ID>AC_SECRET</ID>
-    <Name>Blue House</Name>
+    <Name>$HNACSecret</Name>
 
     <RumorFact>
       <ID>AC_SECRET_INFO</ID>
-      <Text>There is a house on a very remote island in the Alpine Core.</Text>
+      <Text>$HNACSecretInfo</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>AC_SECRET_MAP</ID>
-      <Text>The house contains a starmap showing nearby systems, including our own. The inhabitants seemed interested in a strange anomaly near our system, but there seems to have been disagreement about the route, or whether they should go at all.</Text>
+      <Text>$HNACSecretMap</Text>
     </ExploreFact>
   </Entry>
   

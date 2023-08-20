@@ -3,66 +3,66 @@
   <ID>Lake Core</ID>
   <Entry>
     <ID>LAKE_CORE_ROOT</ID>
-    <Name>Lake Core</Name>
+    <Name>$HNLKName</Name>
 
     <RumorFact>
       <ID>LK_DESCRIPTION</ID>
       <SourceID>LH_DEAD_LAKE_FACT</SourceID>
-      <Text>Below the Dead Lake, there is a strange sea dotted with a few islands. Next to the elevator that took me down is a levitating radio dish pointing north.</Text>
+      <Text>$HNLKDescription</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>LK_RAFT</ID>
-      <Text>There is a raft on the starting island. Its controls appear to react to light.</Text>
+      <Text>$HNLKRaft</Text>
     </ExploreFact>
 
     <Entry>
       <ID>LK_SHRINE_FACT</ID>
-      <Name>Shrine Island</Name>
+      <Name>$HNLKShrineName</Name>
 
       <RumorFact>
         <ID>LK_SHRINE_RUMOR</ID>
-        <Text>North of the starting island, there is a shrine of some kind on elevated ground. The stairs to the shrine have long crumbled.</Text>
+        <Text>$HNLKShrineRumor</Text>
       </RumorFact>
 
       <ExploreFact>
         <ID>LK_SHRINE_ENTRY</ID>
-        <Text>The shrine has a secret entrance via a tunnel in the water.</Text>
+        <Text>$HNLKShrineEntry</Text>
       </ExploreFact>
 
       <ExploreFact>
         <ID>LK_SHRINE_STATION</ID>
-        <Text>There seems to be some kind of makeshift communications station in the shrine. There is a lever and a levitating radio dish pointing towards the entrance.</Text>
+        <Text>$HNKLKShrineStation</Text>
       </ExploreFact>
 
       <ExploreFact>
         <ID>LK_SHRINE_LEVER</ID>
-        <Text>The lever opened a door in the hangar at the Dead Lake.</Text>
+        <Text>$HNLKShrineLever</Text>
       </ExploreFact>
 
       <ExploreFact>
         <ID>LK_SHRINE_MURAL</ID>
-        <Text>There is a mural in the shrine recounting a war between two factions, conveyed with red against blue inhabitants. This war lead to most of the planet becoming uninhabitable. Seeing this, the leaders of the two factions agreed to a truce and began to rebuild.</Text>
+        <Text>$HNLKShrineMural</Text>
       </ExploreFact>
 
       <ExploreFact>
         <ID>LK_SHRINE_POSTER</ID>
-        <Text>A poster above the communications area displays blue inhabitants flying ships into space and slowly building a much larger ship.</Text>
+        <Text>$HNLKShrinePoster</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>LK_MAZE_FACT</ID>
-      <Name>Maze Island</Name>
+      <Name>$HNLKMazeName</Name>
 
       <RumorFact>
         <ID>LK_MAZE_INFO</ID>
-        <Text>South of the starting island, there is a large landmass. It contains a tunnel.</Text>
+        <Text>$HNLKMazeInfo</Text>
       </RumorFact>
 
       <ExploreFact>
         <ID>LK_MAZE_GAZEBO</ID>
-        <Text>After going through the tunnel, I emerged at the surface. There is a gazebo with a mural on it. The mural seems to point out a tunnel below the water under a shrine.</Text>
+        <Text>$HNLKMazeGazebo</Text>
       </ExploreFact>
     </Entry>
   </Entry>

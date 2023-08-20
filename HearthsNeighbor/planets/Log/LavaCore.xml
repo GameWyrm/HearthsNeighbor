@@ -3,65 +3,65 @@
   <ID>Lava Core</ID>
   <Entry>
     <ID>LAVA_CORE_ROOT</ID>
-    <Name>Lava Core</Name>
+    <Name>$HNLVName</Name>
 
     <RumorFact>
       <ID>LV_DESCRIPTION</ID>
       <SourceID>LH_EXTINCT_VOLCANO_FACT</SourceID>
-      <Text>Below the Extinct Volcano, there is a cracked sphere with lava rising and falling.</Text>
+      <Text>$HNLVDescription</Text>
     </RumorFact>
 
     <ExploreFact>
       <ID>LV_BUTTONS</ID>
-      <Text>This core contains structures locked by various buttons. They are very easy to press, not requiring very much pressure to activate, but must all be activated simultaneously.</Text>
+      <Text>$HNLVButtons</Text>
     </ExploreFact>
 
     <ExploreFact>
       <ID>LV_SIGNAL</ID>
-      <Text>A dish at the entrance to the core is sending and receiving communications from various structures on the core.</Text>
+      <Text>$HNLVSignal</Text>
     </ExploreFact>
 
     <Entry>
       <ID>LV_FIRST_BUTTON_FACT</ID>
-      <Name>Structure On A Cliff</Name>
+      <Name>$HNLVFirstButtonName</Name>
 
       <ExploreFact>
         <ID>LV_FIRST_BUTTON_INFO</ID>
-        <Text>I found a locked structure with a button right outside of it. I don't see a second one, could it have fallen into the lava?</Text>
+        <Text>$HNLVFirstButtonInfo</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>LV_SECOND_BUTTON_FACT</ID>
-      <Name>Structure By Pillars</Name>
+      <Name>$HNLVSecondButtonName</Name>
 
       <ExploreFact>
         <ID>LV_SECOND_BUTTON_INFO</ID>
-        <Text>I found a locked structure with two pillars nearby sticking out of the lava.</Text>
+        <Text>$HNLVSecondButtonInfo</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>LV_THIRD_BUTTON_FACT</ID>
-      <Name>Old Abandoned Town</Name>
+      <Name>$HNLVThirdButtonName</Name>
 
       <ExploreFact>
         <ID>LV_THIRD_BUTTON_INFO</ID>
-        <Text>I found a series of locked structures.</Text>
+        <Text>$HNLVThirdButtonInfo</Text>
       </ExploreFact>
     </Entry>
 
     <Entry>
       <ID>LV_SHRINE_FACT</ID>
-      <Name>Lava Shrine</Name>
+      <Name>$HNLVShrineName</Name>
 
       <RumorFact>
         <ID>LV_SHRINE_INFO</ID>
-        <RumorName>Strange Building</RumorName>
+        <RumorName>$HNLVShrineRumorName</RumorName>
         <RumorNamePriority>5</RumorNamePriority>
-        <Text>Near the entrance to the lava core exists a very large building. It is not made of metal like the other structures nearby. A barrier prevents entry.</Text>
+        <Text>$HNLVShrineInfo</Text>
         <AltText>
-          <Text>A shrine can be found a short distance from the entrance to the lava core. A barrier blocks entry, but activating three buttons across the core opens it.</Text>
+          <Text>$HNLVShrineInfoAlt</Text>
           <Condition>LV_SHRINE_ENTRY</Condition>
         </AltText>
       </RumorFact>
@@ -69,35 +69,35 @@
       <RumorFact>
         <ID>LV_SHRINE_BUTTON_ONE</ID>
         <SourceID>LV_FIRST_BUTTON_FACT</SourceID>
-        <RumorName>Button's Response</RumorName>
+        <RumorName>$HNLVShrineButtonRumorName</RumorName>
         <RumorNamePriority>0</RumorNamePriority>
-        <Text>I found a button at the Structure on a Cliff.</Text>
+        <Text>$HNLVButtonOne</Text>
       </RumorFact>
 
       <RumorFact>
         <ID>LV_SHRINE_BUTTON_TWO</ID>
         <SourceID>LV_SECOND_BUTTON_FACT</SourceID>
-        <RumorName>Button's Response</RumorName>
+        <RumorName>$HNLVShrineButtonRumorName</RumorName>
         <RumorNamePriority>1</RumorNamePriority>
-        <Text>I found a button at the Structure by Pillars.</Text>
+        <Text>$HNLVButtonTwo</Text>
       </RumorFact>
 
       <RumorFact>
         <ID>LV_SHRINE_BUTTON_THREE</ID>
         <SourceID>LV_THIRD_BUTTON_FACT</SourceID>
-        <RumorName>Button's Response</RumorName>
+        <RumorName>$HNLVShrineButtonRumorName</RumorName>
         <RumorNamePriority>2</RumorNamePriority>
-        <Text>I found a button at the Old Abandoned Town.</Text>
+        <Text>$HNLVButtonThree</Text>
       </RumorFact>
 
       <ExploreFact>
         <ID>LV_SHRINE_ENTRY</ID>
-        <Text>When I entered the shrine, I fell through a fake floor! It turns out that the inhabitants have walls that appear to exist, but are not at all solid. The only way to tell that wall is fake is a symbol on it, which could be <![CDATA[<color=FF6E2B>hidden in plain sight</color>]]>.</Text>
+        <Text>$HNLVShrineEntry</Text>
       </ExploreFact>
 
       <ExploreFact>
         <ID>LV_SHRINE_MURALS</ID>
-        <Text>At the end of the shrine, I found four murals. The first three seem to depict several planets becoming increasingly unstable and falling apart. The fourth depicts a group flying away in a ship, while another group is saddened and angered at being left behind.</Text>
+        <Text>$HNLVShrineMurals</Text>
       </ExploreFact>
     </Entry>
   </Entry>
