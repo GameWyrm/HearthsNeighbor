@@ -54,4 +54,7 @@
     <EmbeddedResource Remove="customComponents\**" />
     <None Remove="customComponents\**" />
   </ItemGroup>
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(UnityDLLOutputPath)')">
+    <Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;$(UnityDLLOutputPath)&quot;" />
+  </Target>
 </Project>

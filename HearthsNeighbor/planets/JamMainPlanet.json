@@ -514,5 +514,38 @@
                 "reveals": [ "LK_SHRINE_LEVER", "DS_DEADLAKE_RUMOR" ]
             }
         ]
+    },
+    "Spawn": {
+        "playerSpawn": {
+            "alignRadial": false,
+            "position": {
+                "x": 300,
+                "y": 262,
+                "z": 1506
+            },
+            "rotation": {
+                "x": 6,
+                "y": 198,
+                "z": 245
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "shipSpawn": {
+            "alignRadial": false,
+            "position": {
+                "x": 300,
+                "y": 262,
+                "z": 1506
+            },
+            "rotation": {
+                "x": 6,
+                "y": 198,
+                "z": 245
+            }
+        }
     }
 }

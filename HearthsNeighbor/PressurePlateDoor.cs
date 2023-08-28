@@ -80,6 +80,11 @@ namespace HearthsNeighbor
             HearthsNeighbor.LogSuccess("All buttons are on!");
             anim.SetBool("Open", true);
             GetComponent<AudioSource>().Play();
+
+            foreach (PressurePlate source in powerSources)
+            {
+                source.ColorChange(2);
+            }
         }
     }
 }

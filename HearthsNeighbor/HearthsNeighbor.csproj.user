@@ -1,6 +1,7 @@
 ﻿<Project>
   <PropertyGroup>
     <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\GameWyrm.HearthsNeighbor</OutputPath>
+    <UnityDLLOutputPath>G:\My Files\Documents\UnityProjects\outer-wilds-unity-assets\Assets\_SummerGameJam\Code</UnityDLLOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="DisplayBounds.cs">
