@@ -10,49 +10,50 @@
 		"$HNPlaque4": "Мы долгое время считали, что никогда не узнаем ответ, но из-за того, что недавно корабли «Покорителей Дикого Космоса» были оснащены варп-двигателями, эта загадка может быть однажды разгадана!",
 
 		//Escape Pod
-		"$HNDialoguePodName" : "Escape Pod",
-		"$HNDialoguePod1" : "[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]",
-		"$HNDialoguePod2" : "[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]",
-		"$HNDialoguePod3" : "[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]",
-		"$HNDialoguePod4" : "[Congrats! You have completed the Jam version of Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]",
-		"$HNDialoguePod5" : "[Perhaps one day, we'll actually give this mod a full overhaul, with a proper ending, but no promises.]",
-		"$HNDialoguePod6" : "[...]",
-		"$HNDialoguePod7" : "[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]",
+		"$HNDialoguePodName": "Спасательная капсула",
+		"$HNDialoguePod1": "[Здесь нет никакой ошибки - это источник музейной пластины! Когда-то она была оторвана от корпуса, но это точно тот же металл и та же краска.]",
+		"$HNDialoguePod2": "[Судя по структуре, это что-то вроде спасательной капсулы. Судя по всему, она находится в хорошем состоянии, так что ее обитатель(и), скорее всего, выжил(и) внутри.]",
+		"$HNDialoguePod3": "[Возможно, однажды, ты сможешь узнать, что случилось с выжившими? Это могло быть очень давно, но все же шанс есть.]",
+		"$HNDialoguePod4": "[Поздравляю! Ты завершил Jam-версию «Hearth's Neighbor» (если только тебе не удалось найти ее раньше)! Мы хотели, чтобы после этого было еще что-то, но из-за нехватки времени пришлось сократить концовку.]",
+		"$HNDialoguePod5": "[Возможно, когда-нибудь мы действительно сделаем полную реконструкцию этого мода с достойной концовкой, но не обещаем.]",
+		"$HNDialoguePod6": "[...]",
+		"$HNDialoguePod7": "[Что, ты хочешь еще? Хорошо. Вернись к тому месту, где ты узнал об этой капсуле, и поищи скрытый туннель. Ты можешь войти в него с одной стороны, но она заблокирована. Впрочем, с другой стороны он проходит насквозь... посмотрим, сможешь ли ты понять, где он заканчивается.]",
 
 		//Dev Room
 		//Shoe
-		"$HNDevShoeName" : "FunkyShoeMan",
-		"$HNDevShoe1" : "tis is i shoer, i was quite lazy when modeling blehh",
-		"$HNDevShoe2" : "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+		"$HNDevShoeName": "FunkyShoeMan",
+		"$HNDevShoe1": "Это я - shoer, я был довольно ленив при моделировании, блехх.",
+		"$HNDevShoe2": "[Shoe: Моделировал, когда не был «занят» игрой в Terraria, Minecraft или QSB.]",
 
 		//Lumine
-		"$HNDevLumineName" : "Lumine",
-		"$HNDevLumine1" : "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
-		"$HNDevLumine2" : "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
-		"$HNDevLumine3" : "Even though the story is short, maybe I can continue it in other Mod Jams.",
-		"$HNDevLumine4" : "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+		"$HNDevLumineName": "Lumine",
+		"$HNDevLumine1": "Привет, я - Lumine, художник этого мода! Даже несмотря на то, что у меня было много проблем, я все равно старался изо всех сил, и я надеюсь, что вам всем понравится наша работа.",
+		"$HNDevLumine2": "Мы хотели, чтобы в моде было гораздо больше иллюстраций, но из-за возникших проблем и ограничения по времени я не смог их сделать.",
+		"$HNDevLumine3": "Несмотря на то, что история короткая, возможно, я смогу продолжить ее в других Jam-модах.",
+		"$HNDevLumine4": "Мне было очень приятно участвовать в моем первом Jam-моде, и я надеюсь, что вам понравится играть в этот мод!",
 
 		//GameWyrm
-		"$HNDevGameWyrmName" : "GameWyrm",
-		"$HNDevGameWyrm1" : "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
-		"$HNDevGameWyrm2" : "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
-		"$HNDevGameWyrm3" : "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
-		"$HNDevGameWyrm4" : "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+		"$HNDevGameWyrmName": "GameWyrm",
+		"$HNDevGameWyrm1": "Привет! Я - GameWyrm, лидер команды и дизайнер уровней. Я также сделал все мусорные модели в этом моде.",
+		"$HNDevGameWyrm2": "Я надеюсь, что тебе понравился «Hearth's Neighbor»! Это не самая сложная или отполированная часть Jam, не спорю, но я хочу, чтобы ты хотя бы получил удовольствие от игры.",
+		"$HNDevGameWyrm3": "Мы планировали гораздо более сложный сюжет и концовку, но из-за нехватки времени нам пришлось сократить более сложные вещи.",
+		"$HNDevGameWyrm4": "Моим желанием при создании этого мода было создать нечто отличное от большинства существующих сюжетных модов; я явно хотел избежать создания мода с участием Номаи или Незнакомцев (прости, xen, <![CDATA[<i>обитатели</i>]]>). Возможно, это было плохой идеей, так как это уменьшило количество готовых ресурсов, которые мы могли использовать, и ограничило нас в использовании текста для общения с игроком, но я надеюсь, что тайна, окружающая эту новую расу, компенсирует недостатки сюжета.",
 
 		//Endgame
-		"$HNDevEndgameName" : "EndgameZero",
-		"$HNDevEndgame1" : "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
-		"$HNDevEndgame2" : "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
-		"$HNDevEndgame3" : "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
-		"$HNDevEndgame4" : "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+		"$HNDevEndgameName": "EndgameZero",
+		"$HNDevEndgame1": "Привет! Я - EndgameZero, композитор «Hearth's Neighbor».",
+		"$HNDevEndgame2": "Я получил огромное удовольствие, создавая музыку для этого мода, и надеюсь, что она тебе понравилась.",
+		"$HNDevEndgame3": "Особенно мне нравилось писать части, которые изменяли песни из базовой игры («The River», но в размере 5/4 была моей любимой), и скрывать секреты (ты слышишь их прямо сейчас?).",
+		"$HNDevEndgame4": "Поскольку это мой первый Jam-мод (и мой первый мод вообще): Эта композиция для меня новая, но для меня честь быть частью ее.",
 
 		//Misc
-		"$HNDevMiscName" : "Special Thanks",
-		"$HNDevMisc1" : "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
-		"$HNDevMisc2" : "A few sounds were taken from FreeSounds, by smokinghotdog.",
-		"$HNDevMisc3" : "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
-		"$HNDevMisc4" : "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
-		"$HNDevMisc5" : "Russian Translation by Metrocop12."
+		"$HNDevMiscName": "Особая Благодарность",
+		"$HNDevMisc1": "Корабельный док, используемый в Ядре Озера, был сделан Shoe еще до появления Jam для другого мода.",
+		"$HNDevMisc2": "Некоторые звуки были взяты из FreeSounds, автор smokinghotdog.",
+		"$HNDevMisc3": "Отдельное спасибо John Corby, Triffid, xen и Idiot на Outer Wilds Modding Discord за ответы на множество вопросов по поводу разработки.",
+		"$HNDevMisc4": "Спасибо также команде разработчиков мода New Horizons. Без них мы никак не смогли бы сделать этот мод в такие сроки.",
+		"$HNDevMisc5": "Автор перевода на русский язык - Metrocop12."
+
 	},
 	"ShipLogDictionary": {
 
@@ -73,13 +74,13 @@
 
 		//Derelict Ship
 		"$HNDSName": "Заброшенный корабль",
-		"$HNDSAlpineRumorName" : "Use for a Code",
+		"$HNDSAlpineRumorName": "Использовать для кода",
 		"$HNDSAlpineRumor": "На Альпийском Ядре я нашел какой-то код.",
 		"$HNDSLakeRumorName": "Корабль синих жителей",
 		"$HNDSLakeRumor": "В Озерном Храме я нашел доказательства того, что синие жители построили большой космический корабль.",
-		"$HNDSDeadlakeRumorName" : "Endpoint of a Signal",
+		"$HNDSDeadlakeRumorName": "Конечная точка Сигнала",
 		"$HNDSDeadLakeRumor": "У спутниковой тарелки за большой дверью на Мертвом Озере я обнаружил сигнал, исходящий из космоса. Похоже, это какой-то сигнал бедствия.",
-		"$HNDSLavaRumorName" : "Strange Ship",
+		"$HNDSLavaRumorName": "Странный Корабль",
 		"$HNDSLavaRumor": "В Лавовом Храме я нашел фреску с изображением большого корабля, который построили жители.",
 		"$HNDSEntry": "Безжизненный корабль парит на краю Солнечной системы.",
 		"$HNDSBarrier": "Вход на корабль перекрыт барьером. Рядом находится панель, принимающая пятизначный код.",
@@ -191,7 +192,7 @@
 		"$HNPodName": "Спасательная Капсула",
 		"$HNPodRumor": "Отчет о повреждениях с Заброшенного Корабля показал, что спасательная капсула приземлилась на Камельке. Сигнал с подключенного к ней корабля.",
 		"$HNPodResolution": "Капсула цела! Кто бы ни приземлились здесь, они выжили, хотя то, что с ними случилось, остается загадкой, затерянной во времени. Табличка в музее была сделана из корпуса капсулы, вероятно, вырезанной оставшимся(мися) в живых, желающим(и) оставить сообщение о том, откуда они прибыли.",
-		"$HNPodThanks": "Вы прошли Jam версию «Hearth's Neighbor»! Поздравляем! Конечно, здесь может еще остаться несколько секретов..."
+		"$HNPodThanks": "Вы прошли Jam-версию «Hearth's Neighbor»! Поздравляем! Конечно, здесь может еще остаться несколько секретов..."
 
 	},
 	"UIDictionary": {
