@@ -7,6 +7,12 @@
     <Compile Update="DisplayBounds.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Elevator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElevatorButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FinalButton.cs">
       <SubType>Code</SubType>
     </Compile>
