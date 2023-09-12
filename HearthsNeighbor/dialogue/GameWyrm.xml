@@ -6,10 +6,36 @@
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
+      <Page>$HNDevGameWyrmTitle</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>$HNDevPreJamOption</Text>
+        <DialogueTarget>GameWyrmJam</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>$HNDevPostJamOption</Text>
+        <DialogueTarget>GameWyrmVictory</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>GameWyrmJam</Name>
+    <Dialogue>
       <Page>$HNDevGameWyrm1</Page>
       <Page>$HNDevGameWyrm2</Page>
       <Page>$HNDevGameWyrm3</Page>
       <Page>$HNDevGameWyrm4</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>GameWyrmVictory</Name>
+    <Dialogue>
+      <Page>$HNDevGameWyrmV1</Page>
+      <Page>$HNDevGameWyrmV2</Page>
+      <Page>$HNDevGameWyrmV3</Page>
     </Dialogue>
   </DialogueNode>
   

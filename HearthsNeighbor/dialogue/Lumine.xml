@@ -6,10 +6,36 @@
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
+      <Page>$HNDevLumineTitle</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>$HNDevPreJamOption</Text>
+        <DialogueTarget>LumineJam</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>$HNDevPostJamOption</Text>
+        <DialogueTarget>LumineVictory</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>LumineJam</Name>
+    <Dialogue>
       <Page>$HNDevLumine1</Page>
       <Page>$HNDevLumine2</Page>
       <Page>$HNDevLumine3</Page>
       <Page>$HNDevLumine4</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>LumineVictory</Name>
+    <Dialogue>
+      <Page>$HNDevLumineV1</Page>
+      <Page>$HNDevLumineV2</Page>
+      <Page>$HNDevLumineV3</Page>
     </Dialogue>
   </DialogueNode>
 

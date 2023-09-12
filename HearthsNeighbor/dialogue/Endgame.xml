@@ -6,10 +6,35 @@
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
+      <Page>$HNDevEndgameTitle</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>$HNDevPreJamOption</Text>
+        <DialogueTarget>EndgameJam</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>$HNDevPostJamOption</Text>
+        <DialogueTarget>EndgameVictory</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>EndgameJam</Name>
+    <Dialogue>
       <Page>$HNDevEndgame1</Page>
       <Page>$HNDevEndgame2</Page>
       <Page>$HNDevEndgame3</Page>
       <Page>$HNDevEndgame4</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>EndgameVictory</Name>
+    <Dialogue>
+      <Page>$HNDevEndgameV1</Page>
+      <Page>$HNDevEndgameV2</Page>
     </Dialogue>
   </DialogueNode>
 

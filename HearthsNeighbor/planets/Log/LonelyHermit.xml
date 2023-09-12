@@ -93,7 +93,7 @@
     <RumorFact>
       <ID>LH_LAKE_RUMOR</ID>
       <SourceID>LONELY_HERMIT_ROOT</SourceID>
-      <RumorName>Large Structure</RumorName>
+      <RumorName>$HNLHLakeRumorName</RumorName>
       <Text>$HNLHLakeRumor</Text>
       <AltText>
         <Text>$HNLHLakeRumorAlt</Text>

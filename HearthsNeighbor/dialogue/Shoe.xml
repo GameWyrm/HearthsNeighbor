@@ -6,8 +6,34 @@
     <Name>Start</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
+      <Page>$HNDevShoeTitle</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>$HNDevPreJamOption</Text>
+        <DialogueTarget>ShoeJam</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>$HNDevPostJamOption</Text>
+        <DialogueTarget>ShoeVictory</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>ShoeJam</Name>
+    <Dialogue>
       <Page>$HNDevShoe1</Page>
       <Page>$HNDevShoe2</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>ShoeVictory</Name>
+    <Dialogue>
+      <Page>$HNDevShoeV1</Page>
+      <Page>$HNDevShoeV2</Page>
+      <Page>$HNDevShoeV3</Page>
     </Dialogue>
   </DialogueNode>
   

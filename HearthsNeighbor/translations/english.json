@@ -3,56 +3,74 @@
 	"DialogueDictionary": {
 
 		//Observatory
-		"$HNPlaqueName" : "Plaque",
-		"$HNPlaque1" : "This is a strange, ancient metal plate found in the river in a grove near the village.",
-		"$HNPlaque2" : "Its origins are unknown; it is clearly not Nomai or Hearthian. Was there yet another civilization on Timber Hearth at one point? Unfortunately, this is the only trace of said civilization that has ever been found.",
-		"$HNPlaque3" : "The carving on the plate depicts our solar system and what seems to be our nearest system, Hearth's Neighbor. Could it have come from all the way over there?",
-		"$HNPlaque4" : "We long believed we would never know the answer, but due to recent Outer Wilds Ventures ships being equipped with a warp drive, this mystery may actually be solved one day!",
+		"$HNPlaqueName": "Plaque",
+		"$HNPlaque1": "This is a strange, ancient metal plate found in the river in a grove near the village.",
+		"$HNPlaque2": "Its origins are unknown; it is clearly not Nomai or Hearthian. Was there yet another civilization on Timber Hearth at one point? Unfortunately, this is the only trace of said civilization that has ever been found.",
+		"$HNPlaque3": "The carving on the plate depicts our solar system and what seems to be our nearest system, Hearth's Neighbor. Could it have come from all the way over there?",
+		"$HNPlaque4": "We long believed we would never know the answer, but due to recent Outer Wilds Ventures ships being equipped with a warp drive, this mystery may actually be solved one day!",
 
 		//Escape Pod
-		"$HNDialoguePodName" : "Escape Pod",
-		"$HNDialoguePod1" : "[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]",
-		"$HNDialoguePod2" : "[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]",
-		"$HNDialoguePod3" : "[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]",
-		"$HNDialoguePod4" : "[Congrats! You have completed the Jam version of Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]",
-		"$HNDialoguePod5" : "[Perhaps one day, we'll actually give this mod a full overhaul, with a proper ending, but no promises.]",
-		"$HNDialoguePod6" : "[...]",
-		"$HNDialoguePod7" : "[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]",
+		"$HNDialoguePodName": "Escape Pod",
+		"$HNDialoguePod1": "[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]",
+		"$HNDialoguePod2": "[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]",
+		"$HNDialoguePod3": "[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]",
+		"$HNDialoguePod4": "[Congrats! You have completed Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]",
+		"$HNDialoguePod5": "[Unfortunately, this is the ending the mod will have for the forseeable future. The planned ending and overhaul was simply a lot more complex than the team was willing to implement, and to be honest it's in a state that I'm largely happy with.]",
+		"$HNDialoguePod6": "[...]",
+		"$HNDialoguePod7": "[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]",
 
 		//Dev Room
+		"$HNDevPreJamOption": "Jam Message...",
+		"$HNDevPostJamOption": "Victory Message...",
+
 		//Shoe
-		"$HNDevShoeName" : "FunkyShoeMan",
-		"$HNDevShoe1" : "tis is i shoer, i was quite lazy when modeling blehh",
-		"$HNDevShoe2" : "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+		"$HNDevShoeName": "FunkyShoeMan",
+		"$HNDevShoeTitle": "FunkyShoeMan: Made a few models",
+		"$HNDevShoe1": "tis is i shoer, i was quite lazy when modeling blehh",
+		"$HNDevShoe2": "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+		"$HNDevShoeV1": "So i guess we really won this, congrats.",
+		"$HNDevShoeV2": "i was thinking we were going to get 2-3rd place but we acutally were able to get 1st, i'll enjoy my luxurious modder jam with nice fresh bread, also congrats for beating HN and finding us.",
+		"$HNDevShoeV3": "it is lonely in the dark... also xen i will hit you with a hammer!!!",
 
 		//Lumine
-		"$HNDevLumineName" : "Lumine",
-		"$HNDevLumine1" : "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
-		"$HNDevLumine2" : "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
-		"$HNDevLumine3" : "Even though the story is short, maybe I can continue it in other Mod Jams.",
-		"$HNDevLumine4" : "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+		"$HNDevLumineName": "Lumine",
+		"$HNDevLumineTitle": "Lumine: Ship log icon artist",
+		"$HNDevLumine1": "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
+		"$HNDevLumine2": "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
+		"$HNDevLumine3": "Even though the story is short, maybe I can continue it in other Mod Jams.",
+		"$HNDevLumine4": "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+		"$HNDevLumineV1": "Hi, I'm Lumine, one of the creators of the winning mod of the jam, Hearth's Neighbor.",
+		"$HNDevLumineV2": "I really liked participating in the creation of the mod, even if I wanted to make more and better things for the mod, I couldn't but I'm really happy that I had this incredible experience.",
+		"$HNDevLumineV3": "I also want to thanks GameWyrm, Shoe and EndGameZero, which are incredible people. I'm really happy that we had the opportunity to make this mod even better after the end of the jam, and I hope everyone will like it.",
 
 		//GameWyrm
-		"$HNDevGameWyrmName" : "GameWyrm",
-		"$HNDevGameWyrm1" : "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
-		"$HNDevGameWyrm2" : "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
-		"$HNDevGameWyrm3" : "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
-		"$HNDevGameWyrm4" : "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+		"$HNDevGameWyrmName": "GameWyrm",
+		"$HNDevGameWyrmTitle": "GameWyrm: Team lead and main designer",
+		"$HNDevGameWyrm1": "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
+		"$HNDevGameWyrm2": "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
+		"$HNDevGameWyrm3": "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
+		"$HNDevGameWyrm4": "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+		"$HNDevGameWyrmV1": "Huh...we <![CDATA[<i>won???</i>]]> But how? Well, we're honored to have taken the first place prize!",
+		"$HNDevGameWyrmV2": "I personally would have given the award to Tesseract's Secret, but still, very glad to know that people enjoyed our mod!",
+		"$HNDevGameWyrmV3": "There were so many great Jam entries this time around, and I can't wait for the next one!'",
 
 		//Endgame
-		"$HNDevEndgameName" : "EndgameZero",
-		"$HNDevEndgame1" : "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
-		"$HNDevEndgame2" : "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
-		"$HNDevEndgame3" : "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
-		"$HNDevEndgame4" : "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+		"$HNDevEndgameName": "EndgameZero",
+		"$HNDevEndgameTitle": "EndgameZero: Composer",
+		"$HNDevEndgame1": "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
+		"$HNDevEndgame2": "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
+		"$HNDevEndgame3": "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
+		"$HNDevEndgame4": "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+		"$HNDevEndgameV1": "Well, I definitely didn't expect to win the jam, so that's pretty cool.",
+		"$HNDevEndgameV2": "Anyway, I hid some more secrets this time ::)",
 
 		//Misc
-		"$HNDevMiscName" : "Special Thanks",
-		"$HNDevMisc1" : "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
-		"$HNDevMisc2" : "A few sounds were taken from FreeSounds, by smokinghotdog.",
-		"$HNDevMisc3" : "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
-		"$HNDevMisc4" : "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
-		"$HNDevMisc5" : "Russian Translation by Metrocop12."
+		"$HNDevMiscName": "Special Thanks",
+		"$HNDevMisc1": "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
+		"$HNDevMisc2": "A few sounds were taken from FreeSounds, by smokinghotdog.",
+		"$HNDevMisc3": "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
+		"$HNDevMisc4": "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
+		"$HNDevMisc5": "Russian Translation by Metrocop12. French Translation by Luke Hakurei."
 	},
 	"ShipLogDictionary": {
 

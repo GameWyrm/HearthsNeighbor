@@ -3,7 +3,7 @@
   <ID>TIMBER_HEARTH</ID>
   <Entry>
     <ID>HN_MUSEUM_PLATE</ID>
-    <Name>Museum Plate</Name>
+    <Name>$HNMuseumPlateName</Name>
 
     <RumorFact>
       <ID>HN_MUSEUM_PLATE_INTRO</ID>
