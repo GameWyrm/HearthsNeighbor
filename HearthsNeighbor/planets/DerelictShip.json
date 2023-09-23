@@ -57,7 +57,7 @@
                     "z": 0
                 },
                 "alignRadial": false,
-                "keepLoaded": false
+                "keepLoaded": true
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",

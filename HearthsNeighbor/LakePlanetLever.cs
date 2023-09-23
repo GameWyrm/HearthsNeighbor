@@ -29,6 +29,8 @@ namespace HearthsNeighbor
             {
                 HearthsNeighbor.LogMessage($"Main planet is {HearthsNeighbor.Main.MainPlanet.gameObject.name}");
                 lakeDoor = HearthsNeighbor.Main.MainPlanet.transform.Find("Sector/MainPlanet/Sectors/Lake/LakeDoor").gameObject;
+
+                interaction.DisableInteraction();
             }
             lakeDoor.SetActive(!isOn);
         }

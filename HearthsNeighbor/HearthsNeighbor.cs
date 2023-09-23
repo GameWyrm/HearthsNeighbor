@@ -1,7 +1,9 @@
-﻿using OWML.Common;
+﻿using HarmonyLib;
+using OWML.Common;
 using OWML.ModHelper;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 namespace HearthsNeighbor
@@ -41,6 +43,9 @@ namespace HearthsNeighbor
             // So you probably don't want to do anything here.
             // Use Start() instead.
             warpList = new Dictionary<string, SeamlessPlayerWarp>();
+
+            // Prepare for patching
+            Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
         private void Start()

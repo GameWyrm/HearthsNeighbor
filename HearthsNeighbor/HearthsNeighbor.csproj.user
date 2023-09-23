@@ -4,6 +4,9 @@
     <UnityDLLOutputPath>G:\My Files\Documents\UnityProjects\outer-wilds-unity-assets\Assets\_SummerGameJam\Code</UnityDLLOutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="CheckCollision.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="DisplayBounds.cs">
       <SubType>Code</SubType>
     </Compile>
