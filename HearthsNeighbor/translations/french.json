@@ -1,55 +1,75 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
+
 		//Observatory
 		"$HNPlaqueName" : "Plaque",
 		"$HNPlaque1" : "Cette étrange et ancienne plaque métallique a été découverte dans la rivière d'un bois à côté du village.",
-		"$HNPlaque2" : "Ses origines sont inconnues : elles ne sont clairement ni nomaï, ni atriennes. Y aurait-il eu une autre civilisation sur Âtrebois par le passé ? Hélas, ceci est l'unique vestige que nous avons pu retrouver de cette civilisation.",
+		"$HNPlaque2" : "Son origine est inconnue : elle n'est clairement ni nomaï, ni atrienne. Y aurait-il eu une autre civilisation sur Âtrebois par le passé ? Hélas, ceci est l'unique vestige que nous avons pu retrouver de cette civilisation.",
 		"$HNPlaque3" : "Les gravures de la plaque représentent notre système solaire, et ce qui semble être le système le plus proche, Proximâtre. Se pourrait-il qu'elle vienne de si loin ?",
-		"$HNPlaque4" : "Nous avons longtemps cru ne jamais connaître la réponse, mais grâce aux générateurs de distorsion embarqués dans les nouvelles fusées du programme Odyssée, ce mystère pourrait bientôt être résolu !",
+		"$HNPlaque4" : "Nous avons longtemps cru ne jamais pouvoir connaître la réponse, mais grâce aux moteurs de distorsion embarqués dans les nouvelles fusées du programme Odyssée, ce mystère pourrait bientôt être résolu !",
 
 		//Escape Pod
-		"$HNDialoguePodName" : "Capsule de sauvetage",
-		"$HNDialoguePod1" : "[Ça ne fait aucun doute, la plaque du musée vient de cette sorte d'habitacle ! Elle en a été arrachée, mais il s'agit du même métal et de la même peinture.",
+		"$HNDialoguePodName" : "la Capsule de sauvetage",
+		"$HNDialoguePod1" : "[Ça ne fait aucun doute, la plaque du musée vient de cette sorte d'habitacle ! Elle en a été arrachée, il s'agit du même métal et de la même peinture.]",
 		"$HNDialoguePod2" : "[A en juger la structure, ça ressemble à une capsule de sauvetage. Elle a l'air en bon état, son ou ses occupants ont de toute évidence survécu au crash.]",
 		"$HNDialoguePod3" : "[Peut-être qu'un jour, nous découvrirons ce qu'il est advenu des survivants ? Cela remonte à très longtemps, mais, il doit bien y avoir une chance.]",
-		"$HNDialoguePod4" : "[Félicitations ! Vous avez terminé la version de Proximâtre (Hearth's Neighbor) telle que soumise lors de la jam d'été 2023 (à moins que vous n'ayez trouvé cette capsule avant !). Nous avions bien d'autres plans pour la suite, mais la date butoir nous a contraint à y couper court.]",
-		"$HNDialoguePod5" : "[Peut-être qu'un jour, nous réviserons complètement ce mod, et lui offrirons une véritable fin, mais nous ne pouvons rien promettre.]",
+		"$HNDialoguePod4" : "[Félicitations ! Vous avez terminé Proximâtre (Hearth's Neighbor), à moins que vous n'ayez trouvé cette capsule avant ! Nous avions d'autres plans pour la fin, mais divers impératifs nous ont contraint à y couper court.]",
+		"$HNDialoguePod5" : "[La fin de ce mod ne sera hélas pas mise à jour, au moins dans un avenir proche. Ce qui était initialement prévu était juste beaucoup plus complexe que ce que l'équipe était prête à développer, et pour être franc, je suis plus que satisfait de ce qu'il en est à l'heure actuelle.]",
 		"$HNDialoguePod6" : "[...]",
 		"$HNDialoguePod7" : "[Quoi, vous en voulez encore ? Très bien. Retournez là où vous avez appris l'existence de cette capsule, et cherchez un tunnel secret. Une de ses entrées est visible, mais bloquée. Cependant, le chemin continue bien jusque l'autre côté... essayez donc d'en retrouver l'accès.]",
 
-		//Dev Room
+		//Dev Room	
+		"$HNDevPreJamOption": "Message de la Jam...",
+		"$HNDevPostJamOption": "Message de la Victoire...",
+		
 		//Shoe
 		"$HNDevShoeName" : "FunkyShoeMan",
+		"$HNDevShoeTitle": "FunkyShoeMan : Réalisateur de quelques modèles 3D",
 		"$HNDevShoe1" : "c moi l'shossonnier, j'avais un peu la flemme en modélisant blblblbl",
-		"$HNDevShoe2" : "[Shoe:Modélisateur 3D, quand il n'était pas \"occupé\" à jouer à Terraria, Minecraft, ou Quantum Space Buddies]",
-
+		"$HNDevShoe2" : "[Shoe : Modélisateur 3D, quand il n'était pas \"occupé\" à jouer à Terraria, Minecraft, ou Quantum Space Buddies]",
+		"$HNDevShoeV1": "Alors comme ça on a vraiment gagné, bravo.",
+		"$HNDevShoeV2": "je pensais qu'on serait genre deux ou troisièmes, mais on a carrément été les premiers, je vais pouvoir profiter de cette somptueuse jam-melade avec du bon pain frais. Au fait, bravo pour avoir terminé Proximâtre (Hearth's Neighbor) et nous avoir trouvés.",
+		"$HNDevShoeV3": "on se sent seuls dans l'obscurité... au fait xen, je vais t'en mettre une avec un marteau !!!",
+		
 		//Lumine
 		"$HNDevLumineName" : "Lumine",
-		"$HNDevLumine1" : "Coucou, moi c'est Lumine, une artiste du mod ! Malgré pas mal de problèmes, j'ai quand même fait de mon mieux, et j'espère que vous apprécierez tous notre travail.",
-		"$HNDevLumine2" : "Nous aurions voulu inclure bien plus d'illustrations dans le mod, mais à cause de mes problèmes et de la date butoir, je n'ai pas pu les faire.",
+		"$HNDevLumineTitle": "Lumine : Artiste des icônes du journal de bord",
+		"$HNDevLumine1" : "Coucou, moi c'est Lumine, un artiste du mod ! Malgré pas mal de problèmes, j'ai quand même fait de mon mieux, et j'espère que vous apprécierez tous notre travail.",
+		"$HNDevLumine2" : "Nous aurions voulu inclure bien plus d'illustrations dans le mod, mais à cause de mes problèmes et de la date butoir, je n'ai pas pu toutes les faire.",
 		"$HNDevLumine3" : "Même si l'histoire est courte, peut-être que je pourrai la poursuivre à l'occasion d'autres jams.",
 		"$HNDevLumine4" : "Ce fut un plaisir de participer à ma toute première jam, j'espère que vous avez aimé jouer à ce mod !",
+		"$HNDevLumineV1": "Coucou, moi c'est Lumine, un des créateurs du mod qui a remporté la jam, Proximâtre (Hearth's Neighbor).",
+		"$HNDevLumineV2": "J'ai beaucoup aimé participer à la création de ce mod, même si j'aurais aimé en faire plus et mieux.	Malgré tout, je suis très content d'avoir pu vivre cette incroyable expérience.",
+		"$HNDevLumineV3": "Je voudrais également remercier ces incroyables personnes que sont GameWyrm, Shoe et EndGameZero. Je suis vraiment heureux qu'on ait pu améliorer ce mod même après la fin de la jam, et j'espère que tout le monde appréciera ça.",
+
 
 		//GameWyrm
 		"$HNDevGameWyrmName" : "GameWyrm",
+		"$HNDevGameWyrmTitle": "GameWyrm : Chef d'équipe et principal designer",
 		"$HNDevGameWyrm1" : "Salut ! Je suis GameWyrm, le chef d'équipe et level designer. J'ai aussi fait tous les modèles pourris de ce mod.",
-		"$HNDevGameWyrm2" : "J'espère que vous avez aimé Proximâtre (Hearth's Neighbor) ! Je parie que ce n'est pas l'entrée la plus complexe ou raffinée de cette jam, mais j'aspire à ce que vous ayez pris un peu de plaisir à y jouer.",
+		"$HNDevGameWyrm2" : "J'espère que vous avez aimé Proximâtre (Hearth's Neighbor) ! Je me doute que ce n'est pas le mod le plus complexe ou raffiné de cette jam, mais j'aspire à ce que vous ayez pris un peu de plaisir à y jouer.",
 		"$HNDevGameWyrm3" : "Nous avions une histoire et une fin bien plus complexes en tête, mais à cause de la date butoir, nous avons dû revoir nos plans à la baisse.",
-		"$HNDevGameWyrm4" : "Mon but était de créer quelque chose de différent de la plupart des mods histoire : j'ai explicitement voulu éviter d'inclure des Nomaï ou des Érangers (pardon, xen, des <![CDATA[<i>habitants de l'Étranger</i>]]>). C'était sans doute une mauvaise idée, vu que ça a réduit le nombre d'assets du jeu de base que nous avions à disposition, et nous a empêché d'utiliser du texte pour communiquer au joueur, mais j'espère que les mystères auréolant cette nouvelle race compensent les défauts de l'histoire.",
-
+		"$HNDevGameWyrm4" : "Mon but était de créer quelque chose de différent de la plupart des mods histoire : j'ai explicitement voulu éviter d'inclure des Nomaï ou des Étrangers (pardon, xen, des <![CDATA[<i>habitants de l'Étranger</i>]]>). C'était sans doute une mauvaise idée, vu que ça a réduit le nombre d'assets du jeu de base que nous avions à disposition, et nous a empêché d'utiliser du texte pour communiquer au joueur, mais j'espère que les mystères auréolant cette nouvelle race compensent les défauts de l'histoire.",
+		"$HNDevGameWyrmV1": "Hein... on a <![CDATA[<i>gagné ???</i>]]> Mais, comment ? Enfin, nous sommes honorés d'avoir reçu le premier prix !",
+		"$HNDevGameWyrmV2": "J'aurais personnellement attribué cette récompense au Secret du Tesseract (Tesseract's Secret), mais tout de même, très content de savoir que des gens ont apprécié notre mod !",
+		"$HNDevGameWyrmV3": "Il y avait tellement de belles créations présentées durant cette jam, j'ai déjà hâte de la prochaine !",
+		
 		//Endgame
 		"$HNDevEndgameName" : "EndgameZero",
+		"$HNDevEndgameTitle": "EndgameZero : Compositeur",
 		"$HNDevEndgame1" : "Yo ! Je m'appelle EndgameZero, le compositeur de Proximâtre (Hearth's Neighbor).",
 		"$HNDevEndgame2" : "Je me suis bien amusé à composer la musique pour ce mod, et j'espère vous l'avez appréciée.",
-		"$HNDevEndgame3" : "J'ai tout particulièrement aimé composer les morceaux qui reprennent les thèmes du jeu de base (The River au tempo 5/4 étant ma préférée) et cacher des secrets (vous entendez, là maintenant ?).", 
-		"$HNDevEndgame4" : "Sachez que c'est ma première participation à une jam (et à un mod de manière générale) : je ne connais pas bien la chanson, mais je suis honoré d'en faire partie.",
+		"$HNDevEndgame3" : "J'ai tout particulièrement aimé composer les morceaux qui reprennent les thèmes du jeu de base (The River en tempo 5/4 étant ma préférée) et cacher des secrets (vous entendez, là maintenant ?).", 
+		"$HNDevEndgame4" : "Vu que c'est ma première participation à une jam (et à un mod de manière générale) : cette chanson est nouvelle pour moi, mais je suis honoré d'en faire partie.",
+		"$HNDevEndgameV1": "Eh bien, je ne m'attendais pas du tout à remporter cette jam, c'est plutôt cool.",
+		"$HNDevEndgameV2": "Au fait, j'ai encore caché d'autres secrets entretemps ::)",
 
 		//Misc
 		"$HNDevMiscName" : "Remerciements particuliers",
 		"$HNDevMisc1" : "Le ponton utilisé dans le Noyau Lacustre a été fait par Shoe avant cette jam, pour un autre mod.",
 		"$HNDevMisc2" : "Quelques effets sonores proviennent de FreeSounds, réalisés par smokinghotdog.",
-		"$HNDevMisc3" : "Nous remercions particulièrement John Corby, Triffid, xen, et Idiot du serveur Discord de modding d'Outer Wilds pour leurs réponses aux nombreux questions que nous nous sommes posées pendant le développement.",
+		"$HNDevMisc3" : "Nous remercions particulièrement John Corby, Triffid, xen, et Idiot du serveur Discord de modding d'Outer Wilds pour leurs réponses aux nombreux questions que nous nous sommes posées durant le développement.",
 		"$HNDevMisc4" : "Merci également à l'équipe du mod New Horizons. Sans eux, nous n'aurions jamais pu achever ce mod dans la limite du temps imparti.",
 		"$HNDevMisc5" : "Traduction française par Luke Hakurei. Traduction russe par Metrocop12."
 	},
@@ -57,140 +77,140 @@
 
 		//Alpine Core
 		"$HNACName" : "Noyau Alpin",
-		"$HNACDescription" : "Sous le désert arctique, j'ai découvert un étrange territoire d'îles flottantes enneigées. Leur traversée va mettre mes compétences de vol à l'épreuve, notamment ne pas oublier que je peux m'envoler plus haut si j'utilise mes propulseurs immédiatement après avoir sauté, pour profiter du momentum ascendant.",
+		"$HNACDescription" : "Sous le désert arctique, j'ai découvert un étrange territoire d'îles flottantes enneigées. Leur traversée va mettre mes compétences de vol à l'épreuve, notamment ne pas oublier que je peux m'envoler plus haut si j'enclenche mes propulseurs immédiatement après avoir sauté, pour profiter du momentum ascendant.",
 		"$HNACRedHouse" : "Sur l'île la plus grande, j'ai découvert un bâtiment, qui semble être la demeure originelle des habitants de cette planète.",
-		"$HNACRedMural" : "Dans la maison, j'ai vu une curieuse peinture murale représentant un autochtone rouge qui parvient à créer trois dimensions de poches au sein de Lascète.",
+		"$HNACRedMural" : "Dans la maison, j'ai vu une curieuse fresque représentant un autochtone rouge qui parvient à créer trois dimensions de poche au sein de Lascète.",
 
 		//Odd Code
-		"$HNACCodeName" : "Étrange Code",
-		"$HNACCode" : "Une sorte de code était inscrit sur une table.",
+		"$HNACCodeName" : "Étrange code",
+		"$HNACCode" : "Une sorte de code est inscrit sur une table.",
 
 		//Blue House
-		"$HNACSecret" : "Maison Bleue",
-		"$HNACSecretInfo" : "Une maison se trouve sur une île très isolée du Noyau Alpin.",
-		"$HNACSecretMap" : "La maison contient une carte du ciel comportant les systèmes proches, y compris le nôtre. Les autochtones avaient l'air intéressés par une étrange anomalie à la bordure de notre système, mais il semble y avoir eu désaccord à propos du trajet pour y parvenir, ou juste de s'il fallait y aller ou non.",
+		"$HNACSecret" : "Maison bleue",
+		"$HNACSecretInfo" : "Une maison se tient sur une île très isolée du Noyau Alpin.",
+		"$HNACSecretMap" : "La maison contient une carte du ciel comportant les systèmes proches, y compris le nôtre. Les autochtones avaient l'air intéressé par une étrange anomalie à la bordure de notre système, mais il semble y avoir eu désaccord à propos du trajet pour y parvenir, ou juste de s'il fallait y aller ou non.",
 
 		//Derelict Ship
-		"$HNDSName" : "Vaisseau Délabré",
-		"$HNDSAlpineRumorName" : "Use for a Code",
-		"$HNDSAlpineRumor" : "On the Alpine Core, I found a code of some kind.",
-		"$HNDSLakeRumorName" : "Blue Inhabitant's Ship",
-		"$HNDSLakeRumor" : "At the Lake Shrine, I found evidence that the blue inhabitants built a large space ship.",
-		"$HNDSDeadlakeRumorName" : "Endpoint of a Signal",
-		"$HNDSDeadLakeRumor" : "At the satellite dish behind the big door at the Dead Lake, I detected a signal coming from space. It seems to be some kind of distress signal.",
-		"$HNDSLavaRumorName" : "Strange Ship",
-		"$HNDSLavaRumor" : "At the Lava Shrine, I found a mural depicting a large ship that the inhabitants built.",
-		"$HNDSEntry" : "A lifeless ship hovers at the edge of the solar system.",
-		"$HNDSBarrier" : "The entrance to the ship is blocked by a barrier. A panel is nearby that accepts a five-digit code.",
-		"$HNDSInfo" : "The ship is filled with Ghost Matter. There is still minimal power, but the engines do not seem to function.",
-		"$HNDSCryo" : "There is a room filled with cryogenic sleeping pods. However, every inhabitant within them has died long ago.",
-		"$HNDSCockpit" : "I found a way into the cockpit.",
-		"$HNDSDamage" : "On the screens in the cockpit, I saw some kind of damage report. The red inhabitants invaded the ship and tried to take over, but the blue inhabitants who were awake fought back. The leader of the reds tried to fight the leader of the blues, but was defeated. In a final act of defiance, the red leader activated a ghost matter bomb that killed everyone on-board and immobolized the ship.",
-		"$HNDSHope" : "One screen displayed that one of the escape pods had managed to successfully launch. It landed on Timber Hearth. The ship then began opening communications with the pod, revealing a signal frequency.",
+		"$HNDSName" : "Vaisseau délabré",
+		"$HNDSAlpineRumorName" : "Utilité d'un code",
+		"$HNDSAlpineRumor" : "Dans le Noyau Alpin, j'ai découvert une sorte de code.",
+		"$HNDSLakeRumorName" : "Vaisseau des autochtones bleus",
+		"$HNDSLakeRumor" : "Au sanctuaire du lac, j'ai découvert que les autochtones bleus ont construit un grand vaisseau spatial.",
+		"$HNDSDeadlakeRumorName" : "Émetteur d'un signal",
+		"$HNDSDeadLakeRumor" : "Grâce à la parabole derrière la grande porte du lac mort, j'ai pu capter un signal venu de l'espace. Cela ressemble à un signal de détresse.",
+		"$HNDSLavaRumorName" : "Vaisseau étrange",
+		"$HNDSLavaRumor" : "Au sanctuaire du magma, j'ai découvert une fresque représentant un grand vaisseau construit par les autochtones.",
+		"$HNDSEntry" : "Un vaisseau sans vie plane aux confins du système stellaire.",
+		"$HNDSBarrier" : "L'entrée du vaisseau est bloquée par une barrière. Le panneau de contrôle permet de taper un digicode à cinq caractères.",
+		"$HNDSInfo" : "Le vaisseau est truffé de matière fantôme. Un niveau minimal d'énergie l'alimente encore, mais les moteurs semblent hors service.",
+		"$HNDSCryo" : "L'une des pièces est pleine de capsules cryogéniques. Néanmoins, tous les autochtones qu'elles contiennent sont morts depuis longtemps.",
+		"$HNDSCockpit" : "J'ai trouvé un chemin vers le cockpit.",
+		"$HNDSDamage" : "Sur les écrans du cockpit, j'ai trouvé une sorte de compte rendu des dégâts. Les autochtones rouges ont envahi le vaisseau et tenté d'en prendre le contrôle, mais les bleus qui étaient éveillés se sont défendus. Le chef des rouges a affronté celui des bleus, mais a été vaincu. Dans un dernier acte de révolte, le chef des rouges a fait exploser une bombe à matière fantôme qui a exterminé tout le monde à bord et immobilisé le vaisseau.",
+		"$HNDSHope" : "L'un des écrans montre qu'une capsule de sauvetage a réussi à s'éjecter. Elle a atterri sur Âtrebois. Le vaisseau a établi la connexion avec la capsule, révélant une nouvelle fréquence.",
 
 		//Lake Core
 		"$HNLKName" : "Noyau Lacustre",
-		"$HNLKDescription" : "Below the Dead Lake, there is a strange sea dotted with a few islands. Next to the elevator that took me down is a levitating radio dish pointing north.",
-		"$HNLKRaft" : "There is a raft on the starting island. Its controls appear to react to light.",
+		"$HNLKDescription" : "Sous le lac mort, un étrange océan est parsemé de quelques îles. À côté de l'ascenseur qui m'a conduit ici se trouve une antenne radio qui pointe vers le nord.",
+		"$HNLKRaft" : "Il y a un radeau sur l'île de départ. Ses commandes semblent réagir à la lumière.",
 
 		//Shrine Island
-		"$HNLKShrineName" : "Île sanctuaire",
-		"$HNLKShrineRumor" : "North of the starting island, there is a shrine of some kind on elevated ground. The stairs to the shrine have long crumbled.",
-		"$HNLKShrineEntry" : "The shrine has a secret entrance via a tunnel in the water.",
-		"$HNKLKShrineStation" : "There seems to be some kind of makeshift communications station in the shrine. There is a lever and a levitating radio dish pointing towards the entrance.",
-		"$HNLKShrineLever" : "The lever opened a door in the hangar at the Dead Lake.",
-		"$HNLKShrineMural" : "There is a mural in the shrine recounting a war between two factions, conveyed with red against blue inhabitants. This war lead to most of the planet becoming uninhabitable. Seeing this, the leaders of the two factions agreed to a truce and began to rebuild.",
-		"$HNLKShrinePoster" : "A poster above the communications area displays blue inhabitants flying ships into space and slowly building a much larger ship.",
+		"$HNLKShrineName" : "Île du sanctuaire",
+		"$HNLKShrineRumor" : "Au nord de l'île de départ, une sorte de sanctuaire se dresse hors des eaux. Les escaliers qui y mènent se sont effondrés depuis longtemps.",
+		"$HNLKShrineEntry" : "Une entrée secrète mène au sanctuaire via un tunnel sous-marin.",
+		"$HNKLKShrineStation" : "On dirait qu'un poste de communication de fortune a été établi dans le sanctuaire. Il dispose d'un levier et d'une antenne radio qui pointe vers l'entrée.",
+		"$HNLKShrineLever" : "Le levier a ouvert une porte dans le hangar du lac mort.",
+		"$HNLKShrineMural" : "Dans le sanctuaire, une fresque raconte la guerre opposant deux factions, les autochtones rouges contre les bleus. Cette guerre a rendu la majorité de la planète inhabitable. En voyant cela, les chefs des deux factions ont convenu d'une trève et commencé les efforts de reconstruction.",
+		"$HNLKShrinePoster" : "Une affiche au-dessus du poste de communications représente les autochtones bleus s'envoler dans l'espace à bord de vaisseaux, et commencer à construire un vaisseau beaucoup plus grand.", 
 
 		//Maze Island
-		"$HNLKMazeName" : "Île dédale",
-		"$HNLKMazeInfo" : "South of the starting island, there is a large landmass. It contains a tunnel.",
-		"$HNLKMazeGazebo" : "After going through the tunnel, I emerged at the surface. There is a gazebo with a mural on it. The mural seems to point out a tunnel below the water under a shrine.",
+		"$HNLKMazeName" : "Île du dédale",
+		"$HNLKMazeInfo" : "Au sud de l'île de départ se trouve une large portion de terre émergée. Elle comporte un tunnel.",
+		"$HNLKMazeGazebo" : "Après avoir traversé le tunnel, j'ai émergé à la surface. Il s'y trouve un kiosque avec une fresque. Elle semble indiquer l'entrée d'un tunnel immergé, sous un sanctuaire.",
 
 		//Lava Core
 		"$HNLVName" : "Noyau Magmatique",
-		"$HNLVDescription" : "Below the Extinct Volcano, there is a cracked sphere with lava rising and falling.",
-		"$HNLVButtons" : "This core contains structures locked by various buttons. They are very easy to press, not requiring very much pressure to activate, but must all be activated simultaneously.",
-		"$HNLVSignal" : "A dish at the entrance to the core is sending and receiving communications from various structures on the core.",
+		"$HNLVDescription" : "Sous le volcan éteint se trouve une grande sphère craquelée où de la lave monte puis redescend constamment.",
+		"$HNLVButtons" : "Ce noyau abrite des structures verrouillées par divers boutons. Ils s'activent à la moindre pression, sans difficulté, mais doivent être activés simultanément.",
+		"$HNLVSignal" : "Une antenne à l'entrée du noyau reçoit et envoie des signaux à ses différentes structures.",
 
 		//Structure On A Cliff
 		"$HNLVFirstButtonName" : "Structure de la falaise",
-		"$HNLVFirstButtonInfo" : "I found a locked structure with a button right outside of it. I don't see a second one, could it have fallen into the lava?",
+		"$HNLVFirstButtonInfo" : "J'ai découvert une structure verrouillée avec un bouton juste à côté. Le deuxième n'est pas là, pourrait-il être tombé dans la lave ?",
 
 		//Structure By Pillars
 		"$HNLVSecondButtonName" : "Structure aux piliers",
-		"$HNLVSecondButtonInfo" : "I found a locked structure with two pillars nearby sticking out of the lava.",
+		"$HNLVSecondButtonInfo" : "J'ai découvert une structure verrouillée à proximité de deux piliers qui jaillissent hors de la lave.",
 
 		//Old Abandoned Town
 		"$HNLVThirdButtonName" : "Ancienne ville abandonnée",
-		"$HNLVThirdButtonInfo" : "I found a series of locked structures.",
+		"$HNLVThirdButtonInfo" : "J'ai découvert un agglomérat de structures verrouillées.",
 
 		//Lava Shrine
-		"$HNLVShrineName" : "Sanctuaire du Magma",
-		"$HNLVShrineRumorName" : "Bâtiment étrange",
-		"$HNLVShrineInfo" : "Near the entrance to the lava core exists a very large building. It is not made of metal like the other structures nearby. A barrier prevents entry.",
-		"$HNLVShrineInfoAlt" : "A shrine can be found a short distance from the entrance to the lava core. A barrier blocks entry, but activating three buttons across the core opens it.",
-		"$HNLVShrineButtonRumorName" : "Button's Response",
-		"$HNLVButtonOne" : "I found a button at the Structure on a Cliff.",
-		"$HNLVButtonTwo" : "I found a button at the Structure by Pillars.",
-		"$HNLVButtonThree" : "I found a button at the Old Abandoned Town.",
-		"$HNLVShrineEntry" : "When I entered the shrine, I fell through a fake floor! It turns out that the inhabitants have walls that appear to exist, but are not at all solid. The only way to tell that wall is fake is a symbol on it, which could be <![CDATA[<color=orange>hidden in plain sight</color>]]>.",
-		"$HNLVShrineMurals" : "At the end of the shrine, I found four murals. The first three seem to depict several planets becoming increasingly unstable and falling apart. The fourth depicts a group flying away in a ship, while another group is saddened and angered at being left behind.",
+		"$HNLVShrineName" : "Sanctuaire du magma",
+		"$HNLVShrineRumorName" : "Bâtiment étrange",	
+		"$HNLVShrineInfo" : "Près de l'entrée du Noyau Magmatique se dresse un très grand bâtiment. Contrairement aux structures environnantes, il n'est pas composé de métal. Une barrière m'empêche d'y entrer.",
+		"$HNLVShrineInfoAlt" : "Un sanctuaire se dresse à proximité de l'entrée du Noyau Magmatique. Trois boutons éparpillés dans le noyau permettent d'ouvrir la barrière qui en interdit l'accès.",
+		"$HNLVShrineButtonRumorName" : "Utilité du bouton",
+		"$HNLVButtonOne" : "J'ai trouvé un bouton à la structure de la falaise.",
+		"$HNLVButtonTwo" : "J'ai trouvé un bouton à la structure aux piliers.",
+		"$HNLVButtonThree" : "J'ai trouvé un bouton à l'ancienne ville abandonnée.",
+		"$HNLVShrineEntry" : "En entrant dans le sanctuaire, je suis passé à travers un faux plancher ! Il s'avère que les autochtones disposent de murs illusoires, qui ne sont pas solides. La seule façon de reconnaître un mur illusoire est de repérer le symbole qui les orne tous, et qui pourrait <![CDATA[<color=orange>se cacher juste sous mes yeux</color>]]>.",
+		"$HNLVShrineMurals" : "Au bout du sanctuaire, j'ai découvert quatre fresques. Les trois premières semblent représenter plusieurs planètes qui deviennent instables puis s'effondrent. La quatrième représente un groupe d'autochtones qui s'enfuit à bord d'un vaisseau, laissant tomber un autre groupe affligé et furieux.",
 
 		//Lonely Hermit
 		"$HNLHName" : "Lascète",
 		"$HNLHRumorName" : "Planète vétuste",
-		"$HNLHArrival" : "I've arrived in Hearth's Neighbor. The only immediately obvious feature in this system is a lone, dusty planet.",
-		"$HNLHInfo" : "Hearth's Neighbor's sole planet. The surface is devoid of life.",
-		"$HNLHElevator" : "I found some kind of elevator that went below the surface and emerged in a strange expansive area. Is this planet <![CDATA[<color=orange>bigger on the inside</color>]]>?",
+		"$HNLHArrival" : "Je suis arrivé à Proximâtre. La seule particularité évidente de ce système est une planète vétuste et isolée.",
+		"$HNLHInfo" : "La seule planète de Proximâtre. Sa surface est exempte de tout signe de vie.",
+		"$HNLHElevator" : "J'ai découvert une sorte d'ascenseur qui plonge sous la surface et donne sur une zone étrangement large. Cette planète serait-elle <![CDATA[<color=orange>plus grande à l'intérieur</color>]]> ?",
 
 		//Ghost Matter Structure
 		"$HNLHPlantName" : "Structure de matière fantôme",
 		"$HNLHPlantRumorName" : "Structure en dôme",
-		"$HNLHPlantRumor" : "There is a strange domed structure on the surface of Lonely Hermit.",
-		"$HNLHPlantNoEntry" : "There does not seem to be a way inside. Judging by the copious amounts of Ghost Matter leaking out of it, it may not be a good idea to go inside it regardless.",
-		"$HNLHPlantInfo" : "A mural indicates that this structure is built around a comet that once crashed into the planet. The planet's inhabitants harnessed a power from within the comet to fuel their civilization.",
+		"$HNLHPlantRumor" : "Une étrange structure en forme de dome s'élève à la surface de Lascète.",
+		"$HNLHPlantNoEntry" : "Il ne semble pas y avoir de porte donnant vers l'intérieur. Vu les copieuses quantités de matière fantôme qui s'en échappent, je ne suis de toute façon pas sûr que ce soit une bonne idée d'y entrer.",
+		"$HNLHPlantInfo" : "Une fresque indique que cette structure est érigée autour d'une comète qui s'est jadis crashée sur la planète. Les autochtones ont exploité l'énergie de cette comète pour alimenter leur civilisation.",
 
 		//Northern Wasteland
 		"$HNLHWastelandName" : "Désert arctique",
 		"$HNLHWastelandRumorName" : "Pôle Nord",
-		"$HNLHWastelandRumor" : "There appears to be some snow-covered mountains at the north pole.",
-		"$HNLHWastelandRumorAlt" : "At the north pole, there are small remnants of civilization.",
-		"$HNLHWastelandElevator" : "I found a functioning elevator in the wasteland.",
+		"$HNLHWastelandRumor" : "Il semble que des montagnes enneigées s'élèvent au pôle nord.",
+		"$HNLHWastelandRumorAlt" : "Au pôle nord, il subsiste quelques rares traces de civilisation.",
+		"$HNLHWastelandElevator" : "J'ai trouvé un ascenseur en état de marche dans les montagnes.",
 
 		//Extinct Volcano
 		"$HNLHVolcanoName" : "Volcan éteint",
 		"$HNLHVolcanoRumorName" : "Haute montagne",
-		"$HNLHVolcanoRumor" : "There appears to be a tall, hollow mountain close to the south pole.",
-		"$HNLHVolcanoRumorAlt" : "A long-extinct volcano exists on the surface.",
-		"$HNLHVolcanoElevator" : "I found a functioning elevator on a structure within the caldera of the volcano.",
+		"$HNLHVolcanoRumor" : "On dirait qu'une grande montagne creuse se trouve à proximité du pôle sud.",
+		"$HNLHVolcanoRumorAlt" : "Un volcan éteint depuis longtemps s'élève à la surface.",
+		"$HNLHVolcanoElevator" : "J'ai trouvé un ascenseur en état de marche dans le cratère du volcan.",
 
 		//Dead Lake
 		"$HNLHLakeName" : "Lac mort",
 		"$HNLHLakeRumorName" : "Grande structure",
-		"$HNLHLakeRumor" : "There is a large structure surrounded by a moat.",
-		"$HNLHLakeRumorAlt" : "A strange structure exists surrounded by a moat. Despite the water, the area does not have any signs of life.",
-		"$HNLHLakeElevator" : "I found a functioning elevator within the structure.",
-		"$HNLHLakeHangar" : "The structure has some kind of landing/launching pad for larger ships. The pad is connected to a large hangar of some kind where the inhabitants of this planet stored resources to build a much larger structure.",
+		"$HNLHLakeRumor" : "Il y a une grande structure entourée par des douves.",
+		"$HNLHLakeRumorAlt" : "Une étrange structure est entourée par des douves. Malgré la présence d'eau, la région ne présente aucun signe de vie.",
+		"$HNLHLakeElevator" : "J'ai trouvé un ascenseur en état de marche dans la structure.",
+		"$HNLHLakeHangar" : "La structure comporte une sorte de piste d'atterrissage et décollage pour des vaisseaux. La piste est reliée à un vaste hangar où les habitants de la planète ont stocké de quoi construire quelque chose de bien plus grand.",
 
 		//Satellite Room
 		"$HNLHLakeDoorName" : "Salle du satellite",
 		"$HNLHLakeDoorRumorName" : "Porte étrange",
-		"$HNLHLakeDoorRumor" : "There is a massive locked door in the hangar.",
-		"$HNLHLakeDoorSatellite" : "Behind the door was a floating satellite pointing at something in space. There is a signal coming out of it.",
+		"$HNLHLakeDoorRumor" : "Il y a une énorme porte verrouillée à l'intérieur du hangar.",
+		"$HNLHLakeDoorSatellite" : "Derrière la porte se trouvait un satellite tourné vers l'espace. Il reçoit un signal provenant de quelque chose.",
 
 		//Museum Plate
 		"$HNMuseumPlateName" : "Plaque du musée",
-		"$HNMuseumPlateIntro" : "The museum has restored an old exhibit that's been in storage for a while. It can be found behind the stairs.",
-		"$HNMuseumPlateIntroAlt" : "The museum has an alien plate on display. While it doesn't seem to be Nomai in origin, its creator is unknown.",
-		"$HNMuseumPlateDetails" : "The plate has a map of two solar systems carved on it. One is our system, but the other is a nearby system, Hearth's Neighbor. With a warp drive in one's ship, one could warp to that system and check it out.",
-		"$HNMuseumPlateResolution" : "The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and lived here until the end of their days.",
+		"$HNMuseumPlateIntro" : "Le musée a restauré une vieille relique gardée en réserve depuis un moment. Elle peut être trouvée derrière les escaliers.",
+		"$HNMuseumPlateIntroAlt" : "Le musée présente une plaque d'origine alien parmi ses expositions. Comme elle ne semble pas d'origine nomaï, ses créateurs nous sont inconnus.",
+		"$HNMuseumPlateDetails" : "Deux systèmes stellaires sont gravés à la surface de la plaque. L'un d'entre eux est le nôtre, mais l'autre est un système voisin, Proximâtre. Grâce au moteur de distorsion d'une fusée, il serait possible d'y faire un tour.",
+		"$HNMuseumPlateResolution" : "Cette plaque nous est héritée du seul survivant de Proximâtre. Il s'est écrasé sur notre planète et y a vécu jusqu'à la fin de ses jours.",
 
 		//Escape Pod
 		"$HNPodName" : "Capsule de sauvetage",
-		"$HNPodRumor" : "The damage report from the Derelict Ship showed an escape pod land on Timber Hearth. A signal from the ship connected to it.",
-		"$HNPodResolution" : "The pod is intact! Whoever landed here survived, though what happened to them is a mystery lost to time. The plate at the museum came from the hull of the pod, likely carved out by the survivor(s) wanting to leave a message of where they came from.",
-		"$HNPodThanks" : "You have finished the Jam version of Hearth's Neighbor! Congrats! Of course, there may still be a few secrets remaining..."
+		"$HNPodRumor" : "Le compte rendu des dégâts du vaisseau délabré montrait qu'une capsule de sauvetage a atterri sur Âtrebois. Un signal émis par le vaisseau a établi la connexion avec elle.",
+		"$HNPodResolution" : "La capsule est intacte ! Quiconque ayant atterri ici a survécu, même si ce qu'il en est advenu ensuite demeure un mystère. La plaque du musée provient de la coque de la capsule, probablement gravée par le ou les survivants en guise de message sur leur origine.",
+		"$HNPodThanks" : "Vous avez fini la version de Proximâtre (Hearth's Neighbor) telle que soumise à la jam d'été 2023 ! Félicitations ! Évidemment, il pourrait rester quelques secrets à découvrir..."
 
 	},
 	"UIDictionary": {
@@ -204,17 +224,17 @@
 		"Neighbor Sun" : "Proxima",
 
 		//Neighbor's Distress Signal
-		"NEIGHBOR'S DISTRESS SIGNAL" : "SIGNAL DE DÉTRESSE DE PROXIMÂTRE",
+		"NEIGHBOR'S DISTRESS SIGNAL" : "SIGNAL DE DÉTRESSE",
 		"DERELICT SHIP" : "VAISSEAU DÉLABRÉ",
 		"DEAD LAKE DISH" : "PARABOLE DU LAC MORT",
 
 		//Lava Core Signals
-		"Lava Core Signals" : "SIGNAUX DU NOYAU MAGMATIQUE",
-		"ENTRANC STATION" : "STATION D'ENTRÉE",
+		"Lava Core Signals" : "SIGNAUX MAGMATIQUES",
+		"ENTRANCE STATION" : "STATION D'ENTRÉE",
 		"LAVA SHRINE" : "SANCTUAIRE DU MAGMA",
 		"STRUCTURE BY CLIFF" : "STRUCTURE DE LA FALAISE",
 		"STRUCTURE WITH PILLARS" : "STRUCTURE AUX PILIERS",
-		"OlD ABANDONED TOWN" : "ANCIENNE VILLE ABANDONNÉE",
+		"OLD ABANDONED TOWN" : "ANCIENNE VILLE ABANDONNÉE",
 
 		//Galactic Communication
 		"GALACTIC COMMUNICATION" : "COMMUNICATION GALACTIQUE",
