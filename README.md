@@ -12,7 +12,12 @@ Credits:
 * EndgameZero: Music. You can listen to the soundtrack [here!](https://youtu.be/WfaBq_FN-ko)
 * GameWyrm: Literally everything else
 * Metrocop12: Partial Russian translation
+* Luke Hakurei: French translation
 
 A few sounds were taken from FreeSound.
 
 For help with the mod, please contact GameWyrm on the Outer Wilds modding Discord.
+
+This mod is considered finished for the forseeable future due to lack of interest in development. The mod does have a clear ending, though the original intended ending was cut.
+
+This mod was the first place winner for the Outer Wilds Summer Modding Jam 2023. Thanks to everyone who played and gave feedback for the updates that came out afterwards!
