@@ -1,0 +1,244 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+		//Observatory
+		"$HNPlaqueName": "プレート",
+		"$HNPlaque1": "これは、村近くにある木立の川で見つかった奇妙な古代の金属プレートである。",
+		"$HNPlaque2": "その起源は不明であり、明らかにNomaiのものでもHearthianのものでもない。ある時点で木の炉辺に別の文明が存在していたのだろうか？残念ながら、この金属プレートがその文明に関してこれまでに発見された唯一の手がかりとなっている。",
+		"$HNPlaque3": "金属プレートに施された彫刻には我々の星系と、我々に最も近い星系であろう、炉辺の隣人が描かれている。はるばるそこからやってきたのだろうか？",
+		"$HNPlaque4": "我々はその答えを長らく知ることはできなかったが、Outer Wilds Venturesの探査艇に先日ワープドライブが搭載されたため、ついにこの謎が解明されるかもしれない！",
+
+		//Escape Pod
+		"$HNDialoguePodName": "脱出ポッド",
+		"$HNDialoguePod1": "[間違いない、これは博物館の金属板の元である！ある時点で船体から剥がれたようだが、明らかに同じ金属と塗装でできている。]&lt;i&gt;&lt;/i&gt;",
+		"$HNDialoguePod2": "[構造から判断するに、これは脱出ポッドの一種である。状態は良好であり、おそらく中の住人(たち)は生存しているようだ。]",
+		"$HNDialoguePod3": "[いつか、生存者に何が起きたのかを知ることはできるだろうか？はるか昔のことであろうが、そのチャンスはあるはずだ。]",
+		"$HNDialoguePod4": "[おめでとうございます！ここでHearth's Neighborは終わりです(途中で偶然これを見つけてしまったのでない限り)！この後も作るつもりではあったのですが、時間の都合上、エンディングを短くする必要がありました。]",
+		"$HNDialoguePod5": "[残念ながら、これがこのMODの当面のエンディングです。もともと計画していたものはもっと複雑なものでしたが、正直にいうと私はほぼ満足してしまいました。]",
+		"$HNDialoguePod6": "[…]",
+		"$HNDialoguePod7": "[何ですか、もっと何か欲しいですか？いいでしょう。このポッドの信号を知った場所へ戻り、そこで隠されたトンネルを探してください。片側から入ることができ、先は通行止めになっています。しかし、反対側までは続いていて…そこでどのように終わるか見届けることができるでしょう。]",
+
+		//Dev Room
+		"$HNDevPreJamOption": "ジャムメッセージ…",
+		"$HNDevPostJamOption": "勝利のメッセージ…",
+
+		//Shoe
+		"$HNDevShoeName": "FunkyShoeMan",
+		"$HNDevShoeTitle": "FunkyShoeMan:いくつかのモデルを作った",
+		"$HNDevShoe1": "これは私、くつだ、モデリングするときすごくなまけてた、はああ",
+		"$HNDevShoe2": "[Shoe:モデラーである。Terraria, Minecraft, or QSB(訳注:Quantum Space BuddiesというOuter WildsのオンラインプレイMODがあります)をプレイするのに\"忙しい\"わけではなかった]",
+		"$HNDevShoeV1": "だから本当に勝ったのだろう、おめでとう。",
+		"$HNDevShoeV2": "2、3位になるだろうと思ってたが、実際には1位を獲ることができた。美味しい焼きたてのパンと一緒にゴージャスなMODderジャムを楽しむつもりさ。HNをクリアし私たちを見つけられたことにおめでとう。",
+		"$HNDevShoeV3": "暗闇では寂しいな…そうだxen(訳注:New Horizonsのメイン作者かつMODジャムのジャッジの1人)、お前もハンマーでなぐってやろう！！！",
+
+		//Lumine
+		"$HNDevLumineName": "Lumine",
+		"$HNDevLumineTitle": "Lumine:航行記録のアイコンアーティスト",
+		"$HNDevLumine1": "こんにちは、私はLumine、このMODのアーティストです！たくさんの問題がありましたが、それでも最善を尽くしたので、皆さんにも私たちの作品を気に入っていただければ幸いです。",
+		"$HNDevLumine2": "MODにはもっと多くのイラストを入れたかったのですが、問題があり、そして時間制限もあったため、作成することができませんでした。",
+		"$HNDevLumine3": "このストーリーは短いものの、もしかすると他のMODジャムで続きを描けるかもしれません。",
+		"$HNDevLumine4": "初めてのMODジャムに参加できて光栄でした。このMODのプレイを楽しんでいただけたなら嬉しいです！",
+		"$HNDevLumineV1": "こんにちは、私はLumine、今回のジャムで1位となったMOD、Hearth's Neighborの作者の1人です。",
+		"$HNDevLumineV2": "MODの作成に参加することができて本当によかったです。このMODのためにもっと良いものを作りたくてもそこまでは至りませんでしたが、このような素晴らしい経験ができて本当に幸せです。",
+		"$HNDevLumineV3": "また、GameWyrm、Shoe、EndGameZeroという素晴らしい人々にも感謝したいです。ジャムの終了後にも、このMODをさらに改良する機会があったことを本当に嬉しく思います。皆さんに気に入っていただけたことを願っています。",
+
+		//GameWyrm
+		"$HNDevGameWyrmName": "GameWyrm",
+		"$HNDevGameWyrmTitle": "GameWyrm:チームリーダーおよびメインデザイナー",
+		"$HNDevGameWyrm1": "こんにちは！私はGameWyrm、チームリーダーおよびレベルデザイナーです。また、ガラクタに近いかもしれないがモデルも作りました。",
+		"$HNDevGameWyrm2": "Hearth's Neighborはお楽しみいただけましたでしょうか！これはジャム参加作品の中で最も複雑で洗練されているわけではないと思いますが、少なくともある程度は楽しんでプレイしていただけたのであれば幸いです。",
+		"$HNDevGameWyrm3": "もっと複雑なストーリーとエンディングを計画していましたが、時間の制約により、そのような複雑な部分はカットすることになりました。",
+		"$HNDevGameWyrm4": "このMODに対する私の望みは、存在するほとんどのストーリーMODとは異なるものを作成することでした。つまり、私はNomaiやOwlks(すまない、xen、<![CDATA[<i>流れ者の住人</i>]]>のことだ)に注目するMODを明確に避けたかったのです。これは、使用できる既成のアセットが減り、さらにプレイヤーとのコミュニケーションにテキストを使用することが制限されたため、おそらく悪いアイデアだったと思います。それでも、この新しい種族を取り巻く謎がストーリーの欠点を補ってくれることを願っています。",
+		"$HNDevGameWyrmV1": "はっ…私たちは<![CDATA[<i>優勝した？？？</i>]]>でもどうやって？えっと、第1位を受賞できて光栄です！",
+		"$HNDevGameWyrmV2": "個人的にはTesseract's Secretに受賞させたかったのですが、それでも、皆さんが私たちのMODを楽しんでくれたことを知ってとても嬉しく思います！&lt;i&gt;&lt;/i&gt;",
+		"$HNDevGameWyrmV3": "今回も素晴らしいジャム参加作品がたくさんありましたので、次回も待ちきれません！",
+
+		//Endgame
+		"$HNDevEndgameName": "EndgameZero",
+		"$HNDevEndgameTitle": "EndgameZero:作曲者",
+		"$HNDevEndgame1": "やあ！私はEndgameZero、Hearth's Neighborで作曲を担当しました。",
+		"$HNDevEndgame2": "このMODの音楽を作るのはとても面白かったので、楽しんでいただければ幸いです。",
+		"$HNDevEndgame3": "私は特に、ゲーム本編の曲を変更したパートを書いたり(The Riverですが5/4拍子が私のお気に入りでした)、秘密を隠したりするのが好きでした(今ちょうど聞こえますか?)。&lt;i&gt;&lt;/i&gt;",
+		"$HNDevEndgame4": "これは私の最初のMODジャム(そしてジャムに限らず私の最初のMOD)なので:この曲は私にとって新しいものですが、そのパートの1つとなれたことは光栄なことです。",
+		"$HNDevEndgameV1": "ええと、ジャムで優勝するとはまったく予想していなかったので、とてもクールなことです。&lt;i&gt;&lt;/i&gt;",
+		"$HNDevEndgameV2": "ということで、今回はさらにいくつかの秘密を隠しました ::)",
+
+		//Misc
+		"$HNDevMiscName": "スペシャルサンクス",
+		"$HNDevMisc1": "湖のコアで使用されている船のドックは、このジャムの前に別のMODのためShoeが作ったものです。",
+		"$HNDevMisc2": "いくつかのサウンドは、smokinghotdogによるFreeSoundsから取得されました。",
+		"$HNDevMisc3": "スペシャルサンクスをOuter Wilds Modding DiscordのJohn Corby、Triffid、xen、Idiotに贈ります。彼らは開発に関する多くの質問に答えてくれました。",
+		"$HNDevMisc4": "New Horizons MODチームにも感謝します。彼らがいなかったら、期間内にこのMODを作成することはできませんでした。",
+		"$HNDevMisc5": "Russian Translation by Metrocop12. French Translation by Luke Hakurei. Japanese Translation by orclecle."
+	},
+	"ShipLogDictionary": {
+
+		//Alpine Core
+		"$HNACName" : "高山のコア",
+		"$HNACDescription" : "北の焦土の下に、凍った浮島が連なる奇妙な土地を見つけた。それらを越えるには、ジャンプによる上昇の勢いがあるうちにブーストすることでさらに高度を増せることを覚えておくなど、多くのジェットパックスキルが要求される。",
+		"$HNACRedHouse" : "最も大きな島にて、おそらくこの惑星の住人のかつての住居と思われる建物を見つけた。",
+		"$HNACRedMural" : "家の中には、孤独な隠者内部にどうにかして3つのポケット次元を作り出している火の住人が描かれた壁画が存在する。",
+
+		//Odd Code
+		"$HNACCodeName" : "奇妙なコード",
+		"$HNACCode" : "テーブルには何らかのコードが書かれている。",
+
+		//Blue House
+		"$HNACSecret" : "水の家",
+		"$HNACSecretInfo" : "高山のコアの非常に遠く離れた島には家が存在する。",
+		"$HNACSecretMap" : "家には我々の星系を含む、近くの星系を示す星図がある。住人達は我々の星系近くの奇妙な異常に興味を持っていたようだが、そこまでのルートについて、あるいはそもそも行くべきかどうかについて意見の相違があったようだ。",
+
+		//Derelict Ship
+		"$HNDSName" : "遺棄船",
+		"$HNDSAlpineRumorName" : "コードの使用",
+		"$HNDSAlpineRumor" : "高山のコアにて、私はある種のコードを見つけた。",
+		"$HNDSLakeRumorName" : "水の住人の船",
+		"$HNDSLakeRumor" : "湖の神殿にて、水の住人が大型宇宙船を建造した証拠を発見した。",
+		"$HNDSDeadlakeRumorName" : "信号の終点",
+		"$HNDSDeadLakeRumor" : "死んだ湖の大きな扉の後ろにあるパラボラアンテナで、宇宙からの信号を検知した。何らかの救難信号のようだ。",
+		"$HNDSLavaRumorName" : "奇妙な船",
+		"$HNDSLavaRumor" : "溶岩の神殿にて、住人が建造した大型船を描いた壁画を発見した。",
+		"$HNDSEntry" : "星系の端に、生存者のいない船が浮かんでいる。",
+		"$HNDSBarrier" : "船の入口はバリアで封じられている。近くに5桁のコードを入力するパネルがある。",
+		"$HNDSInfo" : "船は幽霊物質で満たされている。まだ最小限の動力は残されているものの、エンジンはもう機能していないようだ。",
+		"$HNDSCryo" : "コールドスリープ用のポッドで満ちた部屋がある。しかし、その中の住人は皆、ずっと昔に亡くなっている。",
+		"$HNDSCockpit" : "コックピットに入る道を見つけた。",
+		"$HNDSDamage" : "コックピットの画面には、ある種の被害状況が表示されている。火の住人が船に侵入し乗っ取ろうとしたが、目覚めていた水の住人が反撃した。火の指導者は水の指導者と戦おうとしたが、敗れた。最後の反抗手段として、火の指導者は幽霊物質爆弾を作動させて乗員全員を殺害し、船は動かなくなった。",
+		"$HNDSHope" : "ある画面には、脱出ポッドの1つが無事に発射されたことが表示されている。それは木の炉辺に着陸した。その後、船はポッドとの通信を開始し、信号周波数を明らかにした。",
+
+		//Lake Core
+		"$HNLKName" : "湖のコア",
+		"$HNLKDescription" : "死んだ湖の下には、いくつかの島が点在する奇妙な海がある。私を降ろしたエレベーターの隣には、北を向いて空中に浮かぶパラボラアンテナが存在する。",
+		"$HNLKRaft" : "始まりの島にはイカダがある。その制御装置は光に反応するようだ。",
+
+		//Shrine Island
+		"$HNLKShrineName" : "神殿島",
+		"$HNLKShrineRumor" : "始まりの島の北、高台に何らかの神殿がある。その神殿への階段は長い時間の経過により崩れ落ちている。",
+		"$HNLKShrineEntry" : "神殿には水中のトンネルを通った秘密の入口が存在する。",
+		"$HNKLKShrineStation" : "神殿内には間に合わせの通信装置のようなものがある。そこにはレバーがついており、そして入口の方角を向いたパラボラアンテナが空中に浮いている。",
+		"$HNLKShrineLever" : "レバーは死んだ湖にある格納庫の扉を開けた。",
+		"$HNLKShrineMural" : "神殿には火と水の住人という2つの勢力間の戦争を描いた壁画がある。この戦いにより惑星の大部分は居住不可能な状態となった。この状況を見た双方の指導者らは休戦に合意し、再建を始めた。",
+		"$HNLKShrinePoster" : "通信エリアの上にあるポスターには、水の住人が船を宇宙に飛ばし、そしてゆっくりとより大きな船を建造している様子が描かれている。",
+
+		//Maze Island
+		"$HNLKMazeName" : "迷路島",
+		"$HNLKMazeInfo" : "始まりの島の南には大きな陸地があり、そこにはトンネルがある。",
+		"$HNLKMazeGazebo" : "トンネルを抜けるとその陸地の地表に出た。壁画が描かれた展望台があり、それは神殿の下の水中にトンネルが存在することを示しているようだ。",
+
+		//Lava Core
+		"$HNLVName" : "溶岩のコア",
+		"$HNLVDescription" : "絶えた火山の下には、溶岩が上下するひび割れた球体がある。",
+		"$HNLVButtons" : "このコアには様々なボタンによってロックされた構造物が存在する。そのボタンを押すのはとても簡単でありアクティブ化するのにほとんど圧力を必要としないが、すべてを同時にアクティブにする必要がある。",
+		"$HNLVSignal" : "コア入口にあるアンテナは、コア内の様々な構造物と通信を送受信している。",
+
+		//Structure On A Cliff
+		"$HNLVFirstButtonName" : "崖側の構造物",
+		"$HNLVFirstButtonInfo" : "すぐ外にボタンのあるロックされた構造物を見つけた。2つ目が見当たらないが、溶岩に落ちているのだろうか？",
+
+		//Structure By Pillars
+		"$HNLVSecondButtonName" : "柱付近の構造物",
+		"$HNLVSecondButtonInfo" : "近くに溶岩から突き出た2本の柱がある、ロックされた構造物を見つけた。",
+
+		//Old Abandoned Town
+		"$HNLVThirdButtonName" : "古い放棄された街",
+		"$HNLVThirdButtonInfo" : "一連のロックされた構造物群を見つけた。",
+
+		//Lava Shrine
+		"$HNLVShrineName" : "溶岩の神殿",
+		"$HNLVShrineRumorName" : "奇妙な建造物",
+		"$HNLVShrineInfo" : "溶岩のコアの入口近くに非常に大きな建造物が存在する。近隣の他の構造物と異なり、金属製ではない。バリアにより入ることができない。",
+		"$HNLVShrineInfoAlt" : "溶岩のコアの入口から少し離れたところに神殿がある。バリアが侵入を防いでいるが、コアを横切る3つのボタンをアクティブにすると解除される。",
+		"$HNLVShrineButtonRumorName" : "ボタンの反応",
+		"$HNLVButtonOne" : "崖側の構造物にてボタンを見つけた。",
+		"$HNLVButtonTwo" : "柱付近の構造物にてボタンを見つけた。",
+		"$HNLVButtonThree" : "古い放棄された街にてボタンを見つけた。",
+		"$HNLVShrineEntry" : "神殿に入ると偽の床から落下してしまった！存在するように見えても実はそうではない壁を、ここの住人達は利用していることがわかった。壁が偽物かどうか判別する唯一の方法は、その壁にあるシンボルである。つまり、<![CDATA[<color=orange>目に見えないところに隠されている</color>]]>ということだ。",
+		"$HNLVShrineMurals" : "神殿の最奥に4枚の壁画を見つけた。最初の3つは、それぞれの惑星がますます不安定になり崩壊している様子に見える。4つ目には、船で飛び去るグループと、取り残され悲しみつつ腹を立てるグループが描かれている。",
+
+		//Lonely Hermit
+		"$HNLHName" : "孤独な隠者",
+		"$HNLHRumorName" : "くすんだ惑星",
+		"$HNLHArrival" : "私は炉辺の隣人に到着した。この星系についてすぐにわかる唯一の明らかな特徴は、孤独な、くすんだ惑星である。",
+		"$HNLHInfo" : "炉辺の隣人にある唯一の惑星。地表には生命は存在しないようだ。",
+		"$HNLHElevator" : "地表を潜って奇妙な広大な空間に現れるエレベーターのようなものを見つけた。この惑星は<![CDATA[<color=orange>内側の方が大きい</color>]]>ということなのだろうか？",
+
+		//Ghost Matter Structure
+		"$HNLHPlantName" : "幽霊物質の構造物",
+		"$HNLHPlantRumorName" : "ドーム状の構造物",
+		"$HNLHPlantRumor" : "孤独な隠者の地表には奇妙なドーム状の構造物がある。",
+		"$HNLHPlantNoEntry" : "中に入る方法は存在しないようだ。そこから漏れ出ている大量の幽霊物質から判断すると、中に入るのは得策ではないだろう。",
+		"$HNLHPlantInfo" : "壁画は、この構造物がかつて惑星に衝突した彗星の周りに建てられたことを示している。この惑星の住人は彗星内部からのエネルギーを利用して文明を発展させていた。",
+
+		//Northern Wasteland
+		"$HNLHWastelandName" : "北の焦土",
+		"$HNLHWastelandRumorName" : "北極",
+		"$HNLHWastelandRumor" : "北極には雪を被った山がいくつかある。",
+		"$HNLHWastelandRumorAlt" : "北極には文明の小さな名残がある。",
+		"$HNLHWastelandElevator" : "焦土にて機能するエレベーターを見つけた。",
+
+		//Extinct Volcano
+		"$HNLHVolcanoName" : "絶えた火山",
+		"$HNLHVolcanoRumorName" : "大きな山",
+		"$HNLHVolcanoRumor" : "南極の近くに、空洞の大きな山があるようだ。",
+		"$HNLHVolcanoRumorAlt" : "地表には長らく活動していない火山がある。",
+		"$HNLHVolcanoElevator" : "火山のカルデラ内の構造物にて、機能するエレベーターを見つけた。",
+
+		//Dead Lake
+		"$HNLHLakeName" : "死んだ湖",
+		"$HNLHLakeRumorName" : "大きな構造物",
+		"$HNLHLakeRumor" : "水路に囲われた大きな構造物がある。",
+		"$HNLHLakeRumorAlt" : "水路に囲われた奇妙な構造物が存在する。水があるにもかかわらず、この地域には生命の痕跡が存在しない。",
+		"$HNLHLakeElevator" : "構造物内に機能するエレベーターを見つけた。",
+		"$HNLHLakeHangar" : "この構造物には、大型船用の着陸/発射台のようなものがある。このパッドは、この惑星の住人がより大きな構造物を建造するために資源を保管していたある種の大きな格納庫に接続されている。",
+
+		//Satellite Room
+		"$HNLHLakeDoorName" : "衛星部屋",
+		"$HNLHLakeDoorRumorName" : "奇妙な扉",
+		"$HNLHLakeDoorRumor" : "格納庫にはロックされた巨大な扉が存在する。",
+		"$HNLHLakeDoorSatellite" : "扉の後ろには、宇宙空間内の何かを指している浮遊した衛星がある。そこから信号が出ている。",
+
+		//Museum Plate
+		"$HNMuseumPlateName" : "博物館のプレート",
+		"$HNMuseumPlateIntro" : "博物館はしばらく保管されていた古い品を再び展示した。階段の後ろに設置されている。",
+		"$HNMuseumPlateIntroAlt" : "博物館には何らかの宇宙人によるプレートが展示されている。起源はNomaiによるものではないようだが、未だ明らかになっていない。",
+		"$HNMuseumPlateDetails" : "プレートには2つの星系の地図が刻まれている。1つは我々の星系だが、もう1つは近くの星系、炉辺の隣人である。自分の探査艇に搭載されたワープドライブにより、その星系にワープして確かめることができるだろう。",
+		"$HNMuseumPlateResolution" : "このプレートは炉辺の隣人の住人である唯一の生存者が残したものだ。その人物は我々の惑星に墜落し、一生の終わりまでここで暮らした。",
+
+		//Escape Pod
+		"$HNPodName" : "脱出ポッド",
+		"$HNPodRumor" : "遺棄船からの被害報告レポートには、脱出ポッドが木の炉辺に着陸したことが示されていた。船からの信号はそこに繋がっている。",
+		"$HNPodResolution" : "ポッドは無事だった！ここに着陸した者は生き残ったが、その人物に何が起こったのかは時の経過とともに謎に包まれている。博物館にあるプレートはポッドの船体から作られたもので、おそらく生存者(たち)がどこから来たのかをメッセージとして残したいと考えて彫ったのだろう。",
+		"$HNPodThanks" : "Hearth's NeighborのMODジャムバージョンはこれで終わりです！おめでとうございます！もちろん、未だいくつかの謎が残されているかもしれません…。"
+
+	},
+	"UIDictionary": {
+
+		//Planet(s)
+		"Lonely Hermit" : "孤独な隠者",
+		"Alpine Core" : "高山のコア",
+		"Lake Core" : "湖のコア",
+		"Lava Core" : "溶岩のコア",
+		"Derelict Ship" : "遺棄船",
+		"Neighbor Sun" : "隣人の太陽",
+
+		//Neighbor's Distress Signal
+		"NEIGHBOR'S DISTRESS SIGNAL" : "隣人の救難信号",
+		"DERELICT SHIP" : "遺棄船",
+		"DEAD LAKE DISH" : "死んだ湖のアンテナ",
+
+		//Lava Core Signals
+		"Lava Core Signals" : "溶岩のコアの信号",
+		"ENTRANCE STATION" : "入口ステーション",
+		"LAVA SHRINE" : "溶岩の神殿",
+		"STRUCTURE BY CLIFF" : "崖側の構造物",
+		"STRUCTURE WITH PILLARS" : "柱付近の構造物",
+		"OLD ABANDONED TOWN" : "古い放棄された街",
+
+		//Galactic Communication
+		"GALACTIC COMMUNICATION" : "銀河間通信",
+		"DERELICT SHIP COCKPIT" : "遺棄船のコックピット",
+		"SOLE SURVIVOR" : "唯一の生存者"
+
+	}
+}
