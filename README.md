@@ -13,6 +13,7 @@ Credits:
 * GameWyrm: Literally everything else
 * Metrocop12: Partial Russian translation
 * Luke Hakurei: French translation
+* Orclecle (TRsasasusu): Japanese translation
 
 A few sounds were taken from FreeSound.
 
