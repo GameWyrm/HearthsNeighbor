@@ -4,6 +4,7 @@
   <Entry>
     <ID>LAKE_CORE_ROOT</ID>
     <Name>$HNLKName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LK_DESCRIPTION</ID>
@@ -19,6 +20,7 @@
     <Entry>
       <ID>LK_SHRINE_FACT</ID>
       <Name>$HNLKShrineName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <RumorFact>
         <ID>LK_SHRINE_RUMOR</ID>
@@ -54,6 +56,7 @@
     <Entry>
       <ID>LK_MAZE_FACT</ID>
       <Name>$HNLKMazeName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <RumorFact>
         <ID>LK_MAZE_INFO</ID>

@@ -4,6 +4,7 @@
   <Entry>
     <ID>LAVA_CORE_ROOT</ID>
     <Name>$HNLVName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LV_DESCRIPTION</ID>
@@ -24,6 +25,7 @@
     <Entry>
       <ID>LV_FIRST_BUTTON_FACT</ID>
       <Name>$HNLVFirstButtonName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <ExploreFact>
         <ID>LV_FIRST_BUTTON_INFO</ID>
@@ -34,6 +36,7 @@
     <Entry>
       <ID>LV_SECOND_BUTTON_FACT</ID>
       <Name>$HNLVSecondButtonName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <ExploreFact>
         <ID>LV_SECOND_BUTTON_INFO</ID>
@@ -44,6 +47,7 @@
     <Entry>
       <ID>LV_THIRD_BUTTON_FACT</ID>
       <Name>$HNLVThirdButtonName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <ExploreFact>
         <ID>LV_THIRD_BUTTON_INFO</ID>
@@ -54,6 +58,7 @@
     <Entry>
       <ID>LV_SHRINE_FACT</ID>
       <Name>$HNLVShrineName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <RumorFact>
         <ID>LV_SHRINE_INFO</ID>

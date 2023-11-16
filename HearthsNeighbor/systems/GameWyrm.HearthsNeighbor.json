@@ -133,5 +133,22 @@
     ],
     "initialReveal": [
         "LH_ARRIVAL"
+    ],
+    "curiosities": [
+        {
+            "id": "DERELICT_SHIP_ROOT",
+            "color": {
+                "r": 45,
+                "g": 108,
+                "b": 255,
+                "a": 255
+            },
+            "highlightColor": {
+                "r": 145,
+                "g": 176,
+                "b": 255,
+                "a": 255
+            }
+        }
     ]
 }

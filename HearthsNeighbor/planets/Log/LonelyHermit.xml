@@ -4,6 +4,7 @@
   <Entry>
     <ID>LONELY_HERMIT_ROOT</ID>
     <Name>$HNLHName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LH_ARRIVAL</ID>
@@ -47,6 +48,7 @@
   <Entry>
     <ID>LH_NORTHERN_WASTELAND_FACT</ID>
     <Name>$HNLHWastelandName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LH_WASTELAND_RUMOR</ID>
@@ -68,6 +70,7 @@
   <Entry>
     <ID>LH_EXTINCT_VOLCANO_FACT</ID>
     <Name>$HNLHVolcanoName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LH_VOLCANO_RUMOR</ID>
@@ -89,6 +92,7 @@
   <Entry>
     <ID>LH_DEAD_LAKE_FACT</ID>
     <Name>$HNLHLakeName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>LH_LAKE_RUMOR</ID>
@@ -114,6 +118,7 @@
     <Entry>
       <ID>LH_LAKE_DOOR_FACT</ID>
       <Name>$HNLHLakeDoorName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <RumorFact>
         <ID>LH_LAKE_DOOR</ID>

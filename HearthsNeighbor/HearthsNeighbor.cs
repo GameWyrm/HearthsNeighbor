@@ -13,7 +13,7 @@ namespace HearthsNeighbor
         /// <summary>
         /// Determines whether we should print non-critical messages to the console and enables other dev features
         /// </summary>
-        public static bool debugMode = true;
+        public static bool debugMode = false;
         /// <summary>
         /// Whether the player is in an elevator
         /// </summary>

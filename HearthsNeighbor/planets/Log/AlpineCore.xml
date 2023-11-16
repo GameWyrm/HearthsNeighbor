@@ -5,6 +5,7 @@
   <Entry>
     <ID>AC_ROOT</ID>
     <Name>$HNACName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
     <RumorFact>
       <ID>AC_DESCRIPTION</ID>
@@ -25,6 +26,7 @@
     <Entry>
       <ID>AC_CODE_FACT</ID>
       <Name>$HNACCodeName</Name>
+      <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
 
       <ExploreFact>
         <ID>AC_CODE</ID>

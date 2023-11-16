@@ -4,6 +4,8 @@
   <Entry>
     <ID>DERELICT_SHIP_ROOT</ID>
     <Name>$HNDSName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
+    <IsCuriosity/>
 
     <RumorFact>
       <ID>DS_ALPINE_RUMOR</ID>
