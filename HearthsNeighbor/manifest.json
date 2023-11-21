@@ -4,7 +4,7 @@
   "author": "GameWyrm",
   "name": "Hearth's Neighbor",
   "uniqueName": "GameWyrm.HearthsNeighbor",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "owmlVersion": "2.9.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
