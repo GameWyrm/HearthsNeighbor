@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
@@ -24,8 +25,22 @@ namespace HearthsNeighbor
         public GameObject LavaPlanet;
         public GameObject DerelictShip;
         public INewHorizons nh;
+        public IQSBAPI qsb;
+        public Action<uint, bool> OnLeverActivate;
+        public Action<uint, short> OnLavaButtonPress;
+        public Action<uint, short> OnShipKeypadPress;
+        public Action<uint, bool> OnEndingButtonPress;
 
         private Dictionary<string, SeamlessPlayerWarp> warpList;
+
+        public static bool GetIsMultiplayer()
+        {
+            if (Main.qsb != null)
+            {
+                if (Main.qsb.GetIsInMultiplayer()) return true;
+            }
+            return false;
+        }
 
         public static HearthsNeighbor Main
         {
@@ -43,9 +58,6 @@ namespace HearthsNeighbor
             // So you probably don't want to do anything here.
             // Use Start() instead.
             warpList = new Dictionary<string, SeamlessPlayerWarp>();
-
-            // Prepare for patching
-            Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
 
         private void Start()
@@ -56,6 +68,16 @@ namespace HearthsNeighbor
 
             // Runs every time our system loads
             nh.GetStarSystemLoadedEvent().AddListener(InitSystem);
+
+            // Add QSB support
+            qsb = ModHelper.Interaction.TryGetModApi<IQSBAPI>("Raicuparta.QuantumSpaceBuddies");
+            if (qsb != null)
+            {
+                qsb.RegisterHandler<bool>("HN1PullLever", (x, y) => OnLeverActivate?.Invoke(x, y));
+                qsb.RegisterHandler<short>("HN1PushLavaButton", (x, y) => OnLavaButtonPress?.Invoke(x, y));
+                qsb.RegisterHandler<short>("HN1ShipKeypad", (x, y) => OnShipKeypadPress?.Invoke(x, y));
+                qsb.RegisterHandler<bool>("HN1EndingButton", (x, y) => OnEndingButtonPress?.Invoke(x, y));
+            }
         }
 
         /// <summary>

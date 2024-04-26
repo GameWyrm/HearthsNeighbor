@@ -24,13 +24,42 @@ namespace HearthsNeighbor
             interact.OnPressInteract += OnPressInteract;
             interact.EnableInteraction();
             interact.SetPromptText(UITextType.PressPrompt);
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnShipKeypadPress += OnPushButtonQSB;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnShipKeypadPress -= OnPushButtonQSB;
+            }
+        }
+
+        private void OnPushButtonQSB(uint playerID, short receivedID)
+        {
+            if (receivedID == ID)
+            {
+                PressKeypadButton(false);
+            }
         }
 
         private void OnPressInteract()
         {
+            PressKeypadButton(true);
+        }
+
+        private void PressKeypadButton(bool activatedLocally)
+        {
             Beep.Play();
             anim.SetTrigger("PressButton");
             Panel.InputDigit(ID);
+            if (HearthsNeighbor.GetIsMultiplayer() && activatedLocally)
+            {
+                HearthsNeighbor.Main.qsb.SendMessage<short>("HN1ShipKeypad", (short)ID);
+            }
             StartCoroutine(ButtonDelay());
         }
 

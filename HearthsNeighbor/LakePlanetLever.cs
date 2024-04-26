@@ -14,14 +14,40 @@ namespace HearthsNeighbor
         private void Awake()
         {
             interaction = GetComponent<SingleInteractionVolume>();
-            interaction.OnPressInteract += ToggleDoor;
+            interaction.OnPressInteract += ToggleDoorEvent;
             interaction.enabled = true;
             interaction.EnableInteraction();
 
             anim = GetComponentInParent<Animator>();
         }
 
-        private void ToggleDoor()
+        private void Start()
+        {
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnLeverActivate += OnPullLeverQSB;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnLeverActivate -= OnPullLeverQSB;
+            }
+        }
+
+        private void OnPullLeverQSB(uint playerID, bool pulled)
+        {
+            ToggleDoor(false);
+        }
+
+        private void ToggleDoorEvent()
+        {
+            ToggleDoor(true);
+        }
+
+        private void ToggleDoor(bool activatedLocally)
         {
             isOn = !isOn;
             anim.SetBool("IsOn", isOn);
@@ -33,6 +59,10 @@ namespace HearthsNeighbor
                 interaction.DisableInteraction();
             }
             lakeDoor.SetActive(!isOn);
+            if (HearthsNeighbor.GetIsMultiplayer() && activatedLocally)
+            {
+                HearthsNeighbor.Main.qsb.SendMessage<bool>("HN1PullLever", true);
+            }
         }
     }
 }

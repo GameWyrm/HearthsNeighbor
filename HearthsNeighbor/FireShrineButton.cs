@@ -28,15 +28,48 @@ namespace HearthsNeighbor
             buttonSprite.color = dullColor;
         }
 
+        private void Start()
+        {
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnLavaButtonPress += OnPushButtonQSB;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (HearthsNeighbor.GetIsMultiplayer())
+            {
+                HearthsNeighbor.Main.OnLavaButtonPress -= OnPushButtonQSB;
+            }
+        }
+
+        private void OnPushButtonQSB(uint playerID, short ID)
+        {
+            if (ID == myID)
+            {
+                PushButton(false);
+            }
+        }
+
         private void OnPressInteract()
         {
-            if(!isOn)
+            PushButton(true);
+            interaction.DisableInteraction();
+        }
+
+        private void PushButton(bool activatedLocally)
+        {
+            if (!isOn)
             {
                 buttonSprite.color = brightColor;
                 blockade.ActivateButton(myID);
+                if (HearthsNeighbor.GetIsMultiplayer() && activatedLocally)
+                {
+                    HearthsNeighbor.Main.qsb.SendMessage<short>("HN1PushLavaButton", (short)myID);
+                }
                 isOn = true;
             }
-            interaction.DisableInteraction();
         }
     }
 }
