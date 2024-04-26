@@ -11,8 +11,9 @@ Credits:
 * Lumine0409: Ship Log Map Mode icons and main logo
 * EndgameZero: Music. You can listen to the soundtrack [here!](https://youtu.be/WfaBq_FN-ko)
 * GameWyrm: Literally everything else
-* Metrocop12: Partial Russian translation
+* Metrocop12: Russian translation
 * Luke Hakurei: French translation
+* Orclecle: Japanese translation
 
 A few sounds were taken from FreeSound.
 

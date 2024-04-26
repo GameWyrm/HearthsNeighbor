@@ -5,54 +5,73 @@
 		//Observatory
 		"$HNPlaqueName": "Табличка",
 		"$HNPlaque1": "Это странная, древняя металлическая пластина, найденная в реке в роще недалеко от деревни.",
-		"$HNPlaque2": "Ее происхождение неизвестно; это явно не Номаи или Камелян. Была ли когда-то на Камельке еще одна цивилизация? К сожалению, это единственный след этой цивилизации, который когда-либо был найден.",
+		"$HNPlaque2": "Ее происхождение неизвестно; это явно не Номаи или Камелянин. Была ли когда-то на Камельке еще одна цивилизация? К сожалению, это единственный след этой цивилизации, который когда-либо был найден.",
 		"$HNPlaque3": "Резьба на пластине изображает нашу солнечную систему и то, что кажется нам ближайшей системой, «Hearth's Neighbor». Могла ли она прийти издалека?",
 		"$HNPlaque4": "Мы долгое время считали, что никогда не узнаем ответ, но из-за того, что недавно корабли «Покорителей Дикого Космоса» были оснащены варп-двигателями, эта загадка может быть однажды разгадана!",
 
 		//Escape Pod
-		"$HNDialoguePodName" : "Escape Pod",
-		"$HNDialoguePod1" : "[There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is defitely the same metal and paint.]",
-		"$HNDialoguePod2" : "[Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry.]",
-		"$HNDialoguePod3" : "[Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance.]",
-		"$HNDialoguePod4" : "[Congrats! You have completed the Jam version of Hearth's Neighbor (unless you managed find this early)! We wanted more after this, but time constraints required us to cut the ending short.]",
-		"$HNDialoguePod5" : "[Perhaps one day, we'll actually give this mod a full overhaul, with a proper ending, but no promises.]",
-		"$HNDialoguePod6" : "[...]",
-		"$HNDialoguePod7" : "[What, you want more? All right. Go back to where you learned about this pod, and look for a hidden tunnel. You can enter one side, but it's blocked. However, it goes all the way through to the other side...see if you can figure out where it ends up.]",
+		"$HNDialoguePodName": "Спасательная капсула",
+		"$HNDialoguePod1": "[Здесь нет никакой ошибки - это источник музейной пластины! Когда-то она была оторвана от корпуса, но это точно тот же металл и та же краска.]",
+		"$HNDialoguePod2": "[Судя по структуре, это что-то вроде спасательной капсулы. Судя по всему, она находится в хорошем состоянии, так что ее обитатель(и), скорее всего, выжил(и) внутри.]",
+		"$HNDialoguePod3": "[Возможно, однажды, ты сможешь узнать, что случилось с выжившими? Это могло быть очень давно, но все же шанс есть.]",
+		"$HNDialoguePod4": "[Поздравляю! Ты завершил Jam-версию «Hearth's Neighbor» (если только тебе не удалось найти ее раньше)! Мы хотели, чтобы после этого было еще что-то, но из-за нехватки времени пришлось сократить концовку.]",
+		"$HNDialoguePod5": "[К сожалению, в ближайшем будущем мод будет иметь именно такую концовку. Запланированная концовка и переделка оказались намного сложнее, с чем команда не справилась, и, честно говоря, в таком состоянии я в целом доволен.]",
+		"$HNDialoguePod6": "[...]",
+		"$HNDialoguePod7": "[Что, ты хочешь еще? Хорошо. Вернись к тому месту, где ты узнал об этой капсуле, и поищи скрытый туннель. Ты можешь войти в него с одной стороны, но она заблокирована. Впрочем, с другой стороны он проходит насквозь... посмотрим, сможешь ли ты понять, где он заканчивается.]",
 
 		//Dev Room
+		"$HNDevPreJamOption": "Сообщение о Jam...",
+		"$HNDevPostJamOption": "Сообщение о Победе...",
+
 		//Shoe
-		"$HNDevShoeName" : "FunkyShoeMan",
-		"$HNDevShoe1" : "tis is i shoer, i was quite lazy when modeling blehh",
-		"$HNDevShoe2" : "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+		"$HNDevShoeName": "FunkyShoeMan",
+		"$HNDevShoeTitle": "FunkyShoeMan: Сделал несколько моделей",
+		"$HNDevShoe1": "Это я - shoer, я был довольно ленив при моделировании, блехх.",
+		"$HNDevShoe2": "[Shoe: Моделировал, когда не был «занят» игрой в Terraria, Minecraft или QSB.]",
+		"$HNDevShoeV1": "Так что я думаю, что мы действительно выиграли, поздравляю.",
+		"$HNDevShoeV2": "Я думал, что мы займем 2-3 место, но на самом деле нам удалось занять 1 место, я буду наслаждаться своим роскошным моддерским джемом с хорошим свежим хлебом, также поздравляю, что победили HN и нашли нас.",
+		"$HNDevShoeV3": "Одиноко в темноте... а еще xen я буду бить тебя молотком!!!",
 
 		//Lumine
-		"$HNDevLumineName" : "Lumine",
-		"$HNDevLumine1" : "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
-		"$HNDevLumine2" : "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
-		"$HNDevLumine3" : "Even though the story is short, maybe I can continue it in other Mod Jams.",
-		"$HNDevLumine4" : "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+		"$HNDevLumineName": "Lumine",
+		"$HNDevLumineTitle": "Lumine: Художник изображений для бортового компьютера",
+		"$HNDevLumine1": "Привет, я - Lumine, художник этого мода! Даже несмотря на то, что у меня было много проблем, я все равно старался изо всех сил, и я надеюсь, что вам всем понравится наша работа.",
+		"$HNDevLumine2": "Мы хотели, чтобы в моде было гораздо больше иллюстраций, но из-за возникших проблем и ограничения по времени я не смог их сделать.",
+		"$HNDevLumine3": "Несмотря на то, что история короткая, возможно, я смогу продолжить ее в других Jam-модах.",
+		"$HNDevLumine4": "Мне было очень приятно участвовать в моем первом Jam-моде, и я надеюсь, что вам понравится играть в этот мод!",
+		"$HNDevLumineV1": "Привет, я Lumine, один из разработчиков победившего jam-мода «Hearth's Neighbor».",
+		"$HNDevLumineV2": "Мне очень понравилось участвовать в создании мода, даже если бы я хотел сделать больше и лучше для мода, я бы не смог, но я очень рад, что у меня был этот невероятный опыт.",
+		"$HNDevLumineV3": "Я также хочу поблагодарить GameWyrm, Shoe и EndGameZero, которые являются потрясающими людьми. Я очень рад, что у нас была возможность сделать этот мод еще лучше после окончания jam, и я надеюсь, что он всем понравится.",
 
 		//GameWyrm
-		"$HNDevGameWyrmName" : "GameWyrm",
-		"$HNDevGameWyrm1" : "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
-		"$HNDevGameWyrm2" : "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
-		"$HNDevGameWyrm3" : "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
-		"$HNDevGameWyrm4" : "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+		"$HNDevGameWyrmName": "GameWyrm",
+		"$HNDevGameWyrmTitle": "GameWyrm: лидер команды и главный дизайнер",
+		"$HNDevGameWyrm1": "Привет! Я - GameWyrm, лидер команды и дизайнер уровней. Я также сделал все мусорные модели в этом моде.",
+		"$HNDevGameWyrm2": "Я надеюсь, что тебе понравился «Hearth's Neighbor»! Это не самая сложная или отполированная часть Jam, не спорю, но я хочу, чтобы ты хотя бы получил удовольствие от игры.",
+		"$HNDevGameWyrm3": "Мы планировали гораздо более сложный сюжет и концовку, но из-за нехватки времени нам пришлось сократить более сложные вещи.",
+		"$HNDevGameWyrm4": "Моим желанием при создании этого мода было создать нечто отличное от большинства существующих сюжетных модов; я явно хотел избежать создания мода с участием Номаи или Незнакомцев (прости, xen, <![CDATA[<i>обитатели</i>]]>). Возможно, это было плохой идеей, так как это уменьшило количество готовых ресурсов, которые мы могли использовать, и ограничило нас в использовании текста для общения с игроком, но я надеюсь, что тайна, окружающая эту новую расу, компенсирует недостатки сюжета.",
+		"$HNDevGameWyrmV1": "Хм... мы <![CDATA[<i>победили???</i>]]> Но как? Ну, для нас большая честь занять первое место!",
+		"$HNDevGameWyrmV2": "Лично я бы отдал награду «Tesseract's Secret», но все равно, очень приятно знать, что людям понравился наш мод!",
+		"$HNDevGameWyrmV3": "В этот раз было так много замечательных Jam-участников, и я с нетерпением жду следующего!",
 
 		//Endgame
-		"$HNDevEndgameName" : "EndgameZero",
-		"$HNDevEndgame1" : "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
-		"$HNDevEndgame2" : "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
-		"$HNDevEndgame3" : "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
-		"$HNDevEndgame4" : "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+		"$HNDevEndgameName": "EndgameZero",
+		"$HNDevEndgameTitle": "EndgameZero: Композитор",
+		"$HNDevEndgame1": "Привет! Я - EndgameZero, композитор «Hearth's Neighbor».",
+		"$HNDevEndgame2": "Я получил огромное удовольствие, создавая музыку для этого мода, и надеюсь, что она тебе понравилась.",
+		"$HNDevEndgame3": "Особенно мне нравилось писать части, которые изменяли песни из базовой игры («The River», но в размере 5/4 была моей любимой), и скрывать секреты (ты слышишь их прямо сейчас?).",
+		"$HNDevEndgame4": "Поскольку это мой первый Jam-мод (и мой первый мод вообще): Эта композиция для меня новая, но для меня честь быть частью ее.",
+		"$HNDevEndgameV1": "Ну, я точно не ожидал выиграть jam, так что это очень круто.",
+		"$HNDevEndgameV2": "В любом случае, на этот раз я спрятал еще несколько секретов ::)",
 
 		//Misc
-		"$HNDevMiscName" : "Special Thanks",
-		"$HNDevMisc1" : "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
-		"$HNDevMisc2" : "A few sounds were taken from FreeSounds, by smokinghotdog.",
-		"$HNDevMisc3" : "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
-		"$HNDevMisc4" : "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
-		"$HNDevMisc5" : "Russian Translation by Metrocop12."
+		"$HNDevMiscName": "Особая Благодарность",
+		"$HNDevMisc1": "Корабельный док, используемый в Ядре Озера, был сделан Shoe еще до появления Jam для другого мода.",
+		"$HNDevMisc2": "Некоторые звуки были взяты из FreeSounds, автор smokinghotdog.",
+		"$HNDevMisc3": "Отдельное спасибо John Corby, Triffid, xen и Idiot на Outer Wilds Modding Discord за ответы на множество вопросов по поводу разработки.",
+		"$HNDevMisc4": "Спасибо также команде разработчиков мода New Horizons. Без них мы никак не смогли бы сделать этот мод в такие сроки.",
+		"$HNDevMisc5": "Автор перевода на русский язык - Metrocop12.\nАвтор перевода на французский язык - Luke Hakurei.\nАвтор перевода на японский язык - orclecle."
+
 	},
 	"ShipLogDictionary": {
 
@@ -63,7 +82,7 @@
 		"$HNACRedMural": "В доме есть фреска, изображающая красного жителя, каким-то образом создающего три карманных измерения внутри Одинокого Отшельника.",
 
 		//Odd Code
-		"$HNACCodeName": "Странный код",
+		"$HNACCodeName": "Странный Код",
 		"$HNACCode": "Какой-то код был написан на столе.",
 
 		//Blue House
@@ -72,14 +91,14 @@
 		"$HNACSecretMap": "В доме есть звездная карта, показывающая близлежащие системы, включая нашу собственную. Жители, похоже, заинтересовались странной аномалией рядом с нашей системой, но, похоже, возникли разногласия по поводу маршрута и того, стоит ли им вообще отправляться.",
 
 		//Derelict Ship
-		"$HNDSName": "Заброшенный корабль",
-		"$HNDSAlpineRumorName" : "Use for a Code",
+		"$HNDSName": "Заброшенный Корабль",
+		"$HNDSAlpineRumorName": "Использовать для Кода",
 		"$HNDSAlpineRumor": "На Альпийском Ядре я нашел какой-то код.",
-		"$HNDSLakeRumorName": "Корабль синих жителей",
+		"$HNDSLakeRumorName": "Корабль Синих Жителей",
 		"$HNDSLakeRumor": "В Озерном Храме я нашел доказательства того, что синие жители построили большой космический корабль.",
-		"$HNDSDeadlakeRumorName" : "Endpoint of a Signal",
+		"$HNDSDeadlakeRumorName": "Конечная точка Сигнала",
 		"$HNDSDeadLakeRumor": "У спутниковой тарелки за большой дверью на Мертвом Озере я обнаружил сигнал, исходящий из космоса. Похоже, это какой-то сигнал бедствия.",
-		"$HNDSLavaRumorName" : "Strange Ship",
+		"$HNDSLavaRumorName": "Странный Корабль",
 		"$HNDSLavaRumor": "В Лавовом Храме я нашел фреску с изображением большого корабля, который построили жители.",
 		"$HNDSEntry": "Безжизненный корабль парит на краю Солнечной системы.",
 		"$HNDSBarrier": "Вход на корабль перекрыт барьером. Рядом находится панель, принимающая пятизначный код.",
@@ -95,7 +114,7 @@
 		"$HNLKRaft": "На стартовом острове находится плот. Кажется, что его элементы управления реагируют на свет.",
 
 		//Shrine Island
-		"$HNLKShrineName": "Остров святилища",
+		"$HNLKShrineName": "Остров Святилища",
 		"$HNLKShrineRumor": "К северу от стартового острова на возвышенности есть какое-то святилище. Лестница к святыне давно обрушилась.",
 		"$HNLKShrineEntry": "В святилище есть секретный вход через туннель в воде.",
 		"$HNKLKShrineStation": "Кажется, в святилище есть какая-то самодельная станция связи. Есть рычаг и левитирующая радиотарелка, указывающая на вход.",
@@ -146,11 +165,11 @@
 		"$HNLHElevator": "Я нашел что-то вроде лифта, который спустился под поверхность и оказался в странном обширном районе. Эта планета <![CDATA[<color=orange>больше внутри?</color>]]>?",
 
 		//Ghost Matter Structure
-		"$HNLHPlantName": "Здание С Призрачной Материей",
-		"$HNLHPlantRumorName": "Куполообразное Здание",
-		"$HNLHPlantRumor": "На поверхности Одинокого Отшельника находится странное куполообразное здание.",
+		"$HNLHPlantName": "Строение С Призрачной Материей",
+		"$HNLHPlantRumorName": "Куполообразное Строение",
+		"$HNLHPlantRumor": "На поверхности Одинокого Отшельника находится странное куполообразное строение.",
 		"$HNLHPlantNoEntry": "Кажется, нет пути внутрь. Судя по обильному количеству просачивающейся из него Призрачной Материи, в любом случае заходить внутрь может быть плохой идеей.",
-		"$HNLHPlantInfo": "Фреска указывает на то, что это здание построено вокруг кометы, которая когда-то врезалась в планету. Жители планеты использовали силу кометы для подпитки своей цивилизации.",
+		"$HNLHPlantInfo": "Фреска указывает на то, что это строение построено вокруг кометы, которая когда-то врезалась в планету. Жители планеты использовали силу кометы для подпитки своей цивилизации.",
 
 		//Northern Wasteland
 		"$HNLHWastelandName": "Северная Пустошь",
@@ -168,11 +187,11 @@
 
 		//Dead Lake
 		"$HNLHLakeName": "Мертвое Озеро",
-		"$HNLHLakeRumorName": "Большое Здание",
-		"$HNLHLakeRumor": "Здесь есть большое здание, окруженное рвом.",
+		"$HNLHLakeRumorName": "Большое Сооружение",
+		"$HNLHLakeRumor": "Здесь есть большое сооружение, окруженное рвом.",
 		"$HNLHLakeRumorAlt": "Странное сооружение окружено рвом. Несмотря на воду, в этом районе нет никаких признаков жизни.",
-		"$HNLHLakeElevator": "Я нашел функционирующий лифт в здании.",
-		"$HNLHLakeHangar": "В здании есть что-то вроде посадочной/стартовой площадки для больших кораблей. Площадка соединена с каким-то большим ангаром, где жители этой планеты хранили ресурсы для постройки гораздо более крупной конструкции.",
+		"$HNLHLakeElevator": "Я нашел функционирующий лифт в сооружении.",
+		"$HNLHLakeHangar": "В сооружении есть что-то вроде посадочной/стартовой площадки для больших кораблей. Площадка соединена с каким-то большим ангаром, где жители этой планеты хранили ресурсы для постройки гораздо более крупной конструкции.",
 
 		//Satellite Room
 		"$HNLHLakeDoorName": "Спутниковая Комната",
@@ -191,7 +210,7 @@
 		"$HNPodName": "Спасательная Капсула",
 		"$HNPodRumor": "Отчет о повреждениях с Заброшенного Корабля показал, что спасательная капсула приземлилась на Камельке. Сигнал с подключенного к ней корабля.",
 		"$HNPodResolution": "Капсула цела! Кто бы ни приземлились здесь, они выжили, хотя то, что с ними случилось, остается загадкой, затерянной во времени. Табличка в музее была сделана из корпуса капсулы, вероятно, вырезанной оставшимся(мися) в живых, желающим(и) оставить сообщение о том, откуда они прибыли.",
-		"$HNPodThanks": "Вы прошли Jam версию «Hearth's Neighbor»! Поздравляем! Конечно, здесь может еще остаться несколько секретов..."
+		"$HNPodThanks": "Вы прошли Jam-версию «Hearth's Neighbor»! Поздравляем! Конечно, здесь может еще остаться несколько секретов..."
 
 	},
 	"UIDictionary": {
@@ -203,18 +222,19 @@
 		"Lake Core": "Ядро Озера",
 		"Lava Core": "Ядро Лавы",
 		"Derelict Ship": "Заброшенный Корабль",
+		"Neighbor Sun" : "Солнце Neighbor",
 
 		//Neighbor's Distress Signal
-		"NEIGHBOR'S DISTRESS SIGNAL": "СИГНАЛ БЕДСТВИЯ NEIGHBOR'S",
+		"NEIGHBOR'S DISTRESS SIGNAL": "СИГНАЛ БЕДСТВИЯ NEIGHBOR",
 		"DERELICT SHIP": "ЗАБРОШЕННЫЙ КОРАБЛЬ",
 		"DEAD LAKE DISH": "АНТЕННА МЕРТВОГО ОЗЕРА",
 
 		//Lava Core Signals
-		"Lava Core Signals": "Сигналы Ядра Лавы",
+		"Lava Core Signals": "СИГНАЛЫ ЯДРА ЛАВЫ",
 		"ENTRANCE STATION": "ВХОДНАЯ СТАНЦИЯ",
 		"LAVA SHRINE": "СВЯТИЛИЩЕ ЛАВЫ",
 		"STRUCTURE BY CLIFF": "СТРУКТУРА У СКАЛЫ",
-		"STRUCTURE WITH PILLARS": "СТРУКТУРА С СТОЛБАМИ",
+		"STRUCTURE WITH PILLARS": "СТРУКТУРА СО СТОЛБАМИ",
 		"OLD ABANDONED TOWN": "СТАРЫЙ ЗАБРОШЕННЫЙ ГОРОД",
 
 		//Galactic Communication
