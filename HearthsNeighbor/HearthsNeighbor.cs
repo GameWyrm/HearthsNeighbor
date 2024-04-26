@@ -23,8 +23,8 @@ namespace HearthsNeighbor
         public GameObject LakePlanet;
         public GameObject LavaPlanet;
         public GameObject DerelictShip;
+        public INewHorizons nh;
 
-        private INewHorizons nh;
         private Dictionary<string, SeamlessPlayerWarp> warpList;
 
         public static HearthsNeighbor Main
@@ -109,7 +109,13 @@ namespace HearthsNeighbor
                 }
                 warpList.Clear();
 
+
                 StartCoroutine(EndOfFrameInit());
+            }
+            else if (systemName == "SolarSystem")
+            {
+                GameObject endingDialogue = GameObject.Find("TimberHearth_Body").transform.Find("Sector_TH/HNEndingDialogue").gameObject;
+                endingDialogue.AddComponent(typeof(MagistariumConnection));
             }
         }
 
@@ -187,6 +193,12 @@ namespace HearthsNeighbor
             foreach (Transform obj in LavaPlanet.transform)
             {
                 obj.gameObject.SetActive(false);
+            }
+
+
+            if (PlayerData.GetShipLogFactSave("HN_POD_RESOLUTION") != null && PlayerData.GetShipLogFactSave("HN_POD_RESOLUTION").revealOrder > -1)
+            {
+                Locator.GetShipLogManager().RevealFact("DS_ENDING");
             }
 
             GameObject.Find("Alpine Core_Proxy").SetActive(false);

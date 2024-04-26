@@ -47,6 +47,11 @@
       <ID>HN_POD_THANKS</ID>
       <Text>$HNPodThanks</Text>
     </ExploreFact>
+
+    <ExploreFact>
+      <ID>HN_POD_HN2</ID>
+      <Text>$HNPodMagistarium</Text>
+    </ExploreFact>
     
   </Entry>
 </AstroObjectEntry>

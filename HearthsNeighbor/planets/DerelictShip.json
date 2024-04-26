@@ -728,7 +728,7 @@
                 "reveals": [ "DS_DAMAGE" ]
             },
             {
-                "radius": 2,
+                "radius": 4,
                 "position": {
                     "x": 0,
                     "y": 0,
@@ -736,7 +736,7 @@
                 },
                 "revealOn": "enter",
                 "revealFor": "player",
-                "reveals": [ "DS_HOPE" ]
+                "reveals": [ "DS_HOPE", "DS_ENDING_RUMOR" ]
             }
         ]
     }

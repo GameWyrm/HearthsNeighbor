@@ -74,6 +74,24 @@
       <Text>$HNDSHope</Text>
     </ExploreFact>
   </Entry>
+
+  <Entry>
+    <ID>DS_SIGNAL_ENDING</ID>
+    <Name>$HNDSEndingSignalName</Name>
+    <Curiosity>DERELICT_SHIP_ROOT</Curiosity>
+
+    <RumorFact>
+      <ID>DS_ENDING_RUMOR</ID>
+      <SourceID>DERELICT_SHIP_ROOT</SourceID>
+      <RumorName>$HNDSEndingRumorName</RumorName>
+      <RumorNamePriority>0</RumorNamePriority>
+      <Text>$HNDSEndingRumor</Text>
+    </RumorFact>
   
+    <ExploreFact>
+      <ID>DS_ENDING</ID>
+      <Text>$HNDSEndingFact</Text>
+    </ExploreFact>
+  </Entry>
   
 </AstroObjectEntry>

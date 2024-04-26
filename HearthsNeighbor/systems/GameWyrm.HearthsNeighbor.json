@@ -129,6 +129,13 @@
                 "x": 1200,
                 "y": 0
             }
+        },
+        {
+            "id": "DS_SIGNAL_ENDING",
+            "position": {
+                "x": 1500,
+                "y": 0
+            }
         }
     ],
     "initialReveal": [

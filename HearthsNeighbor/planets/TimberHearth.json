@@ -88,7 +88,8 @@
                     "z": 28.5757
                 },
                 "radius": 4,
-                "xmlFile": "dialogue/EscapePod.xml"
+                "xmlFile": "dialogue/EscapePod.xml",
+                "rename": "HNEndingDialogue"
             }
         ],
         "signals": [
