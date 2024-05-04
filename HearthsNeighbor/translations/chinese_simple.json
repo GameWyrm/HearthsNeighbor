@@ -1,0 +1,260 @@
+//this file is a chinese translation for Hearth's Neighbor
+//version:20240504#02
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+		//Observatory
+		"$HNPlaqueName": "雕刻物",
+		"$HNPlaque1": "一块奇怪而古老的金属板，是从村子附近树林里的小溪找到的。",
+		"$HNPlaque2": "我们不知道它是从哪儿来的；这显然不是挪麦或哈斯的造物。也许曾几何时木炉星上还有过其他文明？很不幸，这是那个失落文明的唯一遗物。",
+		"$HNPlaque3": "金属板上雕刻的内容描绘了我们这个太阳系，以及离这儿最近的另一星系——哈斯邻居。也许它是从那儿一路跑过来的？",
+		"$HNPlaque4": "我们一直以来认为永远无法找到答案了，但得益于探险队飞船最新装备的恒星际跃迁引擎，谜底的揭晓指日可待！",
+
+		//Escape Pod
+		"$HNDialoguePodName": "逃生舱",
+		"$HNDialoguePod1": "[毫无疑问，这就是博物馆金属板的来源！金属板在某个时间点从船体上脱落下来了，而两者用的金属和油漆完全一致。]",
+		"$HNDialoguePod2": "[根据其结构，这应当是某种逃生舱。外观看起来没有变形，里面的乘员应该能得以幸存。]",
+		"$HNDialoguePod3": "[也许某一天，你能有机会了解到幸存者身上究竟发生了什么。这已经是很久以前的事情了，但是，总能找到机会的。]",
+		"$HNDialoguePod4": "[恭喜！你通关了《哈斯邻居》（除非你成功在通关前就找到这里）！我们本想制作更多后续，可惜时间实在紧迫，不得已删减了结局。]",
+		"$HNDialoguePod5": "[很不幸，在可预见的未来，这就是这个模组的结局了。原本计划的结局和修改对于团队原本打算的来说要复杂太多，实话实话我们也足够满意啦。]",
+		"$HNDialoguePod6": "[……]",
+		"$HNDialoguePod7": "[什么，你还想要更多？好吧。回到引导你找到这个逃生舱的地方，去寻找一条隐藏通道。你可以从一侧看见它，但是被堵死了。而从另一侧则可以一路畅通……看看究竟通往何方。]",
+
+		//Dev Room
+		"$HNDevPreJamOption": "Jam Message...",
+		"$HNDevPostJamOption": "Victory Message...",
+
+		//Shoe
+		"$HNDevShoeName": "FunkyShoeMan",
+		"$HNDevShoeTitle": "FunkyShoeMan: Made a few models",
+		"$HNDevShoe1": "tis is i shoer, i was quite lazy when modeling blehh",
+		"$HNDevShoe2": "[Shoe:Modeller, when he wasn't \"busy\" playing Terraria, Minecraft, or QSB]",
+		"$HNDevShoeV1": "So i guess we really won this, congrats.",
+		"$HNDevShoeV2": "i was thinking we were going to get 2-3rd place but we acutally were able to get 1st, i'll enjoy my luxurious modder jam with nice fresh bread, also congrats for beating HN and finding us.",
+		"$HNDevShoeV3": "it is lonely in the dark... also xen i will hit you with a hammer!!!",
+
+		//Lumine
+		"$HNDevLumineName": "Lumine",
+		"$HNDevLumineTitle": "Lumine: Ship log icon artist",
+		"$HNDevLumine1": "Hi, I'm Lumine, an artist for the mod! Even if I got a lot of problems, I still managed to do my best, and I hope you will all like our work.",
+		"$HNDevLumine2": "We wanted to have way more illustrations in the mod, but due to the problems I had and the time limit, I couldn't make them.",
+		"$HNDevLumine3": "Even though the story is short, maybe I can continue it in other Mod Jams.",
+		"$HNDevLumine4": "It was a pleasure to participate to my first mod Jam ever, and I hope you enjoy playing the mod!",
+		"$HNDevLumineV1": "Hi, I'm Lumine, one of the creators of the winning mod of the jam, Hearth's Neighbor.",
+		"$HNDevLumineV2": "I really liked participating in the creation of the mod, even if I wanted to make more and better things for the mod, I couldn't but I'm really happy that I had this incredible experience.",
+		"$HNDevLumineV3": "I also want to thanks GameWyrm, Shoe and EndGameZero, which are incredible people. I'm really happy that we had the opportunity to make this mod even better after the end of the jam, and I hope everyone will like it.",
+
+		//GameWyrm
+		"$HNDevGameWyrmName": "GameWyrm",
+		"$HNDevGameWyrmTitle": "GameWyrm: Team lead and main designer",
+		"$HNDevGameWyrm1": "Hello! I'm GameWyrm, team lead and level designer. I also did all the garbage models in the mod.",
+		"$HNDevGameWyrm2": "I hope you enjoyed Hearth's Neighbor! It's not the most complex, or polished of the Jam entries, I bet, but it's my desire that you at least had some fun playing it.",
+		"$HNDevGameWyrm3": "We had a much more complex story and ending planned, but due to time constraints, we ended up cutting the more complex stuff.",
+		"$HNDevGameWyrm4": "My desire for this mod was to create something different from most of the story mods that exist; I explicitly wanted to avoid doing a mod featuring Nomai or Owlks (Sorry, xen, <![CDATA[<i>inhabitants</i>]]>). This probably was a bad idea, since it did reduce the pre-made assets we could use and restricted us from using text to communicate to the player, but I hope the mystery surrounding this new race made up for the story's shortcomings.",
+		"$HNDevGameWyrmV1": "Huh...we <![CDATA[<i>won???</i>]]> But how? Well, we're honored to have taken the first place prize!",
+		"$HNDevGameWyrmV2": "I personally would have given the award to Tesseract's Secret, but still, very glad to know that people enjoyed our mod!",
+		"$HNDevGameWyrmV3": "There were so many great Jam entries this time around, and I can't wait for the next one!'",
+
+		//Endgame
+		"$HNDevEndgameName": "EndgameZero",
+		"$HNDevEndgameTitle": "EndgameZero: Composer",
+		"$HNDevEndgame1": "Hi! I'm EndgameZero, the composer for Hearth's Neighbor.",
+		"$HNDevEndgame2": "I had a lot of fun making the music for this mod, and I hope you enjoyed it.",
+		"$HNDevEndgame3": "I especially liked writing parts that modified songs from the base game (The River but in 5/4 time was my favorite) and hiding secrets (can you hear any right now?).",
+		"$HNDevEndgame4": "As this is my first mod jam (and my first mod in general): This song is new to me, but I am honored to be a part of it.",
+		"$HNDevEndgameV1": "Well, I definitely didn't expect to win the jam, so that's pretty cool.",
+		"$HNDevEndgameV2": "Anyway, I hid some more secrets this time ::)",
+
+		//Misc
+		"$HNDevMiscName": "Special Thanks",
+		"$HNDevMisc1": "The ship dock used in the Lake Core was made by Shoe prior to the Jam for another mod.",
+		"$HNDevMisc2": "A few sounds were taken from FreeSounds, by smokinghotdog.",
+		"$HNDevMisc3": "Special thanks to John Corby, Triffid, xen, and Idiot on the Outer Wilds Modding Discord for answering many questions we had about development.",
+		"$HNDevMisc4": "Thanks to the New Horizons mod team as well. Without them, there is no way we could have made this mod within this time frame.",
+		"$HNDevMisc5": "Russian Translation by Metrocop12. French Translation by Luke Hakurei. Japanese Translation by orclecle."
+	},
+	"ShipLogDictionary": {
+
+		//Alpine Core
+		"$HNACName": "雪山核心",
+		"$HNACDescription": "在北极点的废土之下，我发现了一片由冰冻浮岛组成的奇怪世界。需要大量喷气背包技巧才能够穿越它们，比如说我可以先跳起再喷气，这样就能飞更高一些。",
+		"$HNACRedHouse": "在最大的浮岛上，我发现了一座建筑，看起来是这颗星球的居民曾经的住所。",
+		"$HNACRedMural": "在房子里，有一幅壁画描绘了一位红色居民如何在孤隐星内部创造了三个微缩次元。",
+
+		//Odd Code
+		"$HNACCodeName": "奇怪口令",
+		"$HNACCode": "桌上写了一些看起来像是口令的东西。",
+
+		//Blue House
+		"$HNACSecret": "蓝色房子",
+		"$HNACSecretInfo": "有一栋房子位于雪山核心一座十分偏远的浮岛上。",
+		"$HNACSecretMap": "房子里有一张星图，描绘了附近的星系，包括我们的在内。这里的居民看起来对我们星系附近的一种异常现象十分感兴趣，但他们对于怎么去到那里或究竟应不应该去持有分歧。",
+
+		//Derelict Ship
+		"$HNDSName": "被遗弃的飞船",
+		"$HNDSAlpineRumorName": "口令的用途",
+		"$HNDSAlpineRumor": "在雪山核心，我找到了像是口令的东西。",
+		"$HNDSLakeRumorName": "蓝色居民的飞船",
+		"$HNDSLakeRumor": "在湖泊神殿，我找到了蓝色居民建造大型宇宙飞船的证据。",
+		"$HNDSDeadlakeRumorName": "信号的终点",
+		"$HNDSDeadLakeRumor": "死水湖后方的大门里有一盏碟形天线，我检测到一道来自宇宙的信号。这似乎是某种遇险信号。",
+		"$HNDSLavaRumorName": "奇怪的飞船",
+		"$HNDSLavaRumor": "在熔岩神殿，我发现了一幅壁画，描绘了由这里的居民建造的一艘大型飞船。",
+		"$HNDSEntry": "一艘了无生机的飞船徘徊在太阳系的边缘。",
+		"$HNDSBarrier": "飞船的入口被某种屏障封锁了。旁边有个面板，可以输入五位口令。",
+		"$HNDSInfo": "飞船内部到处都是幽灵物质。这里还尚存最低限度的电力供应，但发动机看起来已经没法正常运行了。",
+		"$HNDSCryo": "有一个房间摆满了冬眠舱。但是里面的所有居民很久以前就都死去了。",
+		"$HNDSCockpit": "我找到了去往驾驶舱的路。",
+		"$HNDSDamage": "驾驶舱的屏幕上显示着似乎是飞船受损报告的内容。红色居民入侵了飞船并打算占领，但苏醒的蓝色居民反击了回去。红色首领向蓝色首领发起挑战，但被打败了。作为最后手段，红色首领引爆了一枚幽灵物质炸弹，杀死了船上所有人，也让飞船失灵了。",
+		"$HNDSHope": "有一块屏幕显示，其中一架救生舱成功发射出去了。它降落在了木炉星上。随后飞船开始与之建立通信，能够读出其通讯频段。",
+
+		//Lake Core
+		"$HNLKName": "湖泊核心",
+		"$HNLKDescription": "在死水湖之下，有一片点缀着零星岛屿的海洋。把我带到这里的升降机旁边，悬浮着一盏碟形天线，正指向北极。",
+		"$HNLKRaft": "起始岛有一架能用光照控制的木筏。",
+
+		//Shrine Island
+		"$HNLKShrineName": "神殿岛",
+		"$HNLKShrineRumor": "起始岛的北方，有一座像是神殿的建筑位处高地。通向神殿的楼梯早已坍塌。",
+		"$HNLKShrineEntry": "在水下有一条通往神殿的秘密隧道。",
+		"$HNKLKShrineStation": "神殿内部似乎是个临时通讯站。有个操纵杆，还有盏悬浮着的碟形天线，正指向核心入口。",
+		"$HNLKShrineLever": "操纵杆打开了那扇死水湖机库内的大门。",
+		"$HNLKShrineMural": "神殿内的壁画讲述了一场两个派系间的战争，两大派系分别以红色和蓝色表示。这场战争导致地表大部分地区不再宜居。有鉴于此，两大派系的首领同意休战并开始重建。",
+		"$HNLKShrinePoster": "通讯区上方的图像显示，蓝色居民开始飞往宇宙，并正逐步建造着一艘比以往要大得多的飞船。",
+
+		//Maze Island
+		"$HNLKMazeName": "迷宫岛",
+		"$HNLKMazeInfo": "起始岛的南方，有一片巨大陆块。内部有一条隧道。",
+		"$HNLKMazeGazebo": "穿过隧道后，我来到了地表。有一间绘有壁画的凉亭。壁画指出，水下有一条通往神殿的隧道。",
+
+		//Lava Core
+		"$HNLVName": "熔岩核心",
+		"$HNLVDescription": "在死火山之下，有一片到处开裂的陆地，岩浆起落不定。",
+		"$HNLVButtons": "这个核心包含了一系列被多个按钮封锁的建筑物。这些按钮很容易按下，不需要什么力气，但必须被同时激活。",
+		"$HNLVSignal": "核心入口处的悬浮体正与核心内多个不同建筑物相互通信。",
+
+		//Structure On A Cliff
+		"$HNLVFirstButtonName": "悬崖边的建筑物",
+		"$HNLVFirstButtonInfo": "我发现了一栋被封锁的建筑物，旁边刚好有个按钮。但我没看见另一个按钮，是不是掉进了岩浆里？",
+
+		//Structure By Pillars
+		"$HNLVSecondButtonName": "柱子旁边的建筑物",
+		"$HNLVSecondButtonInfo": "我在两根矗立在岩浆里的柱子旁边，发现了一栋被封锁的建筑物。",
+
+		//Old Abandoned Town
+		"$HNLVThirdButtonName": "被遗弃的古老小镇",
+		"$HNLVThirdButtonInfo": "我发现了一系列被封锁的建筑物",
+
+		//Lava Shrine
+		"$HNLVShrineName": "熔岩神殿",
+		"$HNLVShrineRumorName": "奇怪的建筑",
+		"$HNLVShrineInfo": "在熔岩核心的入口旁有一座巨大的建筑。它不像周围其它建筑物那样由金属建造。入口处有道屏障阻止我进入。",
+		"$HNLVShrineInfoAlt": "熔岩核心入口不远处能看到一座神殿。一道屏障封锁了入口，但只要激活核心内其它地方的三个按钮就能将其打开。",
+		"$HNLVShrineButtonRumorName": "按钮的效果",
+		"$HNLVButtonOne": "我在悬崖边的建筑物内找到一个按钮。",
+		"$HNLVButtonTwo": "我在柱子旁的建筑物内找到了一个按钮。",
+		"$HNLVButtonThree": "我在被遗弃的古老小镇找到了一个按钮。",
+		"$HNLVShrineEntry": "当我踏入神殿时，我掉进了一块假地板！看来这里的居民制造了一些幻影墙壁，看起来存在，但实则可以直接穿过。唯一辨别的办法是标记其上的特定符号，可能就恰恰<![CDATA[<color=orange>藏木于林</color>]]>。",
+		"$HNLVShrineMurals": "在神殿的终点，我发现了四幅壁画。前三幅看起来描绘了几颗行星变得越来越不稳定并最终分崩离析的模样。第四幅则描绘了一个族群乘上飞船飞离星球的场景，另一族群则因为被抛弃而悲愤交加。",
+
+		//Lonely Hermit
+		"$HNLHName": "孤隐星",
+		"$HNLHRumorName": "荒凉行星",
+		"$HNLHArrival": "我来到了哈斯邻居。这个星系唯一显眼的东西是那颗孤独而荒凉的行星。",
+		"$HNLHInfo": "哈斯邻居唯一的行星。地表了无生机。",
+		"$HNLHElevator": "我发现了一部似乎是升降梯的东西，把我带到地表之下一片奇怪而广阔的空间。这颗行星是不是<![CDATA[<color=orange>内部比看上去要来得更大</color>]]>？",
+
+		//Ghost Matter Structure
+		"$HNLHPlantName": "幽灵物质建筑物",
+		"$HNLHPlantRumorName": "半球形建筑物",
+		"$HNLHPlantRumor": "孤隐星表面有一座奇怪的半球形建筑物。",
+		"$HNLHPlantNoEntry": "看起来没有方法进入。鉴于如此大量的幽灵物质从中泄漏出来，想闯进去倒也不是个好主意。",
+		"$HNLHPlantInfo": "一幅壁画表明，这栋建筑曾是围绕一颗撞击地表的彗星建造起来的。这颗行星的居民掌握了控制彗星内部能量的方法，并服务于他们文明的发展。",
+
+		//Northern Wasteland
+		"$HNLHWastelandName": "北部废土",
+		"$HNLHWastelandRumorName": "北极点",
+		"$HNLHWastelandRumor": "北极点看起来有几座被雪覆盖的山。",
+		"$HNLHWastelandRumorAlt": "在北极点残留着一些文明的遗迹。",
+		"$HNLHWastelandElevator": "我在废土中发现了一部仍能运作的升降梯。",
+
+		//Extinct Volcano
+		"$HNLHVolcanoName": "死火山",
+		"$HNLHVolcanoRumorName": "高山",
+		"$HNLHVolcanoRumor": "在南极点附近，看起来有一座高耸而中空的山。",
+		"$HNLHVolcanoRumorAlt": "地表上有一座早已停止活动的死火山。",
+		"$HNLHVolcanoElevator": "我在破火山口内发现了一部仍能运作的升降梯。",
+
+		//Dead Lake
+		"$HNLHLakeName": "死水湖",
+		"$HNLHLakeRumorName": "大型建筑物",
+		"$HNLHLakeRumor": "有一座四面环河的大型建筑物。",
+		"$HNLHLakeRumorAlt": "一座奇怪的、四面环河的大型建筑物。尽管有水，但该地区没有发现任何生命迹象。",
+		"$HNLHLakeElevator": "我在建筑物内发现了一部仍能运作的升降梯。",
+		"$HNLHLakeHangar": "这栋建筑物有一座起降台，似乎是为更大体型的飞船准备的。起降台与一栋大型机库相连，看起来这里的居民正为建造一座更加巨大的造物而在这里储备物资。",
+
+		//Satellite Room
+		"$HNLHLakeDoorName": "通讯房间",
+		"$HNLHLakeDoorRumorName": "奇怪的门",
+		"$HNLHLakeDoorRumor": "在机库里有一扇锁住的大门。",
+		"$HNLHLakeDoorSatellite": "门后有一盏悬浮着的碟形天线，正指向太空中的某物。它正发出某种信号。",
+
+		//Museum Plate
+		"$HNMuseumPlateName": "博物馆金属板",
+		"$HNMuseumPlateIntro": "博物馆修复了一件已存放一段时间的旧展品。可以在楼梯后面找到它。",
+		"$HNMuseumPlateIntroAlt": "博物馆正展出一件外星金属板。它看上去不像是挪麦造物，它的创造者仍未可知。",
+		"$HNMuseumPlateDetails": "金属板上雕刻着两个太阳系的地图。一个是我们这个太阳系，另一个是附近另一星系——哈斯邻居。只要飞船装备有恒星际跃迁引擎，就能跃迁到那儿调查清楚。",
+		"$HNMuseumPlateResolution": "这块金属板是哈斯邻居唯一幸存者留下的。他坠毁在我们的星球上，到生命尽头为止应该一直都生活在这里。",
+
+		//Escape Pod
+		"$HNPodName": "逃生舱",
+		"$HNPodRumor": "遗弃飞船上的受损报告指出，一架逃生舱着陆于木炉星。飞船上正发出一道与之相联的信号。",
+		"$HNPodResolution": "逃生舱完好无损！不论是谁降落于此并得以生还，他身上之后发生了什么也已经成为一个淹没在历史长河中的谜团了。博物馆中的金属般来自于逃生舱的船体，像是幸存者为留下信息表明来自何方而雕刻出来的。",
+		"$HNPodThanks": "你通关了《哈斯邻居》的比赛版本！恭喜！当然，仍有一些小小秘密隐藏其中……",
+		// Added in 1.0.7 to connect the mod to the sequel Magistarium
+		"$HNPodMagistarium": "当我离开逃生舱时，我的飞船收到了来自另一星系的神秘信号！这个信号来自于一艘名为“大导师馆”的飞船。也许我应该去调查一下？[故事将在《哈斯邻居2：大导师馆》中继续进行，现在就可以玩到！]",
+
+		//Derelict Ship Ending
+		// Added in 1.0.7 to make the ending more obvious
+		"$HNDSEndingSignalName": "逃生舱信号",
+		"$HNDSEndingRumorName": "恒星际信号",
+		"$HNDSEndingRumor": "飞船收到了来自远在哈斯邻居星系之外的信号。遗弃飞船的屏幕显示，信号似乎来自星际拓荒星系。",
+		"$HNDSEndingFact": "我找到了孤隐星唯一幸存者的逃生舱。"
+	},
+	"UIDictionary": {
+
+		//Planet(s)
+		"Lonely Hermit": "孤隐星",
+		"Alpine Core": "雪山核心",
+		"Lake Core": "湖泊核心",
+		"Lava Core": "熔岩核心",
+		"Derelict Ship": "被遗弃的飞船",
+		"Neighbor Sun": "邻居太阳",
+
+		//Neighbor's Distress Signal
+		"NEIGHBOR'S DISTRESS SIGNAL": "哈斯邻居遇险信号",
+		"DERELICT SHIP": "被遗弃的飞船",
+		"DEAD LAKE DISH": "死水湖碟形天线",
+
+		//Lava Core Signals
+		"Lava Core Signals": "熔岩核心信号",
+		"ENTRANC STATION": "入口站点",
+		"LAVA SHRINE": "熔岩神殿",
+		"STRUCTURE BY CLIFF": "悬崖边的建筑物",
+		"STRUCTURE WITH PILLARS": "柱子旁的建筑物",
+		"OlD ABANDONED TOWN": "被遗弃的古老小镇",
+
+		//Galactic Communication
+		"GALACTIC COMMUNICATION": "恒星际通讯",
+		"DERELICT SHIP COCKPIT": "遗弃飞船驾驶舱",
+		"SOLE SURVIVOR": "唯一幸存者"
+
+	},
+	"OtherDictionary": {
+		"$HN2Connection1": "信号已接收……处理中……",
+		"$HN2Connection2": "信号内容损毁。正在解析信号元数据……",
+		"$HN2Connection3": "信号所处星系代号：X3NJ-AM3。跃迁系统已收录坐标。",
+		"$HN2Connection4": "信号来源：飞船“大导师馆”。"
+	}
+}
