@@ -14,11 +14,12 @@ Credits:
 * Metrocop12: Russian translation
 * Luke Hakurei: French translation
 * Orclecle: Japanese translation
+* mashroom: Simplified Chinese translation
 
 A few sounds were taken from FreeSound.
 
 For help with the mod, please contact GameWyrm on the Outer Wilds modding Discord.
 
-This mod is considered finished for the forseeable future due to lack of interest in development. The mod does have a clear ending, though the original intended ending was cut.
+This mod is considered finished for the forseeable future due to lack of interest in development. The mod does have a clear ending, though the original intended ending was cut. However, the story is now resolved in the sequel, [Hearth's Neighbor 2: Magistarium](https://outerwildsmods.com/mods/hearthsneighbor2magistarium/)!
 
 This mod was the first place winner for the Outer Wilds Summer Modding Jam 2023. Thanks to everyone who played and gave feedback for the updates that came out afterwards!
