@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2978842623
+CRC: 244972861
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e9794a0a765fcd08f49ceaf1ccd43281
+    Hash: c93bac76d34f966f2ba1258da44eacdf
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 74d8ad0e4597005b675d91611cfa3fa7
+    Hash: fd12955434a3c2d964d3532950840ec7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -56,6 +56,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
@@ -99,6 +101,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5418269dfd62f50b1141b92b39b0843a, type: 3}
+- Class: 114
+  Script: {fileID: 2069305871, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -117,10 +121,12 @@ Assets:
 - Assets/_SummerGameJam/Textures/Decals/SkullIcon.png
 - Assets/_SummerGameJam/Prefabs/LavaPlanet.prefab
 - Assets/_SummerGameJam/Prefabs/Door.prefab
+- Assets/OW Assets/Shader/Outer Wilds_Environment_Water.asset
 - Assets/_SummerGameJam/Textures/ButtonGlow.png
 - Assets/_SummerGameJam/Prefabs/Satellite.prefab
 - Assets/_SummerGameJam/Prefabs/ShipPanelButton.prefab
 - Assets/_SummerGameJam/Prefabs/LavaSwitch.prefab
+- Assets/OW Assets/Shader/Outer Wilds_Utility_Underwater Stencil.asset
 - Assets/_SummerGameJam/Prefabs/CryoChamber.prefab
 - Assets/_SummerGameJam/Prefabs/Isle Step.prefab
 - Assets/_SummerGameJam/Prefabs/Isle Double Step.prefab
@@ -131,6 +137,7 @@ Assets:
 - Assets/_SummerGameJam/Prefabs/FuelDispenser.prefab
 - Assets/_SummerGameJam/Prefabs/MuseumBox.prefab
 - Assets/_SummerGameJam/Prefabs/LavaShrine.prefab
+- Assets/OW Assets/Shader/Outer Wilds_Blended_Terrain_Vertex Color 3x.asset
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsBlue.prefab
 - Assets/_SummerGameJam/Prefabs/ShipPanel.prefab
 - Assets/_SummerGameJam/Prefabs/DerelictShipExterior.prefab
@@ -141,10 +148,10 @@ Assets:
 - Assets/_SummerGameJam/Prefabs/DerelictShipInterior.prefab
 - Assets/_SummerGameJam/Materials/ButtonPersistent.mat
 - Assets/_SummerGameJam/Prefabs/HNEscapePod.prefab
-- Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
 - Assets/_SummerGameJam/Prefabs/AlpinePlanet.prefab
 - Assets/_SummerGameJam/Prefabs/FuelCanister.prefab
 - Assets/_SummerGameJam/Prefabs/TreeMound.prefab
 - Assets/_SummerGameJam/Prefabs/MuseumPlate.prefab
 - Assets/_SummerGameJam/Prefabs/ElevatorCrystalsRed.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/daron/source/repos/OuterWildsSummerJam/HearthsNeighbor/assets/materials

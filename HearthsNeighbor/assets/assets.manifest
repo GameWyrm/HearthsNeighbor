@@ -1,7 +1,16 @@
 ManifestFileVersion: 0
-CRC: 276176213
+CRC: 3769284301
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: jamassets
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: materials
+    Info_1:
+      Name: mainplanet
+      Dependencies:
+        Dependency_0: jamassets
+    Info_2:
+      Name: materials
+      Dependencies:
+        Dependency_0: jamassets

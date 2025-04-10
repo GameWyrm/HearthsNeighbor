@@ -68,7 +68,7 @@
     "Props": {
         "details": [
             {
-                "assetBundle": "assets/jamassets",
+                "assetBundle": "assets/mainplanet",
                 "path": "Assets/_SummerGameJam/Prefabs/MainPlanet.prefab",
                 "position": {
                     "x": 0,

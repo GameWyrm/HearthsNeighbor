@@ -203,7 +203,7 @@
 		"$HNMuseumPlateIntro": "The museum has restored an old exhibit that's been in storage for a while. It can be found behind the stairs.",
 		"$HNMuseumPlateIntroAlt": "The museum has an alien plate on display. While it doesn't seem to be Nomai in origin, its creator is unknown.",
 		"$HNMuseumPlateDetails": "The plate has a map of two solar systems carved on it. One is our system, but the other is a nearby system, Hearth's Neighbor. With a warp drive in one's ship, one could warp to that system and check it out.",
-		"$HNMuseumPlateResolution": "The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and lived here until the end of their days.",
+		"$HNMuseumPlateResolution": "The plate was left by the sole survivor of Hearth's Neighbor's inhabitants. They had crashed onto our planet and left the plate as an indicator of their origin.",
 
 		//Escape Pod
 		"$HNPodName": "Escape Pod",
@@ -237,11 +237,11 @@
 
 		//Lava Core Signals
 		"Lava Core Signals": "LAVA CORE SIGNALS",
-		"ENTRANC STATION": "ENTRANCE STATION",
+		"ENTRANCE STATION": "ENTRANCE STATION",
 		"LAVA SHRINE": "LAVA SHRINE",
 		"STRUCTURE BY CLIFF": "STRUCTURE BY CLIFF",
 		"STRUCTURE WITH PILLARS": "STRUCTURE WITH PILLARS",
-		"OlD ABANDONED TOWN": "OLD ABANDONED TOWN",
+		"OLD ABANDONED TOWN": "OLD ABANDONED TOWN",
 
 		//Galactic Communication
 		"GALACTIC COMMUNICATION": "GALACTIC COMMUNICATION",

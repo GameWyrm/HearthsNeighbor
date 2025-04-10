@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 184902211
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 330c541a7ea73c909e5da7eeb9ad3ed2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f507217960c9fb04812979261b18b665
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 114
+  Script: {fileID: -419277030, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 1247784193, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 2039216406, guid: fe498988999101d4293f8d0149eeb57f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_SummerGameJam/Prefabs/MainPlanet.prefab
+Dependencies:
+- C:/Users/daron/source/repos/OuterWildsSummerJam/HearthsNeighbor/assets/jamassets

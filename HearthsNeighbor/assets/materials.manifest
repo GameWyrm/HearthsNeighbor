@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3977169220
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d0c1df38bf0e207240423d90dab6e56e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 55d48f4ad9c3b13330b9eb5ee5686477
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/OW Assets/Shader/Outer Wilds_Effects_Effect Bubble_Dreamworld River Underwater.asset
+- Assets/OW Assets/Shader/Outer Wilds_Blended_Terrain_Vertex Color 4x.asset
+- Assets/OW Assets/Shader/Outer Wilds_Environment_Ship_Cockpit Glass.asset
+- Assets/OW Assets/Shader/Standard (Refractive).asset
+- Assets/OW Assets/Shader/Outer Wilds_Blended_Terrain_Vertex Color 2x.asset
+- Assets/OW Assets/Shader/Outer Wilds_Environment_Invisible Planet_Prisoner Light.asset
+- Assets/OW Assets/Shader/Outer Wilds_Effects_Reality Shadow.asset
+Dependencies:
+- C:/Users/daron/source/repos/OuterWildsSummerJam/HearthsNeighbor/assets/jamassets
