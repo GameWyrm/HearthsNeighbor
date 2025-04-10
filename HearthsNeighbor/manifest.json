@@ -4,7 +4,7 @@
   "author": "GameWyrm",
   "name": "Hearth's Neighbor",
   "uniqueName": "GameWyrm.HearthsNeighbor",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "owmlVersion": "2.9.0",
   "dependencies": [ "xen.NewHorizons" ],
   "conflicts": ["Etherpod.ErnestoChase"]
